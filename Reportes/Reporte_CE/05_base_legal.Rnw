@@ -80,9 +80,7 @@ El Instituto Ecuatoriano de Seguridad Social recauda un porcentaje de los ingres
 
 \section{Sentencia del juicio No. 17294-2021-00410}
 
-con sentencia emitida dentro del juicio No. 17294-2021-00410, notificada el 12 de julio de 2021, la Unidad Judicial Penal con Sede en la parroquia Iñaquito del Distrito Metropolitano de Quito, Provincia de Pichincha, aceptando parcialmente la acción de protección presentada en contra del IESS, ``\textit{ORDENA que en el plazo de 30 días, contados después de ejecutoriarse la sentencia, el CONSEJO DIRECTIVO DEL INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL, determine las condiciones para entregar la Jubilación Especial, en aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento,y de esta manera garantice la sostenibilidad,efectividad (...)}''.
-
-
+con sentencia emitida dentro del juicio No. 17294-2021-00410, notificada el 12 de julio de 2021, la Unidad Judicial Penal con Sede en la parroquia Iñaquito del Distrito Metropolitano de Quito, Provincia de Pichincha, aceptando parcialmente la acción de protección presentada en contra del IESS, ``\textit{ORDENA que en el plazo de 30 días, contados después de ejecutoriarse la sentencia, el CONSEJO DIRECTIVO DEL INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL, determine las condiciones para entregar la Jubilación Especial, en aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento,y de esta manera garantice la sostenibilidad, efectividad (...)}''.
 \section{Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento}
 En cumplimiento de la Sentencia el juicio No. 17294-2021-00410, el Consejo Directivo del IESS expide el Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, mediante la \legalcite{ResIESS_CD640}, de fecha 18 de agosto de 2021, el cual estipula lo siguiente:
 

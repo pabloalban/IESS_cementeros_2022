@@ -8,7 +8,8 @@ El presente estudio muestra el balance actuarial de conformidad con la Ley de Ju
 \begin{itemize}[itemsep=1mm, topsep=5pt]
 \item Se considera a los trabajadores y ex trabajadores de la industria del cemento expuestos al riesgo (ruido o polvo), con al menos 300 imposiciones en la industria del cemento; con pensión igual al 100\% del último sueldo.
 \item Se considera las reservas matemáticas transferidas al fondo del Seguro de IVM por USD 10.375.288,20, en cumplimiento del literal d) del artículo 8 del REGLAMENTO DE APLICACIÓN DE LA LEY DE JUBILACIÓN ESPECIAL DE LOS TRABAJADORES DE LA INDUSTRIADEL CEMENTO, expedida mediante\legalcite{ResIESS_CD640}, para cancelar las pensiones vitalicias de los cincuenta y uno (51) pensionistas de la Jubilación Especial.
-\item El patrimonio inicial disponibles del Fondo a diciembre de 2022 es USD \Sexpr{REP$cap_ini}, no se consideran USD 2.134.388,7, depositados por HOLCIM S.A. en ejecución de la Sentencia del Juicio No. 9310-2007-0096, debido que estos valores todavía se encuentran en litigio entre HOLCIM S.A. y la Asociación de Ex Trabajadores de la Cemento Nacional.
+\item El patrimonio inicial disponibles del Fondo a diciembre de 2022 es USD \Sexpr{REP$cap_ini}, no se consideran USD 2.134.388,7, depositados por HOLCIM S.A. en ejecución de la Sentencia del Juicio No. 9310-2007-0096, debido que estos valores todavía se encuentran en litigio entre HOLCIM S.A. y la Asociación de Jubilados y Veteranos de “La Cemento Nacional”.
+
 \item La fecha de corte del estudio es diciembre de 2022 y su horizonte de estudio son 20 años.
 \item En aplicación a la Ley Interpretativa, las tasas de contribución aplicadas a las ventas totales de cemento destinadas para el financiamiento de la Jubilación Especial de los Trabajadores de la Industria de Cemento son: HOLCIM, 0,121\%; UNACEM, 0,104\% y UCEM, 0,111\%.
 \end{itemize}

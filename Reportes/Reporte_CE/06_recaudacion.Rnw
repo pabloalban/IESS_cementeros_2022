@@ -142,7 +142,7 @@ Cabe señalar que la reserva matemática es los valores suficientes para asumir 
 
 {\fontsize{8.5}{11}\selectfont
 \begin{longtable}[H]{cccccrrrrrrr}
-\caption{Valores a tranferir al Fondo del Seguro IVM por Jubilación Especial de la Industria del Cemento}\\
+\caption{Valores a transferir al Fondo del Seguro IVM por Jubilación Especial de la Industria del Cemento}\\
 \label{iess_tab_resultado} \\
 \toprule
 \multicolumn{1}{c}{Cédula}
