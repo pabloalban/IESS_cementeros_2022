@@ -1,0 +1,220 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Hipótesis actuariales}
+\label{chp_hipotesis}
+
+Para obtener los resultados de este estudio, planteamos un conjunto de hipótesis bajo una óptica
+conservadora.
+
+Las hipótesis utilizadas determinan los \emph{inputs} del modelo actuarial, el cual
+nos permite aplicar la técnica de las proyecciones de flujos en el horizonte de análisis.
+
+%---------------------------------------------------------------------------------------------------
+% \section{Fundamentos de las hipótesis utilizadas}
+% \label{chp_hipotesis:fundamento}
+% 
+% Los criterios utilizados en la determinación de las hipótesis de este estudio actuarial se 
+% fundamentan en los principios de prudencia, razonabilidad y aceptación de un nivel de riesgo 
+% moderado, dentro del contexto económico y financiero general descrito en el capítulo \ref{chp_contexto} 
+% y considerando las condiciones particulares internas del \Sexpr{REP_seg}.
+
+%---------------------------------------------------------------------------------------------------
+% \section{Estructura actuarial}
+% \label{chp_hipotesis:sisfinact}
+% 
+% Como base fundamental de este estudio adoptamos la estructura actuarial descrita y sustentada 
+% en modelos estadísticos matemáticos y actuariales, esto es:
+% 
+% \begin{description}
+% \item[Sistema de financiamiento:] reparto con capitalización parcial financiada por un impuesto al cemento,
+% \item[Esquema de prestaciones:] beneficio definido (o prestaciones definidas), y
+% \item[Régimen demográfico:] grupo cerrado.
+% \end{description}
+
+% %---------------------------------------------------------------------------------------------------
+% \section{Gastos administrativos}
+% \label{chp_hipotesis:gastoadm}
+% 
+% Para efectos de este estudio se considera que el financiamiento de los gastos administrativos  se lo realiza con el \Sexpr{REP$tasa_por_gas_esc_1}\% de la materia gravada de los afiliados al Seguro General, tal como lo establece en el artículo 6 de la Resolución No. C.D. 101. 
+%---------------------------------------------------------------------------------------------------
+\section{Parámetros generales}
+\label{chp_hipotesis:paramgen}
+
+En todos los escenarios de análisis, consideramos el horizonte de proyección y fecha de corte que se
+muestran en la tabla \ref{tab:paramgen}.
+\begin{table}[H]
+\caption{Parámetros generales}
+\label{tab:paramgen}
+\centering
+\begin{tabular}{lr}
+\toprule
+\multicolumn{1}{l}{\textbf{Parámetros}} & \multicolumn{1}{c}{\textbf{Escenario}} \\
+\midrule
+Fecha de corte & 2022-12-31 \\
+Horizonte de proyección & 20 años \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%---------------------------------------------------------------------------------------------------
+\section{Resumen de parámetros}
+\label{chp_hipotesis:paramecfin:resumparam}
+
+En la tabla \ref{tab:iess_hip_macro} se presentan los parámetros macroeconómicos estimados para el período de estudio.
+
+ \begin{table}[H]
+ \centering
+ \caption{Promedio de los valores estimados de tasas de variación}
+ \label{tab:iess_hip_macro}
+ \begin{tabular}{lr}
+ \toprule
+ Ítem & Tasa (\%)\\
+ \midrule
+ \input{tablas/iess_hip_macro.tex}
+ %\bottomrule
+ \end{tabular}
+ \end{table}
+ 
+% %---------------------------------------------------------------------------------------------------
+% \section{Tasa de rendimiento de las inversiones??}
+% \label{chp_hipotesis:paramecfin:rendinv}
+
+%---------------------------------------------------------------------------------------------------
+\section{Tasa actuarial de descuento}
+\label{chp_hipotesis:paramecfin:tasaactu}
+
+Definimos la \emph{tasa actuarial} como la tasa que será utilizada en este estudio para
+realizar el proceso de actualización financiera de los flujos financieros futuros, proceso que
+constituye la base para construir el balance actuarial.
+
+% La tasa actuarial se estableció en el 4\%, según lo estipula la Disposición Transitoria Segunda de 
+% la Resolución No. C.D. 459 de 1 de octubre de 2013.
+
+% De conformidad a la investigación realizada en las inversiones, sus tasas nominales y resultados de las inversiones, se obtiene que la tasa de interés actuarial es igual a 6,25\% anual.
+
+% Esta tasa reemplaza a la tasa actuarial del 4\% estipulada en disposición transitoria segunda de la Resolución No. C.D. 459 de 1 de octubre de 2012.
+
+Mediante la Resolución No. C.D. 596 aprobada en reunión del Consejo Directivo el 04 de marzo de 2020, se establece la tasa actuarial igual a 6,25\%.
+
+% La tasa actuarial se considera en los modelos matemáticos para determinar el valor de la reserva técnica, esto, con la finalidad de verificar si las inversiones son 
+% significativas, si mantiene el poder adquisitivo de la reserva frente a los fenómenos económicos, 
+% comprobando si las reservas son suficientes para garantizar el pago de las pensiones.
+
+Es necesario considerar que la tasa actuarial del estudio representa la tasa mínima (en términos duros) de rendimiento
+financiero que debe generar el portafolio de inversiones para mantener la validez de los resultados.
+
+
+% %---------------------------------------------------------------------------------------------------
+% \section{Tasa de interés real}
+% \label{chp_hipotesis:paramecfin:tasareal}
+% 
+% %---------------------------------------------------------------------------------------------------
+% \section{Tasa de incremento de salarios}
+% \label{chp_hipotesis:paramecfin:incsal}
+% 
+% %---------------------------------------------------------------------------------------------------
+% \section{Tasa de incremento del salario básico unificado}
+% \label{chp_hipotesis:paramecfin:inc_sbu}
+
+%---------------------------------------------------------------------------------------------------
+\section{Tasa de incremento de los beneficios}
+\label{chp_hipotesis:paramecfin:incpen}
+
+El artículo 234 de la Ley de Seguridad Social determina que las pensiones se incrementarán al inicio 
+de cada año, en la misma proporción que la inflación promedio anual del año anterior; por lo que se utilizó esta tasa como incremento de las pensiones en curso de pago.
+
+%---------------------------------------------------------------------------------------------------
+% \section{Tasa de conmutación actuarial}
+% \label{chp_hipotesis:paramecfin:iact}
+
+%---------------------------------------------------------------------------------------------------
+\section{Recaudación}
+\label{chp_hipotesis:recaudacion}
+
+En aplicación de la Ley Interpretativa: Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y la \legalcite{ResIESS_CD554}, el IESS actúa como agente retención de los valores a financiar esta pensión especial. A partir de la dolarización en el país ( marzo 2000) a octubre de 2022, se ha recaudado USD 14.311.526,37, tal como lo señala el Director del Sistema de Pensiones, mediante el memorando Nro. IESS-DSP-2022-2151-M, de 08 de diciembre de 2022. En la tabla \ref{tab:reudacion}, se presenta a detalle la recaudación por la Jubilación Especial de los Trabajadores de la Industria del Cemento.
+
+\begin{table}[ht]
+\caption{Recaudación por la Jubilación Especial de los Trabajadores de la Industria del Cemento}
+\label{tab:reudacion}
+\begin{tabular}{lr}
+\hline
+\textbf{Detalle Recaudación   Industrias Cementeras}                  & \textbf{Valor (USD)}   \\ \hline
+Valores Recaudados en Provincias (marzo   2000 a julio 2017)          & 317.621,52             \\
+Valores Acumulado Recaudado (marzo 2000 a   julio 2017)               & 6.125.857,36           \\
+Valores Recaudados en el año 2017 (agosto   2017 a noviembre 2017     & 247.654,43             \\
+Valores Recaudados en el año 2018   (diciembre 2017 a noviembre 2018) & 683.845,20             \\
+Valores Recaudados en el año 2019   (diciembre 2018 a noviembre 2019) & 618.652,77             \\
+Valores Recaudados en el año 2020   (diciembre 2019 a noviembre 2020) & 503.926,86             \\
+Valores Recaudados en el año 2021   (diciembre 2020 a noviembre 2021) & 627.954,02             \\
+Valores Recaudados en el año 2022   (diciembre 2021 a octubre 2022)   & 596.477,08             \\
+Valor depositado HOLCIM Sentencia No.   9310-2007-0096                & 2.134.388,74           \\
+Intereses provincias (enero 1999 hasta   agosto 2008)                 & 27.303,25              \\
+Valores recaudados por Intereses                                      & 1.687.479,80           \\
+Valores recaudados por Mora                                           & 740.365,34             \\ \hline
+\textbf{Total}                                                        & \textbf{14.311.526,37} \\ \hline
+\end{tabular}
+\end{table}
+
+
+\section{Fondo inicial}
+\label{chp_hipotesis:paramecfin:fondoini}
+
+La reserva inicial del \Sexpr{REP_seg} empleada para el cálculo de la reserva en términos corrientes, $V_t^{cap}$, y la reserva en valor presente, $V_t$, corresponde a los valores disponibles del Fondo a diciembre de 2022 es USD \Sexpr{REP$cap_ini}.
+
+Debido a que, a diciembre de 2022, se han recaudado USD 14.311.526,37, de los cuales USD 2.134.388,74 corresponden a los valores depositados por HOLCIM S.A. en ejecución de la Sentencia del Juicio No. 9310-2007-0096, para determinar si esta diferencia puede considerarse como un valor para asignación al saldo del fondo, se requiere el pronunciamiento legal; y, además, estos valores todavía se encuentran en litigio entre HOLCIM S.A. y la Asociación de Ex Trabajadores de la Cemento Nacional. 
+
+En segundo lugar, se debe considerar las reservas matemáticas entregadas por USD 10.375.288,20 al Fondo del Seguro de IVM, en cumplimiento del literal d) del artículo 8 del REGLAMENTO DE APLICACIÓN DE LA LEY DE JUBILACIÓN ESPECIAL DE LOS TRABAJADORES DE LA INDUSTRIADEL CEMENTO, expedida mediante\legalcite{ResIESS_CD640}, para cancelar las pensiones vitalicias de los cincuenta y uno (51) pensionistas de la Jubilación Especial.
+
+
+% %---------------------------------------------------------------------------------------------------
+% \section{Aportes y beneficios}
+% \label{chp_hipotesis:apobenef}
+% 
+% A lo largo de este estudio asumimos que la tasa de aportación para el \Sexpr{REP_seg} continuará conforme a lo determinado en la Resolución No. C.D. 501 del 13 de noviembre de 2015, reformada por la Resolución No. C.D. 515 del 30 de marzo de 2016. 
+% 
+% En cuanto a los beneficios, el presente estudio supone que se concederán bajo la normativa actual vigente.
+
+%---------------------------------------------------------------------------------------------------
+\section{Dolarización}
+\label{chp_hipotesis:dolariza}
+
+Como supuesto macroeconómico importante, el estudio se desarrolla considerando una evolución
+``normal'' de la economía ecuatoriana en el horizonte de estudio, por lo cual supondremos que el
+sistema de dolarización de la economía se mantendrá vigente en todo el horizonte de análisis.
+
+
+% %---------------------------------------------------------------------------------------------------
+% \section{Coherencia de los parámetros utilizados}
+% \label{chp_hipotesis:coherencia}
+% 
+% Las hipótesis macroeconómicas tales como inflación tasa de crecimiento salarial, tasa de crecimiento del salario básico unificado (SBU), tasa de crecimiento del PIB y tasa de rendimiento neto de las inversiones del BIESS guardan coherencia entre sí y poseen el debido sustento técnico. 
+% 
+% La tasa de interés actuarial está relacionada con la tasa mínima de rendimiento de las inversiones
+% toda vez que las inversiones deben recuperar primero su poder adquisitivo (inflación) y luego obtener el rendimiento ideal para que crezcan las reservas y se garantice la entrega de prestaciones.
+% 
+% Se estableció una tasa más alta de crecimiento para el SBU con respecto al salario de cotización, pues el primero históricamente registra un crecimiento mayor. Tanto el crecimiento del SBU como el promedio del salario de cotización crecerán a una tasa mayor que la inflación, lo cual garantiza que el poder adquisitivo de los salarios se incrementará en el tiempo.  
+% 
+% Mediante la aplicación de la metodología de series de tiempo, se realizaron predicción para el período de valuación y, más tarde, se promediaron estas predicciones. Se considera que las tasas de crecimiento del salario promedio y en la tasa de crecimiento real del PIB observadas a finales de la década pasada fueron debido a los altos precios del crudo (principal exportación del Ecuador), el cual se situaba por los \$ 100 el barril, y que este escenario no se va a volver repetir en los próximos años. 
+% 
+% En cuanto a las tasas de rendimiento de las inversiones, se considera el paquete de inversiones
+% que mantuvo y mantiene el BIESS, extrayendo las tasas nominales de cada una de las inversiones
+% y realizando un estudio relacionando las tasas a nivel nacional con las de la institución,
+% obteniendo un referente promedio de las mismas.
+
+ 
+% %---------------------------------------------------------------------------------------------------
+% \section{Hipótesis demográficas}
+% \label{chp_hipotesis:nuevosact}
+% 
+% Las hipótesis demográficas que se adoptan para los nuevos asegurados toman en cuenta las 
+% expectativas de evolución de la PEA nacional tomada de las proyecciones de población proporcionadas 
+% por CEPAL y la evolución y del empleo.  Las principales 
+% hipótesis observadas en la demografía son: la tasa de incremento anual de asegurados, la densidad 
+% de cotización y la observación de nuevos ingresos de afiliados.
+% 
+% Respecto a la incorporación de nuevos afiliados, se proyecta que mantendrán una tasa de entrada 
+% con respecto a la evolución de la PEA para cada edad y sexo, tomando como base su evolución 
+% histórica. En cuanto a la transición del afiliado activo a pensionista por vejez o invalidez se 
+% determinaron unas tasas constantes por edad y sexo en función del comportamiento observado. Para el caso de montepíos por viudedad y orfandad se tomó en cuenta la adopción de nuevas nupcias, la muerte y 
+% el cumplimiento de la mayoría de edad, respectivamente; considerando un ratio entre los pensionistas 
+% de vejez y los de montepío.
+

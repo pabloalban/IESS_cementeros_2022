@@ -1,0 +1,149 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Presentación de resultados}
+\label{chp_resultados}
+
+\section{Resultados de la evaluación actuarial}
+\label{chp_valuacionactu:est_apo}
+
+La Dirección Actuarial, de Investigación y Estadística efectuó 3 escenarios para realizar las 
+proyecciones actuariales para el período de evaluación.
+
+Los resultados del balance actuarial de estos 3 escenarios: base, optimista y pesimista se 
+encuentran descritos en las tablas \ref{tab:iess_bal_act_vap_escenario_1}, 
+\ref{tab:iess_bal_act_vap_escenario_2}, \ref{tab:iess_bal_act_vap_escenario_3}.
+
+Adicionalmente, los resultados del balance de los 2 escenarios complementarios de carácter 
+informativo (escenario extremo y escenario de la Resolución No. C.D. 261) se presentan en las 
+tablas \ref{tab:iess_bal_act_vap_escenario_4}, \ref{tab:iess_bal_act_vap_escenario_5} respectivamente.
+
+En todos los escenarios, a excepción del resultado del balance actuarial del escenario extremo se 
+considera que la contribución por parte del Estado tendrá diferentes niveles de cumplimiento. 
+%---------------------------------------------------------------------------------------------------
+\section{Estimación del nivel óptimo de aportes}
+\label{chp_valuacionactu:est_apo}
+
+Mediante el análisis establecido en la sección \ref{chp_modelo:sis_fin}, tomando en cuenta que el 
+seguro IVM tiene un sistema de financiamiento de reparto, para estimar el nivel óptimo de los aportes
+y obtener la prima media nivelada se calcula a partir de los flujos de egresos por 
+beneficios $B_t$ y gastos administrativos $G_t$, los flujos por ingresos debido al aporte Estatal
+$A^{est}_t$, aporte de pensionistas $A^3_t, A^4_t, A^6_t$ y la masa salarial de los afiliados activos 
+$M_t$. Así, la prima media nivelada para el horizonte $T$ se calcula de la siguiente forma:
+
+\begin{equation}
+\pi^2_T = \frac{ \sum\limits_{t=0}^T v^t \left( B_t + G_t - A^{est}_t - A^3_t - A^4_t - A^6_t \right) }
+{\sum\limits_{t=0}^T v^t M_t}
+\end{equation}
+
+Para el caso particular de este estudio actuarial se ha utilizado el horizonte de estudio 
+$T = \Sexpr{REP_hor}$.
+
+Considerando lo anotado anteriormente, para cada uno de los escenarios donde se realizó la valuación 
+actuarial, se obtuvieron las siguientes primas medias niveladas.
+\begin{table}[H]
+\centering
+\caption{Prima suficiente para cada uno de los escenarios.}
+\label{tab:iess_prima_suficiente}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{L{3.5cm}R{2cm}R{2cm}R{3cm}}
+\toprule
+\textbf{Escenario} & \textbf{Tasa actuarial} & \textbf{Prima media nivelada} & 
+\textbf{Porcentaje aporte estatal} \\
+                   & $i_a$ & $\pi^2_T$ & $\alpha_{est}$ \\
+\midrule
+\input{tablas/iess_tab_primas.tex}
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+%---------------------------------------------------------------------------------------------------
+% \section{Estimación de la reserva del Seguro IVM}
+% \label{chp_valuacionactu:est_res_est}
+% 
+% La estimación de la prima media nivelada, utiliza el principio de la esperanza para ser calculada,
+% igualando por tanto los valores esperados de aportes con los valores esperados de beneficios. 
+
+% Esta
+% aproximación de primer orden no siempre ayudará a cubrir cualquier cambio que se pueda suscitar en
+% la variación de beneficios totales.
+
+% Se requiere establecer una estrategia de cobertura ante la variación de los beneficios, gastos,
+% aportes de activos, aporte estatal, tasa de rendimiento o incluso cualquier otro riesgo que pueda
+% comprometer los flujos financieros, así la reserva de estabilización para el horizonte de estudio $T
+% = \Sexpr{REP_hor}$, $W_T$ deberá ayudar a cubrir la siguiente desigualdad estocástica.
+% \begin{equation}
+% \sum\limits_{t=0}^T v^t A_t +  W_T \geq \sum\limits_{t=0}^T v^t \left( B_t + G_t \right)
+% \end{equation}
+
+%---------------------------------------------------------------------------------------------------
+
+% \subsection{Efecto de la ausencia de la contribución del 40\% de las pensiones por parte del
+% Estado y del cambio de las primas de aportación} \label{chp_valuacionactu:efec_camb_normativos}
+% 
+% En esta sección se pretende estimar el patrimonio que hubiese tenido el fondo IVM sin la
+% eliminación de la contribución del 40\% para pensiones por parte del Estado y sin el cambio de las
+% primas de aportación. Para ello se utiliza el valor del patrimonio del fondo de IVM al 31 de
+% diciembre de 2014, los rendimientos netos de la cartera de inversión entre los años 2015 y 2018, y
+% la ejecución presupuestaria mensual entre enero de 2015 y diciembre de 2018.   
+%  
+% Es preciso remarcar que a partir de mayo de 2015 se dejó percibir el aporte del 40\% para el pago
+% de pensiones y con la Resolución No. C.D. 501 se cambió las tasas de aportación a partir de
+% noviembre de 2015. Sin la aplicación de estas dos medidas, el patrimonio del fondo se detalla en
+% la tabla \ref{tab:camb_norm}.
+% 
+% \begin{table}[H]
+% \begin{center}
+% \caption{Patrimonio sin los efectos de los cambios normativos}
+% \label{tab:camb_norm}
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{rr*{3}{R{2.1cm}}}
+%   \toprule
+%   \textbf{Año} & \textbf{Patrimonio conforme estados financieros} & 
+%   \textbf{Patrimonio manteniendo C.D. 261} & 
+%   \textbf{Patrimonio manteniendo C.D. 261 y aporte del gobierno}\\ 
+%   \midrule
+%   2014 & 8.961.120.937,52 &                   &                   \\
+%   2015 & 9.465.352.574,98 & 9.752.497.957,57  & 10.558.865.061,93  \\ 
+%   2016 & 8.423.981.680,53  & 9.798.541.889,26  & 12.032.309.118,39  \\ 
+%   2017 & 7.629.961.598,35  & 9.423.203.773,29  & 13.286.324.155,23 \\ 
+%   2018 & 6.543.201.759,76  & 8.709.853.462,16  & 14.340.159.181,35 \\ 
+%    \bottomrule
+% \end{tabular}
+% }
+% \caption*{\scriptsize Elaborado: DAIE}
+% \end{center}
+% \end{table}
+% 
+% Hay que hacer notar que la estimación del efecto de estas medidas en el fondo es referencial
+% puesto que el resultado se podría ver afectado en función del tiempo en que se tarden en colocar
+% los recursos, de la calidad de las inversiones que hubieran hecho, del tiempo de demora del pago
+% del aporte de 40\% para pensiones, entre otros parámetros.
+% 
+% En el caso de que se hubiese mantenido la tasa de aportación de la Resolución No. C.D. 261 pero no
+% el aporte del 40\% por parte del Estado para el pago de las pensiones, el patrimonio del fondo se
+% hubiese reducido hasta los USD 8.709 millones de dólares, lo que implica que los ingresos
+% ordinarios no hubiesen sido suficientes para el pago prestacional y se tendría que  haber
+% realizado desinversiones. Si no hubiese cambiado la normativa en lo referente a la contribución
+% del Estado y la prima de aportes, al 2018 el patrimonio del fondo habría alcanzado los USD 14.340
+% millones de dólares, algo más del doble de recursos de lo que se tiene registrado en los balance
+% del año 2018. De este análisis se desprende que el impacto por la eliminación de la contribución
+% del Estado para el pago de pensiones fue más fuerte que el cambio de las tasas de aportación. 
+
+
+%---------------------------------------------------------------------------------------------------
+\section{Causas de posibles desfinanciamientos}
+\label{chp_resultados:caus_desf}
+
+Como se puede observar en la mayoría de los escenarios presentados en este capítulo el tamaño del 
+aporte estatal es cada vez es más grande, llegando incluso a superar los aportes totales; esta 
+dependencia es cada vez más representativa conforme avanza el horizonte de proyección, por tanto
+la falta de aportes estatales bajo este contexto llevará al desfinanciamiento del \Sexpr{REP_seg}.
+El IESS debe encontrar mecanismos de financiamiento y ajustes necesarios para asegurar 
+la sostenibilidad del \Sexpr{REP_seg} y mantener una moderada relación de dependencia entre los 
+beneficios y el aporte estatal.
+
+Otra posible causa de desfinanciamiento es no mantener niveles adecuados de rendimiento en 
+inversiones del portafolio, el mismo que depende del comportamiento de 
+la economía, la colocación y diversificación de las inversiones del portafolio. Los excedentes
+sobre el rendimiento esperado deben ser canalizados para mejorar servicios, beneficios y capitalizar
+aún más la reserva.

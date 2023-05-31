@@ -1,0 +1,206 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Valuación actuarial}
+\label{chp_valuacionactu}
+
+Tomando en cuenta el modelo actuarial presentado en el capítulo \ref{chp_modelo} y las hipótesis actuariales definidas en el capítulo \ref{chp_hipotesis}, en esta sección se presentan los resultados que reflejan la situación actuarial y financiera del \Sexpr{REP_seg} desde la fecha de corte hasta el horizonte de estudio ($T = \Sexpr{REP_hor}$ años).
+
+El presente estudio muestra el balance actuarial de conformidad con la Ley de Jubilación Especial de los trabajadores de la Industria del Cemento y su Ley interpretativa, en base a las siguientes consideraciones:
+\begin{itemize}[itemsep=1mm, topsep=5pt]
+\item Se considera a los trabajadores y ex trabajadores de la industria del cemento expuestos al riesgo (ruido o polvo), con al menos 300 imposiciones en la industria del cemento; con pensión igual al 100\% del último sueldo.
+\item Se considera las reservas matemáticas transferidas al fondo del Seguro de IVM por USD 10.375.288,20, en cumplimiento del literal d) del artículo 8 del REGLAMENTO DE APLICACIÓN DE LA LEY DE JUBILACIÓN ESPECIAL DE LOS TRABAJADORES DE LA INDUSTRIADEL CEMENTO, expedida mediante\legalcite{ResIESS_CD640}, para cancelar las pensiones vitalicias de los cincuenta y uno (51) pensionistas de la Jubilación Especial.
+\item El patrimonio inicial disponibles del Fondo a diciembre de 2022 es USD \Sexpr{REP$cap_ini}, no se consideran USD 2.134.388,7, depositados por HOLCIM S.A. en ejecución de la Sentencia del Juicio No. 9310-2007-0096, debido que estos valores todavía se encuentran en litigio entre HOLCIM S.A. y la Asociación de Ex Trabajadores de la Cemento Nacional.
+\item La fecha de corte del estudio es diciembre de 2022 y su horizonte de estudio son 20 años.
+\item En aplicación a la Ley Interpretativa, las tasas de contribución aplicadas a las ventas totales de cemento destinadas para el financiamiento de la Jubilación Especial de los Trabajadores de la Industria de Cemento son: HOLCIM, 0,121\%; UNACEM, 0,104\% y UCEM, 0,111\%.
+\end{itemize}
+Las hipótesis macroeconómicas son: tasa actuarial, $i_a= 6,25$\%; tasa crecimiento de pensiones, $i_p= 2,15$\%; y resto de hipótesis utilizadas se encuentran en la tabla \ref{tab:iess_hip_macro}.
+
+\clearpage
+
+%Escenario 1 --------------------------------------------------------------------------------------
+\section{Valuación actuarial}
+\label{chp_valuacion:esc_1}
+Se considera a los trabajadores y extrabajadores expuestos al ruido o polvo. Además, su pensión es igual al 100\% del último sueldo, sin incluir el pago de horas extras, bonificaciones, subrogaciones, utilidades y otros ingresos.
+
+También se cancela una deuda igual a USD 826.982,63 por liquidaciones a 58 extrabajadores por haberes adeudados por la Jubilación Especial de la Industria del Cemento, que cumplirían el número de aportes para acceder a la Jubilación. Además, se consideró los valores necesarios para cubrir pensiones de montepío y la probabilidad de dejar el puesto del trabajo en la industria del trabajo (ver figura \ref{fig:iess_tasa_permanencia}).
+%---------------------------------------------------------------------------------------------------
+\subsection{Balance actuarial}
+\label{chp_valuacionactu:esc_1:balactu}
+
+La tabla \ref{tab:iess_bal_act_vap_escenario_1} presenta el balance actuarial. El Fondo de la Jubilación Especial de los Trabajadores de la Industria del Cemento presenta un déficit actuarial igual a USD \Sexpr{REP$bal_act_esc_1}, el cual se obtiene de la diferencia entre su activo actuarial (USD \Sexpr{REP$Act_vap_esc_1}) y su pasivo actuarial (USD \Sexpr{REP$Pas_vap_esc_1}), en valor presente. Por último, su prima suficiente de reparto puro es \Sexpr{REP$pri_med_niv_esc_1}\% y su año de desfinanciamiento es 2023.
+\begin{table}[H]
+\centering
+\caption{Balance actuarial}
+\label{tab:iess_bal_act_vap_escenario_1}
+\caption*{Fecha de valuación: al \Sexpr{REP_fec_val}}
+{\fontsize{10}{15}\selectfont
+\begin{tabular}{lr}
+\toprule
+Componente:	& Valor (USD) \\
+\midrule
+% el comando \csname es para evitar un error cuando el input comienza con \multicolumn
+ \csname @@input\endcsname tablas/iess_bal_act_vap_escenario_1.tex
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize Elaborado: DAIE}
+\end{table}
+
+% escenario base balance actuarial dinámico -----------------------------------------------------------
+La tabla \ref{tab:bal_act_tot_esc_1} presentan la evolución del balance actuarial dinámico para horizontes $T \in \{0,\ldots,25\}$. En la tabla \ref{tab:iess_bal_act_vap_escenario_1}, se presenta la reserva, $V_t$, del \Sexpr{REP_seg} para cada año hasta el 2042.
+
+
+\begin{landscape}
+\newpage
+\vspace*{\fill}
+%\vspace{20mm}
+{\setlength{\tabcolsep}{5pt}
+{\fontsize{10}{14}\selectfont
+\begin{longtable}[H]{lrrrrrrr}
+\caption{Balance actuarial dinámico}\\
+\label{tab:bal_act_tot_esc_1} \\
+\toprule
+Año
+& Recaudación
+& Reserva Matemática
+& Montepío
+& Liquidaciones
+& Gastos administrativos
+& Patrimonio inicial
+& Balance actuarial\\
+$T$
+& $\sum\limits_{t=0}^T v^t I_t$
+& $\sum\limits_{t=0}^T v^t B_t$
+& $\sum\limits_{t=0}^T v^t B_{t}^{mont}$
+& $\sum\limits_{t=0}^T v^t d_t$
+& $\sum\limits_{t=0}^T v^t G_t$
+& $V_0$
+& $V_T$ \\
+\midrule
+\endfirsthead
+
+\toprule
+Año
+& Recaudación
+& Reserva Matemática
+& Montepío
+& Liquidaciones
+& Gastos administrativos
+& Patrimonio inicial
+& Balance actuarial\\
+$T$
+& $\sum\limits_{t=0}^T v^t I_t$
+& $\sum\limits_{t=0}^T v^t B_t$
+& $\sum\limits_{t=0}^T v^t B_{t}^{mont}$
+& $\sum\limits_{t=0}^T v^t d_t$
+& $\sum\limits_{t=0}^T v^t G_t$
+& $V_0$
+& $V_T$ \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{8}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_balance_actuarial_escenario_1.tex}
+\end{longtable}
+}
+}
+
+\vspace*{\fill}
+\end{landscape}
+\clearpage
+% \vspace*{2px}
+% \vfill
+% \begin{figure}[H]
+% \caption{Evolución del balance actuarial $V_T$}
+% \label{graf:bal_vap_esc_1}
+% \centering
+% \includegraphics[scale=1]{graficos/iess_balance_vap_rv_escenario_1.png}
+% \caption*{\scriptsize Elaborado: DAIE\\}
+% \end{figure}
+% \vfill
+% \begin{figure}[H]
+% \caption{Aportes y beneficios del balance actuarial, $V_T$}
+% \label{graf:apo_ben_bal_din_esc_1}
+% \centering
+% \includegraphics[scale=1]{graficos/iess_apo_ben_bal_dinamico_escenario_1.png}
+% \caption*{\scriptsize Elaborado: DAIE\\}
+% \end{figure}
+% \vfill
+% \clearpage
+
+%---------------------------------------------------------------------------------------------------
+\begin{landscape}
+\subsection{Balance corriente y evolución de la reserva}
+\label{chp_valuacionactu:esc_1:balcorr}
+
+La tabla \ref{tab:bal_corr_tot_esc_1}, se presentan la evolución del balance corriente y evolución de la reserva para horizontes $T \in \{0,\ldots,20$. En términos corrientes el déficit es USD \Sexpr{REP$bal_cap_esc_1}.
+
+{\setlength{\tabcolsep}{3pt}
+{\fontsize{10}{14}\selectfont
+\begin{longtable}[H]{lrrrrrrrrr}
+\caption{Balance corriente}\\
+\label{tab:bal_corr_tot_esc_1} \\
+\toprule
+Año
+& Pensionistas
+& Recaudación
+& Reservas Matemáticas
+& Montepío
+& Liquidaciones
+& Gastos administrativos
+& Patrimonio inicial
+& Balance corriente
+& Balance capitalizado\\
+$t$
+& $l_x$
+& $I_t$
+& $B_t$
+& $B_{t}^{mont}$
+& $d_t$
+& $G_t$
+& $V_0$
+& $V^{cor}_t$
+& $V^{cap}_t$ \\
+\midrule
+\endfirsthead
+
+\toprule
+Año
+& Pensionistas
+& Recaudación
+& Reservas Matemáticas
+& Montepío
+& Liquidaciones
+& Gastos administrativos
+& Patrimonio inicial
+& Balance corriente
+& Balance capitalizado\\
+$t$
+& $l_x$
+& $I_t$
+& $B_t$
+& $B_{t}^{mont}$
+& $d_t$
+& $G_t$
+& $V_0$
+& $V^{cor}_t$
+& $V^{cap}_t$ \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{10}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_balance_corriente_escenario_1.tex}
+
+\end{longtable}
+}
+}
+\end{landscape}

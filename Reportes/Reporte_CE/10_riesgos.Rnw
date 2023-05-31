@@ -1,0 +1,409 @@
+\chapter{Tablas demográficas y factores de riesgo}
+\label{chp_riesgos}
+
+En este capítulo presentamos las tablas biométricas que fueron usadas en el desarrollo del presente 
+estudio. En estas tablas utilizamos la notación actuarial siguiente:
+
+\begin{description}
+  \item   $x$: edad en años;
+  \item   $l_x$: número de asegurados con vida a la edad $x$;
+  \item   $q_x$: probabilidad de que un asegurado que alcanzó la edad $x$, fallezca antes de alcanzar la edad $x+1$;
+  \item   $p_x$: probabilidad de que un asegurado de edad $x$, sobreviva hasta alcanzar la edad $x+1$;
+  \item   $e_x$: esperanza de vida a la edad $x$;
+  \item   $p^{9}_{x,g}$: probabilidad de que un afiliado de edad $x$ y sexo $g$ retire su fondo de cesantía, dado que se encuentre cesante y cotice al seguro;
+  \item   $p^{10}_{x,g}$: probabilidad de que un jubilado de edad $x$ y sexo $g$ retire su fondo de cesantía;
+  \item   $p^{11}_{x,g}$: probabilidad de se realice un débito automático por ejecución de las garantías constituidas en créditos quirografarios en el BIESS del fondo de cesantía de un afiliado de edad $x$ y sexo $g$; y 
+  \item   $p^{12}_{x,g}$: probabilidad de que un afiliado de edad $x$ y sexo $g$ acceda a la parte variable del Seguro de Desempleo, dado que se encuentre cesante y cotice al seguro.
+\end{description}
+
+Antes de continuar con la presentación de cada una de las tablas biométricas, es importante 
+recalcar que el número de personas $l_x$ no tiene porqué tomar un valor entero, es así que en las 
+tablas a continuación $l_x$ está redondeado a dos cifras decimales, esto fue realizado con la 
+finalidad de proveer de tablas biométricas que ofrezcan una mayor precisión al momento de realizar 
+cálculos numéricos con los valores presentados.
+
+%---------------------------------------------------------------------------------------------------
+% \clearpage
+\section{Tablas de mortalidad}
+\label{chp_riesgos:tabmort}
+
+A continuación presentamos las tablas de mortalidad para el año 2018 para la población de afiliados, 
+pensionistas de vejez, pensionistas de invalidez y montepíos.
+
+% --------------------------------------------------------------------------------------------------
+\subsection{Tabla de mortalidad de afiliados}
+La tabla de mortalidad de afiliados por edad y sexo se presenta en la tabla 
+\ref{tab:iess_afi_mort_2018}.
+
+\begin{center}
+{\fontsize{10}{12}\selectfont
+  \begin{longtable}[H]{l*{4}{r}|l*{4}{r}}
+    \caption{Tabla de mortalidad de afiliados (2018)}\\
+    \label{tab:iess_afi_mort_2018}\\
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endfirsthead
+    
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endhead
+    
+    \bottomrule \multicolumn{10}{r}{continúa...} \\
+    \endfoot
+    
+    \bottomrule
+    \caption*{\scriptsize Elaborado: DAIE.}
+    \endlastfoot
+    
+       \input{tablas/iess_afi_mort_2018.tex}
+       
+  \end{longtable}
+}
+\end{center}
+
+% --------------------------------------------------------------------------------------------------
+% \clearpage
+\subsection{Tabla de mortalidad de pensionistas de vejez}
+A  continuación en la tabla \ref{tab:iess_pen_vej_mort_2018} se presenta la mortalidad de pensionistas 
+de vejez por edad y sexo. 
+
+\begin{center}
+{\fontsize{10}{12}\selectfont
+  \begin{longtable}[H]{l*{4}{r}|l*{4}{r}}
+    \caption{Tabla de mortalidad de pensionistas vejez (2018)}\\
+    \label{tab:iess_pen_vej_mort_2018}\\
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endfirsthead
+    
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endhead
+    
+    \bottomrule \multicolumn{10}{r}{continúa...} \\
+    \endfoot
+    
+    \bottomrule
+    \caption*{\scriptsize Elaborado: DAIE.}
+    \endlastfoot
+    
+       \input{tablas/iess_pen_vej_mort_2018.tex}
+       
+  \end{longtable}
+}
+\end{center}
+
+% --------------------------------------------------------------------------------------------------
+% \clearpage
+\subsection{Tabla de mortalidad de pensionistas de invalidez}
+En la tabla \ref{tab:iess_pen_inv_mort_2018} se presenta la mortalidad de pensionistas de invalidez 
+por edad y sexo.
+
+\begin{center}
+{\fontsize{10}{12}\selectfont
+  \begin{longtable}[H]{l*{4}{r}|l*{4}{r}}
+    \caption{Tabla de mortalidad de pensionistas invalidez (2018)}\\
+    \label{tab:iess_pen_inv_mort_2018}\\
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endfirsthead
+    
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endhead
+    
+    \bottomrule \multicolumn{10}{r}{continúa...} \\
+    \endfoot
+    
+    \bottomrule
+    \caption*{\scriptsize Elaborado: DAIE.}
+    \endlastfoot
+    
+       \input{tablas/iess_pen_inv_mort_2018.tex}
+       
+  \end{longtable}
+}
+\end{center}
+
+% --------------------------------------------------------------------------------------------------
+% \clearpage
+\subsection{Tabla de mortalidad de montepío por viudedad}
+Se presenta la tabla de mortalidad de montepío por viudedad detallado por edad y sexo
+
+\begin{center}
+{\fontsize{10}{12}\selectfont
+  \begin{longtable}[H]{l*{4}{r}|l*{4}{r}}
+    \caption{Tabla de mortalidad de pensionistas de montepío (2018)}\\
+    \label{tab:iess_pen_mont_mort_2018}\\
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endfirsthead
+    
+    \toprule
+    \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+    \midrule
+    $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$ & $x$ & $l_x$ & $q_x$ & $p_x$ & $e_x$\\ 
+    \midrule
+    \endhead
+    
+    \bottomrule \multicolumn{10}{r}{continúa...} \\
+    \endfoot
+    
+    \bottomrule
+    \caption*{\scriptsize Elaborado: DAIE.}
+    \endlastfoot
+    
+       \input{tablas/iess_mon_mort_2018.tex}
+  
+  \end{longtable}
+}
+\end{center}
+
+%---------------------------------------------------------------------------------------------------
+\clearpage
+\section{Tabla de decrementos múltiples para afiliados}
+
+A partir de las diferentes tasas estimadas para los afiliados $\mu^{2,3}_{t,g,x}, \mu^{2,4}_{t,g,x},
+\mu^{2,5}_{t,g,x}$, cuya metodología de estimación y ajuste ha sido descrita en la sección
+\ref{chp_modelo:sec_cad_markov_cont}, se está en la capacidad de generar una tabla de decrementos 
+múltiples para afiliados, para más detalles al respecto se puede referir a 
+\textcite{ActMathLifContRisk:2013}. Esta tabla de decrementos múltiples es de extrema importancia 
+para el cálculo de conmutativos asociados a activos, por estar sujetos a realizar transiciones a 
+muerto, pensionista por vejez o pensionista por invalidez. 
+\begin{center}
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[H]{*{5}{r}|*{5}{r}}
+  \caption{Tabla de decrementos para afiliados ambos sexos}\\
+  \label{tab:dec_afi}\\
+  \toprule
+  \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+  \midrule
+  $x$ & $l_x$ & $d^3_x$ & $d^4_x$ & $d^5_x$ & $x$ & $l_x$ & $d^3_x$ & $d^4_x$ & $d^5_x$ \\ 
+  \midrule
+  \endfirsthead
+
+  \toprule
+  \multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+  \midrule
+  $x$ & $l_x$ & $d^3_x$ & $d^4_x$ & $d^5_x$ & $x$ & $l_x$ & $d^3_x$ & $d^4_x$ & $d^5_x$ \\ 
+  \midrule
+  \endhead
+
+  \bottomrule
+  \multicolumn{10}{r}{continúa...} \\ 
+  \endfoot
+
+  \bottomrule
+  \caption*{\scriptsize Elaborado: DAIE.}
+  \endlastfoot
+  
+    \input{tablas/iess_tab_dec.tex}
+      
+  \end{longtable}
+}
+\end{center}
+
+%---------------------------------------------------------------------------------------------------
+\clearpage
+\section{Tabla de siniestralidad de retiros de fondos de cesantía}
+
+\subsection{Tabla de probabilidad de retiro por motivo}
+\label{chp_riesgos:tabsiniestralidad}
+
+La tasa de uso o tasa de siniestralidad, $p^{i}_{g,x}$, del \Sexpr{REP_seg} es la probabilidad de realizar un retiro por el causal $i$. Utilizando los datos históricos registrados desde enero de 2013, se estima la probabilidad de retiro observada, $\hat{p}^{i}_{g,x}$, para cada motivo de retiro ($i=9, \ldots, 12$), sexo ($g=1,2$) y edad ($x=15, \ldots, 115$), como se estableció en las ecuaciones \ref{eq:p9}, \ref{eq:p10}, \ref{eq:p11} y \ref{eq:p12}. 
+
+A partir de las $\hat{p}^{i}_{g,x}$ observadas, se obtienen las $p^{i}_{g,x}$ alisadas, utilizando la metodología de spline suavizado. Las splines suavizadas abordan el suavizamiento desde un ángulo diferente más explícito. Una spline de suavizado cúbico ajustada a nuestros datos es una función $f$ que minimiza la función de residuos mínimos cuadrados penalizados:
+\begin{equation}
+PRSS= \sum_{x=15}^{\omega=115} \left(p^{i}_{g,x}-f(x)\right)^2+\lambda\,\int_{15}^{115} \left(f''(x)\right)^2 \, dx,
+\label{eq:PRSS}
+\end{equation}
+sobre todas las funciones con primera derivada continua y segunda derivada integrable. Donde $\lambda $ es un parámetro de suavizado que controla la compensación entre la fidelidad a los datos y la rugosidad de la estimación de la función. La solución es una función, una spline cúbica con nudos interiores y de frontera en los valores únicos de $x_i $. Se utilizó para su estimación la función \texttt{smooth.spline()} del software estadístico R. Para documentación más detallada de este método de suavizamiento revisar \cite{Green1994}.
+
+A continuación, se muestra las tasas de uso del \Sexpr{REP_seg} utilizadas en todos los escenarios en las figuras \ref{fig:iess_tasa_uso_1} y \ref{fig:iess_tasa_uso_2}, y en la tabla \ref{tab:iess_tasa_uso}.
+
+\begin{center}
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[H]{c*{5}{r}|*{5}{r}}
+  \caption{Tabla de probabilidad de retiro por motivo}\\
+  \label{tab:iess_tasa_uso}\\
+  \toprule
+  &\multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+  \midrule
+  $x$ & 
+  $\phi_{1,x}$ &
+  $p^{9}_{t,1,x}$ &
+  $p^{10}_{t,1,x}$ &
+  $p^{11}_{t,1,x}$ &
+  $p^{12}_{t,1,x}$ &
+  $\phi_{2,x}$ &
+  $p^{9}_{t,2,x}$ &
+  $p^{10}_{t,2,x}$ &
+  $p^{11}_{t,2,x}$ &
+  $p^{12}_{t,2,x}$ \\ 
+  \midrule
+  \endfirsthead
+
+  \toprule
+  &\multicolumn{5}{c|}{Mujeres} & \multicolumn{5}{c}{Hombres} \\
+  \midrule
+  $x$ & 
+  $\phi_{1,x}$ &
+  $p^{9}_{t,1,x}$ &
+  $p^{10}_{t,1,x}$ &
+  $p^{11}_{t,1,x}$ &
+  $p^{12}_{t,1,x}$ &
+  $\phi_{2,x}$ &
+  $p^{9}_{t,2,x}$ &
+  $p^{10}_{t,2,x}$ &
+  $p^{11}_{t,2,x}$ &
+  $p^{12}_{t,2,x}$ \\ 
+  \midrule
+  \endhead
+
+  \bottomrule
+  \multicolumn{11}{r}{continúa...} \\ 
+  \endfoot
+
+  \bottomrule
+  \caption*{\scriptsize Elaborado: DAIE.}
+  \endlastfoot
+  
+    \input{tablas/iess_tab_tasa_siniestralidad.tex}
+      
+  \end{longtable}
+}
+\end{center}
+
+\newpage
+\begin{landscape}
+\begin{figure}[H]
+\caption{Tabla de probabilidad de retiro por motivo}
+\label{fig:iess_tasa_uso_1}
+\begin{center}
+\includegraphics[scale=1]{graficos/iess_tasa_siniestralidad_1.png}
+\end{center}
+\end{figure}
+\end{landscape}
+
+\newpage
+\begin{landscape}
+\begin{figure}[H]
+\caption{Tabla de probabilidad de retiro por motivo}
+\label{fig:iess_tasa_uso_2}
+\begin{center}
+\includegraphics[scale=1]{graficos/iess_tasa_siniestralidad_2.png}
+\end{center}
+\end{figure}
+\end{landscape}
+
+
+\subsection{Tabla de $f^{i}_{g,x}$}
+
+La proporción entre el retiro promedio de fondos de cesantía y el fondo disponible promedio en las cuentas individuales de los afiliados de sexo $g$ y edad $x$, $f^{i}_{g,x}$, del \Sexpr{REP_seg} es el porcentaje promedio entre retiros y depósitos en las cuentas individuales de los afiliados en 2018. Esta proporción observada, $\hat{f}^{i}_{g,x}$, se estima para cada motivo de retiro ($i=9, \ldots, 12$), sexo ($g=1,2$) y edad ($x=15, \ldots, 115$), como se establece en las ecuaciones:
+\begin{equation}
+\hat{f}^{i}_{g,x} = \frac{\frac{B^{i}_{2018,g,x}}{l^{i}_{2018,g,x}}}{\frac{F_{2018,g,x}}{l^{2,\,cot,\,ces}_{2018,g,x}}}. \label{eq:hat_f_i}
+\end{equation}
+
+Para el suavizamiento de \ref{eq:hat_f_i}, se utilizó la misma metodología anteriormente mencionada en la sección \ref{chp_riesgos:tabsiniestralidad} (splines suavizadas). Después de obtener las $f^{i}_{g,x}$ se puede calcular las prestaciones de este seguro siguiendo las ecuaciones \ref{eq:prestaciones}.
+
+A continuación, se muestra las proporciones del retiro promedio de fondos de cesantía utilizadas en el cálculo de las prestaciones del \Sexpr{REP_seg} en todos los escenarios en las figuras \ref{fig:iess_f_i_1} y \ref{fig:iess_f_i_2}, y en la tabla \ref{tab:iess_f_i}.
+
+\begin{center}
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{c*{6}{r}|*{6}{r}}
+  \caption{Tabla de $f^{i}_{g,x}$}\\
+  \label{tab:iess_f_i}\\
+  \toprule
+  &\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+  \midrule
+  $x$ & 
+  $f^{9}_{1,x}$ &
+  $f^{10}_{1,x}$ &
+  $f^{11}_{1,x}$ &
+  $f^{12}_{1,x}$ &
+  $f^{13}_{1,x}$ &
+  $f^{14}_{1,x}$ &
+  $f^{9}_{t,2,x}$ &
+  $f^{10}_{t,2,x}$ &
+  $f^{11}_{t,2,x}$ &
+  $f^{12}_{t,2,x}$ &
+  $f^{13}_{t,2,x}$ &
+  $f^{14}_{t,2,x}$ \\ 
+  \midrule
+  \endfirsthead
+
+  \toprule
+  &\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+  \midrule
+  $x$ & 
+  $f^{9}_{1,x}$ &
+  $f^{10}_{1,x}$ &
+  $f^{11}_{1,x}$ &
+  $f^{12}_{1,x}$ &
+  $f^{13}_{1,x}$ &
+  $f^{14}_{1,x}$ &
+  $f^{9}_{t,2,x}$ &
+  $f^{10}_{t,2,x}$ &
+  $f^{11}_{t,2,x}$ &
+  $f^{12}_{t,2,x}$ &
+  $f^{13}_{t,2,x}$ &
+  $f^{14}_{t,2,x}$ \\ 
+  \midrule
+  \endhead
+
+  \bottomrule
+  \multicolumn{13}{r}{continúa...} \\ 
+  \endfoot
+
+  \bottomrule
+  \caption*{\scriptsize Elaborado: DAIE.}
+  \endlastfoot
+  
+    \input{tablas/iess_tab_f_i.tex}
+      
+  \end{longtable}
+}
+\end{center}
+
+\newpage
+\begin{landscape}
+\begin{figure}[H]
+\caption{Tabla de $f^{i}_{g,x}$}
+\label{fig:iess_f_i_1}
+\begin{center}
+\includegraphics[scale=1]{graficos/iess_tasa_f_i_1}
+\end{center}
+\end{figure}
+\end{landscape}
+
+\newpage
+\begin{landscape}
+\begin{figure}[H]
+\caption{Tabla de $f^{i}_{g,x}$}
+\label{fig:iess_f_i_2}
+\begin{center}
+\includegraphics[scale=1]{graficos/iess_tasa_f_i_2}
+\end{center}
+\end{figure}
+\end{landscape}

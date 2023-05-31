@@ -1,0 +1,242 @@
+%---------------------------------------------------------------------------------------------------
+\chapter[Valores recaudados, egresos y patrimonio del Fondo]{Valores recaudados, egresos y patrimonio del Fondo de la Jubilación Especial de los Trabajadores de la Industria del Cemento}
+
+% \chapter[Valores recaudados a agosto de 2020]{Valores recaudados por la Ley Interpretativa: Artículo 4 Ley de Jubilación Especial de los Trabajadores de la Industria Del Cemento, a agosto de 2020}
+\section{Valores recaudados por la Ley Interpretativa: Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento}
+\label{chp_val_recau}
+
+En esta sección, se revisarán la fórmula de cálculo y los valores recaudados por el IESS para financiar la Jubilación Especial de los Trabajadores de la Industria del Cemento. Según la Ley de Jubilación Especial a los Trabajadores de la industria del cemento, el trabajador de la industria del cemento tiene derecho a una jubilación especial equivalente al cien por ciento (100\%) del último sueldo que hubiera percibido, una vez que hubiere acreditado por lo menos trescientas aportaciones mensuales, exclusivamente en actividades ejercidas en la industria del cemento sin límite de edad.
+
+Para financiar la Ley del Cemento de 1989, se destinó dos centavos el precio ex fábrica de cada kilo de cemento vendido; sin embargo, con la implementación del nuevo sistema monetario en el Ecuador, se retrasó la aplicación de lo ya expuesto; siendo necesaria la expedición de una nueva Ley Interpretativa en este proceso.
+
+\subsection{Ley Interpretativa: Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento}
+%---------------------------------------------------------------------------------------------------
+La Asamblea Nacional en ejercicio de sus facultades constitucionales y legales expide la Ley Interpretativa del Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, en la que su artículo único establece: “(…) para establecer el valor en dólares de los Estados Unidos de América del incremento en dos centavos de sucre del precio ex fábrica de cada kilo de cemento, a partir del 13 de marzo de 2000 se requiere obtener la proporción del valor adicional al precio, que representaban los dos centavos de sucre, respecto al precio promedio del kilo de cemento al año 1989; para luego mantener dicha proporción y aplicarla al precio promedio del kilo de cemento de cada año a partir del año 2000”.
+
+De acuerdo con el artículo único de la Ley Interpretativa: Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, se calcula la proporción del valor adicional al precio, también conocida como factor de incidencia, por kilogramo del cemento para cada una de las empresas: HOLCIM, UNACEM (Lafarge) y UCEM (Guapán y Chimborazo), a partir de la siguiente expresión matemática:
+	\begin{equation}
+	\label{eq:ley_inter}
+		FI_{x}=\frac{0,02}{\bar{P}_{x,1989}+\Delta_{1989}};
+	\end{equation}
+
+donde: $FI_x$ es el factor de incidencia para empresa $x$; es decir, la proporción de los dos centavos de sucre; $\bar{P}_{x,1989}$ es el precio promedio del kilogramo de cemento de la empresa $x$ en el año 1989, en sucres; y
+$\Delta_{1989}$ es el incremento de 0,02 centavos de sucres por el artículo único de la Ley Interpretativa: Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento.
+
+Entonces el valor a cobrar de la empresa x, según la Ley Interpretativa para el período t, es el siguiente:
+	\begin{equation}
+	\label{eq:rec_ley_inter}
+		VLI_{x}=FI_{x}\;\bar{P}_{x,t}\;Vkg_{x,t};
+	\end{equation}
+donde: $\bar{P}_{x,t}$ es el precio promedio del kilogramo de la empresa $x$ en el período $t$.
+$Vkg_{x,t}$ es los kilogramos vendidos por la empresa $x$ en el período $t$; y
+$FI_{x}$ es el factor de incidencia (se calcula usando la ecuación \ref{eq:ley_inter}).
+
+Cabe recalcar que mediante el Memorando Nro. IESS-DNGF-2017-1172-M de fecha 10 de agosto de 2017, suscrito por el Director Nacional de Gestión Financiera, se indicó que la fórmula de cálculo mostrada en la ecuación \ref{eq:rec_ley_inter} es la correcta.
+
+En la tabla \ref{tab:iess_factor_incidencia}, se registran valores del precio promedio del kilo de cemento en el año 1989, con la finalidad de calcular la incidencia del incremento de los dos centavos en el precio final con incremento del kilo de cemento para cada empresa.
+
+\begin{table}[H]
+\caption{Precio del kilogramo de cemento (sucres) en 1989 y el factor de incidencia}
+\label{tab:iess_factor_incidencia}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{cccc}
+\toprule
+Empresa: & Precio promedio por kilogramo & Precios por kilogramo con incremento & Factor de incidencia \\
+        &  ($\bar{P}_{x,1989}$) & ($\bar{P}_{x,1989}+\Delta_{1989}$) & $(FI_{x})$ \\
+\midrule
+HOLCIM   & 16,56                         & 16,58                                & 0,121\%              \\
+UNACEM   & 19,18                         & 19,20                                & 0,104\%              \\
+UCEM     & 17,96                         & 17,98                                & 0,111\%  \\
+\hline
+\end{tabular}
+}
+\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones. \\
+Elaborado: DAIE.}
+\end{table}
+
+Los factores de incidencia registrados en la tabla \ref{tab:iess_factor_incidencia} se utilizarán para calcular el porcentaje del precio por kilogramo de cemento destinado para la Jubilación Especial de los Trabajadores de la Industria del Cemento. Más tarde, se calculará el flujo de caja de los ingresos del fondo de la Jubilación Especial de los Trabajadores de la Industria del Cemento para el período 2021 a 2045, es decir, para un horizonte de tiempo de 25 años.
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Recaudación por la Ley Interpretativa del Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento}
+
+Con la aplicación de la fórmula para calcular el factor de incidencia, se determinó los valores adeudados por las industrias cementeras al IESS para el período marzo 2000 a julio 2017; sin embargo, y de acuerdo con la certificación de la Subdirección Nacional Financiera del Sistema de Pensiones, ya existían valores depositados por las compañías, de tal manera, se procedió a descontar los valores retenidos para calcular nuevamente el capital adeudado.
+
+En cuanto a la aplicación de intereses, el artículo único de la Ley Interpretativa menciona: “(…) El cálculo de los respectivos intereses se hará en atención al monto del correspondiente capital cuantificado conforme lo señalado en este artículo”. En cuanto a los intereses por mora, el Artículo 89 de la Ley de Seguridad Social establece que “(…) causará un interés equivalente al máximo convencional permitido por el Banco Central del Ecuador, a la fecha de liquidación de la mora, incrementado en cuatro puntos”. Por último, el Artículo 100 de la Ley de Seguridad Social manifiesta la prohibición de exoneración de intereses y multas.
+
+La Subdirección Nacional Financiera del Sistema de Pensiones, con Memorando Nro. IESS-SDNFSP-2022-1096-M, de 01 de diciembre de 2022, haciendo alusión al Memorando Nro. IESS-DAIE-2022-1026-M, señala: “De acuerdo a la información recuperada de los sistemas Dataflex e Infor LN en base a la información de recaudación reportada por la Subdirección Nacional de Gestión de Control del Sistema de Pensiones, me permito remitir la certificación de los valores preliminares disponibles a la fecha que formarán parte del Fondo de la Jubilación Especial de los Trabajadores de la Industria del Cemento:
+
+\begin{table}[ht]
+\centering
+
+\begin{tabular}{ll}
+\hline
+\textbf{Detalle Recaudación Industrias del Cemento \legalcite{ResIESS_CD554}}                                                      & \textbf{Valor} \\ \hline
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en   Provincias (marzo 2000 a julio 2017) \\ Nota 1.\end{tabular}                  & 317.621,52     \\
+Valores Acumulado Recaudado   (marzo 2000 a julio 2017)                                                                          & 6.125.857,36   \\
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en el año 2017 (contribución de\\  agosto 2017 a noviembre 2017\end{tabular}     & 247.654,43     \\
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en el año 2018 (contribución de \\ diciembre 2017 a noviembre 2018)\end{tabular} & 683.845,20     \\
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en el año 2019 (contribución de \\ diciembre 2018 a noviembre 2019)\end{tabular} & 618.652,77     \\
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en el año 2020 (contribución de \\ diciembre 2019 a noviembre 2020)\end{tabular} & 503.926,86     \\
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en el año 2021 (contribución de\\  diciembre 2020 a noviembre 2021)\end{tabular} & 627.954,02     \\
+\begin{tabular}[c]{@{}l@{}}Valores Recaudados en el   año 2022 (contribución de \\ diciembre 2021 a octubre 2022)\end{tabular}   & 596.477,08     \\ \hline
+TOTAL                                                                                                                            & 9.721.989,24   \\ \hline
+\end{tabular}
+\end{table}
+
+Nota 1 . Corresponde a los valores contabilizados por las Direcciones Provinciales dentro del periodo 2000 a julio 2017 (sistema Dataflex). Valores que se encuentran en proceso de revisión y conciliación. 
+
+A continuación, se muestran valores que se encuentran contabilizados a favor de la Institución como ingresos para el fondo pero que, debido a la que su disponibilidad no puede ser considerada mientras se cuenten con el pronunciamiento técnico y legal que se ha identificado es necesario elevar a las instancias correspondientes.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lr}
+\hline
+\textbf{Otros Valores Contabilizados en la Institución}                                                                                  & \textbf{Valor}        \\ \hline
+\begin{tabular}[c]{@{}l@{}}Nota 2. Valor depositado HOLCIM ECUADOR S.A. \\ Sentencia juicio No. 9310-2007-0096 (Diferencia)\end{tabular} & 2.134.388,74          \\
+\begin{tabular}[c]{@{}l@{}}Nota 3. Valores recaudados en provincias por Intereses \\ (enero 1999 hasta agosto 2008)\end{tabular}         & 27.303,25             \\ 
+Nota 4. Valores recaudados por Intereses                                                                                                 & 1.687.479,80          \\ 
+Nota 5. Valores recaudados por Mora                                                                                                      & 740.365,34            \\ \hline
+\textbf{TOTAL}                                                                                                                           & \textbf{4.589.537,13} \\ \hline
+\end{tabular}
+\end{table}
+
+Nota 2. Dentro del proceso que corresponde al Juicio Nro. 09332-2019-09723, se establece: ``\textit{d) Se le hace saber al Instituto Ecuatoriano de Seguridad Social que la diferencia del fondo deberá ser administrada por el IESS con el objeto de que siga obteniendo intereses, hasta que se consolide el total del fondo destinado al pago de remuneraciones dispuesto por la Ley de Jubilación Especial de los Trabajadores de la Industria de Cemento}'', para determinar si esta diferencia puede considerarse como un valor para asignación al saldo del fondo, se requiere el pronunciamiento legal.
+
+Nota 3. En el año 2012 consta un depósito por USD 27.303.25 realizado por la empresa CEMENTOS SELVA ALEGRE S.A. por concepto de intereses desde enero 1999 hasta agosto 2008. para determinar si esta diferencia puede considerarse como un valor para asignación al saldo del fondo, se requiere el pronunciamiento legal.
+
+Nota 4. Respecto a los valores recaudados por concepto de intereses, considera el depósito realizado por la empresa UNIÓN CEMENTERA NACIONAL UCEM por USD 1.582.397,69, UNACEM ECUADOR S.A por USD 105.082,11. Se requiere la determinación si los recursos se encuentran en litigio o proceso de cobro.
+
+Nota 5. Respecto a los valores recaudados por concepto de mora, se considera el depósito realizado por la empresa UNIÓN CEMENTERA NACIONAL UCEM por USD 455.717,76, UNACEM ECUADOR S.A por USD 284.647,58. Se requiere la determinación respecto a la disponibilidad o no de estos recursos.
+
+Así también, se considera la información emitida por la Subdirección Nacional Financiera del Sistema de Pensiones mediante Memorando Nro. IESS-SDNFSP-2022-1096-M, con corte al mes de octubre se encuentra contabilizado, por los siguientes conceptos:
+
+\begin{enumerate}[itemsep=0mm, topsep=0pt]
+\item Recaudación de la Industria del Cemento el valor de USD 9,721,989.24.
+\item Otros valores con el monto total de USD 4,589,537.13; dicho valor se encuentra separado por:
+\begin{itemize}
+	\item Diferencia del depósito de la empresa HOLCIM ECUADOR S.A. por Sentencia juicio No. 09310-2007-0096, con un valor de USD 2,134,388.74
+	\item Intereses del período enero 1999 - agosto 2008, con un valor de USD 27,303.25 
+	\item Intereses en cumplimiento de la LEY INTERPRETATIVA ART 4, LEY DE JUBILACION DE LOS TRABAJADORES, INDUSTRIA DEL CEMENTO (06 de marzo de 2017), con un valor de USD 1,687,479.80 
+		\item	Mora en cumplimiento de la LEY INTERPRETATIVA ART 4, LEY DE JUBILACION DE LOS TRABAJADORES, INDUSTRIA DEL CEMENTO (06 de marzo de 2017), con un valor de USD 740,365.34.
+\end{itemize}
+\end{enumerate}
+
+
+
+
+
+
+
+\begin{landscape}
+\section{Egresos por reservas matemáticas }
+\label{chp_reserva}
+
+En cumplimiento del literal d) del artículo 8 de la \legalcite{ResIESS_CD640}, el cual determina el procedimiento para acceder a una Jubilación Especial de los Trabajadores de la Industria del Cemento, las Coordinaciones o Unidades Provinciales de Prestaciones de Pensiones, Riesgos del Trabajo, Fondos de Terceros y Seguro de Desempleo, o quienes hagan sus veces, remitirá el informe, el cual determine que el solicitante fue trabajador expuesto a factores de alto riesgo en la industria del cemento y cumplan con los requisitos de imposiciones, a la Dirección Actuarial, de Investigación y Estadística para que la misma realice el cálculo de la reserva matemática de la condición especial del cemento.
+
+Además, se considera para efectos de la determinación de la pensión y de la reserva matemática el último sueldo o salario, de conformidad con lo prescrito en la Constitución de la República, el artículo 80 del Código del Trabajo y la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, según lo estipulado en el artículo 5 de la \legalcite{ResIESS_CD640}.
+
+Según se constatan en los memorandos con números: IESS-DAIE-2022-0971-M, IESS-DAIE-2022-1172-M y IESS-DAIE-2022-1174-M, la Dirección Actuarial, de Investigación y Estadística del IESS calculó, como requisitos establecidos en el literal de d) del artículo 8 de la \legalcite{ResIESS_CD640}, la reserva matemática de cincuenta y uno (51) beneficiarios de la jubilación especial. El valor total requerido para que los cincuenta y uno (51) ex trabajadores de la industria del cemento puedan acceder a su jubilación es USD 10.375.288,20, de los cuales USD 861.787,88 es para el pago de montepío; USD 2.055.716,45 por liquidación de haberes atrasados; USD 164.836,63 por intereses de los haberes atrasados; USD 770.789,61 por pago de nomina de pensiones mensuales; USD 60.713,30 por pago de intereses por los valores pagados por nomina; y USD 301.674,40 por gastos administrativos (disposición general primera de la \legalcite{ResIESS_CD640}); valores cuales fueron retirados del Fondo de esta jubilación especial.
+
+Cabe señalar que la reserva matemática es los valores suficientes para asumir los pagos de las pensiones vitalicias, desde la fecha de derecho hasta la muerte del pensionista, tomando en cuenta los rendimientos financieros que generen estos valores en el tiempo. Además, se considera el futuro pago de pensiones a los huérfanos o conyugue, según lo establecido en la Ley.
+
+
+{\fontsize{8.5}{11}\selectfont
+\begin{longtable}[H]{cccccrrrrrrr}
+\caption{Valores a tranferir al Fondo del Seguro IVM por Jubilación Especial de la Industria del Cemento}\\
+\label{iess_tab_resultado} \\
+\toprule
+\multicolumn{1}{c}{Cédula}
+%& \multicolumn{1}{c}{Apellidos y}
+&\multicolumn{1}{c}{Edad}
+
+%&\multicolumn{1}{c}{Fecha F1}
+&\multicolumn{1}{c}{Fecha derecho}
+&\multicolumn{1}{c}{Edad}
+
+&\multicolumn{1}{c}{Reserva}
+&\multicolumn{1}{c}{Beneficio}
+
+&\multicolumn{1}{c}{Liquidación}
+&\multicolumn{1}{c}{Intereses}
+
+&\multicolumn{1}{c}{Nómina}
+&\multicolumn{1}{c}{Intereses}
+&\multicolumn{1}{c}{Gastos}
+&\multicolumn{1}{c}{Total a}\\
+
+\multicolumn{1}{c}{Ciudadanía}
+%& \multicolumn{1}{c}{Nombres}
+&\multicolumn{1}{c}{}
+
+%& \multicolumn{1}{c}{renta}
+& \multicolumn{1}{c}{IVM}
+& \multicolumn{1}{c}{derecho IVM}
+
+& \multicolumn{1}{c}{matemática (\$)}
+& \multicolumn{1}{c}{Montepío (\$)}
+
+& \multicolumn{1}{c}{(\$)}
+& \multicolumn{1}{c}{Liquidación (\$)}
+
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{Nómina (\$)}
+& \multicolumn{1}{c}{administrativos (\$)}
+&\multicolumn{1}{c}{a IVM (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Cédula}
+%& \multicolumn{1}{c}{Apellidos y}
+&\multicolumn{1}{c}{Edad}
+
+%&\multicolumn{1}{c}{Fecha F1}
+&\multicolumn{1}{c}{Fecha derecho}
+&\multicolumn{1}{c}{Edad}
+
+&\multicolumn{1}{c}{Reserva}
+&\multicolumn{1}{c}{Beneficio}
+
+&\multicolumn{1}{c}{Liquidación}
+&\multicolumn{1}{c}{Intereses}
+
+&\multicolumn{1}{c}{Nómina}
+&\multicolumn{1}{c}{Intereses}
+&\multicolumn{1}{c}{Gastos}
+&\multicolumn{1}{c}{Total a}\\
+
+\multicolumn{1}{c}{Ciudadanía}
+%& \multicolumn{1}{c}{Nombres}
+&\multicolumn{1}{c}{}
+
+%& \multicolumn{1}{c}{renta}
+& \multicolumn{1}{c}{IVM}
+& \multicolumn{1}{c}{derecho IVM}
+
+& \multicolumn{1}{c}{matemática (\$)}
+& \multicolumn{1}{c}{Montepío (\$)}
+
+& \multicolumn{1}{c}{(\$)}
+& \multicolumn{1}{c}{Liquidación (\$)}
+
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{Nómina (\$)}
+& \multicolumn{1}{c}{administrativos (\$)}
+&\multicolumn{1}{c}{a IVM (\$)}\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{12}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Fuente: DSP y DAIE\\
+Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/reserva_mat_pag.tex}
+\end{longtable}
+}
+\end{landscape}
+% 
+
+\clearpage

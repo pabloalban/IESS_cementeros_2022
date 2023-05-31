@@ -1,0 +1,145 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Base legal}
+\label{chp_base_legal}
+%---------------------------------------------------------------------------------------------------
+\section{Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa}
+
+En el Registro Oficial Nro. 153 de 21 de marzo de 1989, se publicó la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, Ley que dispone en sus artículos 1, 2, 3, 4 y 5 lo siguiente:
+
+``\textit{Artículo 1.- Establécese en beneficio de los trabajadores de la industria del cemento, el derecho de jubilación especial a cargo del Instituto Ecuatoriano de Seguridad Social, una vez que hayan acreditado, por lo menos, trescientas imposiciones, cualquiera sea su edad.}
+
+\textit{Artículo 2.- Las imposiciones a las que se refiere el artículo 1 deberán provenir, exclusivamente, de las actividades ejercidas en la industria del cemento.}
+
+\textit{Artículo 3.- Quienes se acojan al derecho de jubilación especial establecido en esta Ley, gozarán de una pensión mensual equivalente al ciento por ciento del último sueldo o salario que hubiere percibido.}
+
+\textit{Artículo 4.- Increméntese en dos centavos el precio ex - fábrica de cada kilo de cemento, cuyos valores incluyendo la proporción correspondiente a la aplicación del impuesto existente a las Transacciones Mercantiles y Prestación de Servicios, se destinarán en su totalidad a financiar el beneficio de jubilación especial que se establece en esta Ley.}
+
+\textit{Artículo 5.- Las empresas que conforman la industria del cemento serán los agentes de retención del incremento establecido en el artículo 4 de esta Ley, debiendo remitir mensualmente al Instituto Ecuatoriano de Seguridad Social, la totalidad de los valores recaudados.}
+
+\textit{Artículo 6.- La falta de reglamentación no impedirá el ejercicio del derecho establecido en esta Ley.}
+
+\textit{ARTÍCULO FINAL.- La presente Ley, por su carácter de especial, prevalecerá sobre las disposiciones legales que se le opongan y entrará en vigencia a partir de su publicación en el Registro Oficial''.}
+
+En el Registro Oficial, Suplemento 956 de 6 de marzo de 2017, se publicó la Ley Interpretativa del Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, la cual se compone de un único artículo, la interpretación del artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento; y, además, de una disposición transitoria que se enuncian, a continuación:
+
+``\textit{Artículo Único. - Interprétese el artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, publicada en el Registro Oficial No. 153 de 21 de marzo de 1989, en el sentido de que para establecer el valor en dólares de los Estados Unidos de América del incremento en dos centavos de sucre del precio ex fábrica de cada kilo de cemento, a partir del 13 de marzo de 2000 se requiere obtener la proporción del valor adicional al precio, que representaban los dos centavos de sucre, respecto al precio promedio del kilo de cemento al año 1989; para luego mantener dicha proporción y aplicarla al precio promedio del kilo de cemento de cada año a partir del año 2000. El cálculo de los respectivos intereses se hará en atención al monto del correspondiente capital cuantificado conforme lo señalado en este ARTÍCULO''.}
+
+``\textit{Disposición transitoria. - El Instituto Ecuatoriano de Seguridad Social, en el plazo máximo de ciento ochenta días contados a partir de la expedición de esta Ley interpretativa, recaudará los valores que a esa fecha estuvieren pendientes de pago por parte de los agentes de retención determinados en el artículo 5 de la Ley de Jubilación especial de los Trabajadores de la Industria del Cemento, aplicando la fórmula de cálculo prevista en el artículo único de la Ley interpretativa''.}
+%---------------------------------------------------------------------------------------------------
+\section{Sobre la creación de nuevas prestaciones}
+El artículo 369 de la Constitución de la República del Ecuador establece: “El seguro universal obligatorio cubrirá las contingencias de enfermedad, maternidad, paternidad, riesgos de trabajo, cesantía, desempleo, vejez, invalidez, discapacidad, muerte y aquellas que defina la ley. Las prestaciones de salud de las contingencias de enfermedad y maternidad se brindarán a través de la red pública integral de salud El seguro universal obligatorio se extenderá a toda la población urbana y rural, con independencia de su situación laboral. Las prestaciones para las personas que realizan trabajo doméstico no remunerado y tareas de cuidado se financiarán con aportes y contribuciones del Estado. La ley definirá el mecanismo correspondiente. \textbf{La creación de nuevas prestaciones estará debidamente financiada}”. Lo resaltado me pertenece.
+
+
+\section{Sobre la elaboración de estudios actuariales}
+El Artículo 233 de la Ley de Seguridad Social, publicado en el Registro Oficial Suplemento 465 de fecha 30 de noviembre de 2011, establece: ``\textit{CAMBIOS EN EL REGIMEN PRESTACIONAL. - No se creará prestación alguna ni se mejorarán las existentes a cargo del Seguro Social Obligatorio aplicado por el IESS, si no se encontraren debidamente financiadas y respaldadas en los resultados de estudios actuariales que demuestren su solvencia y sostenibilidad''.}
+
+
+\section{Sobre las atribuciones y responsabilidades de la Dirección Actuarial, de Investigación y Estadística}
+En el artículo 10 de la \legalcite{ResIESS_CD535} emitida por el Consejo Directivo del IESS de fecha 8 de septiembre de 2016, se establecen: la misión, atribuciones y responsabilidades de la Dirección Actuarial, de Investigación y Estadística. Entre las cuales se establece la siguiente atribución y responsabilidad: ``\textit{ b) Desarrollar y revisar estudios e informes técnicos sobre la situación financiera actuarial de los regímenes de aseguramiento para la presentación de contingencias del seguro universal obligatorio de los afiliados al IESS; y, para la prestación de contingencias del régimen especial establecido para el Seguro Social Campesino, y requerido por el Consejo Directivo y la Dirección General;”, y su misión: “Preparar los balances actuariales de cada uno de los regímenes de protección del Seguro Obligatorio, la elaboración de los estudios técnicos y los informes periódicos sobre la situación de dichos regímenes y sus proyecciones para mantener el equilibrio financiero de los seguros administrados por el IESS; realizar investigaciones y estudios en el campo de la seguridad social; y, preparar de manera sistemática, periódica y oportuna la memoria estadística del IESS en los términos establecidos en la Ley''.}
+
+
+\section{Sobre la recaudación de contribuciones especiales, para la aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa}
+
+El capítulo III de la \legalcite{ResIESS_CD554}, ``\textit{De la Recaudación de Contribuciones Especiales, para la Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa''}, establece los siguientes artículos: 
+
+``\textit{Artículo 193.- La Dirección del Sistema de Pensiones, a través del sistema informático creado para el efecto, será responsable de la emisión de lo pre comprobantes de pago, para la recaudación de los valores retenidos por parte de las industrias del cemento, en su calidad de agentes de retención conforme lo determinado en el artículo 5 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa}.
+
+\textit{Artículo 194.- Las Industrias del cemento deberán efectuar hasta el día 05 de cada mes, una declaración a través del sistema informático del IESS, respecto de la cantidad de kilos de cemento vendidos en el mes inmediato anterior y el valor del precio promedio mensual del kilo de cemento; con lo cual se generará automáticamente el pre comprobante de pago correspondiente.}
+
+\textit{Artículo 195.- La recaudación de la contribución especial, establecida en el artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, y su Ley interpretativa, se realizará de manera homologada al procedimiento de recaudación y modalidades de pago establecido en el presente Reglamento. Para el cálculo de los intereses correspondientes en caso de mora, se estará a lo dispuesto en los artículos 122 y 123 de este cuerpo normativo. En razón de la naturaleza dispositiva de esta contribución, a falta del pago oportuno de la misma, se ejecutará su cobro directamente por la vía coactiva.}
+
+\textit{Artículo 3.- Sustitúyase la Disposición Final Cuarta de la \legalcite{ResIESS_CD501} de 13 de noviembre de 2015 por la siguiente: “CUARTA. - Para la declaración de aportes extemporáneos que realice la institución, determinados en sentencia judicial ejecutoriada o acuerdos emitidos por parte de los ÓRGANOS DE Reclamación Administrativa que haya causado estado, se aplicará la tabla y distribución vigente al período declarado del aporte, de acuerdo con la siguiente tabla:}
+
+
+\begin{table}[H]
+{\fontsize{8.5}{10}\selectfont
+\begin{tabular}{@{}lll@{}}
+\toprule
+\multicolumn{1}{c}{\textbf{\textit{Moneda}}} & \multicolumn{1}{c}{\textbf{\textit{Período de aplicación}}}  & \multicolumn{1}{c}{\textbf{\textit{Tabla histórica a aplicar}}}                      \\ \midrule
+\textit{Sucres}                              & \textit{Hasta 2000-03-12}                                    & \textit{Resolución No. C.D. 081 en base a   lo dispuesto en Resolución No. C.D. 168} \\
+\textit{Dólares}                             & \textit{Desde 2000-03-13 hasta 2009-05-25}                   & \textit{Resolución No. C.D. 081}                                                     \\
+\textit{Dólares}                             & \textit{Desde 2009-05-26 hasta 2015-11-12}                   & \textit{Resoluciones Nos. C.D. 261, 347,   390, 460, 462, 464, 467.}                 \\
+\textit{Dólares}                             & \textit{En adelante se aplicará la tabla   que corresponda.} &                                                                             \\ \bottomrule
+\end{tabular}
+}
+\end{table}
+\textit{Hasta que se actualicen las categorías de los sueldos y salarios mínimos de aportación y sean aprobados por el Consejo Directivo en función del planteamiento efectuado por la Dirección Actuarial, Investigación y Estadística, se aplicarán las categorías de los sueldos y salarios mínimos contenidos en la \legalcite{ResIESS_CI081} de 4 de julio de 2000 y en la Resolución C.D. 168 de 10 de julio de 2007''}.
+
+Sobre el cobro de intereses por mora en el pago de aportes, fondos de reserva y descuentos que ordenare el IESS, la Ley de Seguridad Social estable los siguientes artículos:
+
+``\textit{Artículo 89.- La mora en el envío de aportes, fondos de reserva y descuentos por préstamos quirografarios, hipotecarios y otros dispuestos por el IESS y los que provengan de convenios entre los empleadores y el Instituto, causará un interés equivalente al máximo convencional permitido por el Banco Central del Ecuador, a la fecha de liquidación de la mora, incrementado en cuatro puntos''}.
+
+``\textit{Artículo 100.- PROHIBICIÓN DE EXONERACIÓN DE INTERESES Y MULTAS. - Prohibiese la exoneración de intereses, multas y más recargos causados por la mora en la remisión de aportes, fondos de reserva y descuentos que ordenare el Instituto Ecuatoriano de Seguridad Social. Al Formular las liquidaciones para convenios permitidos por la Ley, se cuidará de incluir los intereses, multas y más recargos, bajo pena de destitución de todos los funcionarios y servidores encargados de autorizar y tramitar dichos convenios''.}
+
+\section{Sobre la inviolabilidad de los derechos adquiridos bajo los regímenes de la ley codificada del seguro social obligatorio}
+El Artículo 225 de la Ley de Seguridad publicada en el Registro Oficial Suplente 465 de 30 de noviembre de 2001 establece: ``\textit{DERECHOS ADQUIRIDOS. - Los afiliados, jubilados y derechohabientes que estuvieren en goce de derechos adquiridos bajo los regímenes de la Ley Codificada del Seguro Social Obligatorio o de los seguros complementarios establecidos por entidades con personería jurídica, creados antes de la vigencia de esta Ley, continuarán en el ejercicio de los mismos''}.
+
+\section{Sobre la recaudación por gastos administrativos}
+El Instituto Ecuatoriano de Seguridad Social recauda un porcentaje de los ingresos por primas como fondos propios de administración del IESS, según el literal c) del artículo 52 de la Ley 2001-55 de Seguridad Social, el cual establece: ``\textit{El tres por ciento (3\%) de las recaudaciones de los aportes de los afiliados y los empleadores al Seguro Social Obligatorio, que se destinará a financiar los gastos administrativos del Instituto y que no podrá exceder, en ningún caso, del tres por ciento (3\%) de los ingresos del Fondo Presupuestario de este seguro''}. Para los gastos administrativos de los Seguros de Jubilación Especial, se establece (en el Artículo 5 de la Resolución C.D. 101), lo siguiente: ``\textit{Los fondos para gastos administrativos del Seguro General de Pensiones estarán constituidos por: 1) (…); 2) La participación de hasta el tres por ciento (3\%) de los aportes por los siguientes conceptos: a) Seguro Adicional de Magisterio Fiscal; b) Seguro Adicional del Magisterio de Bienestar Social; c) Seguro Adicional de Gráficos, Públicos y Bancarios; d) Seguro Adicional Contratado de Ferrocarriles (reserva matemática); f) Reconocimiento de tiempos de aportación de las Fuerzas Armadas (reserva matemática); y, g) Reconocimiento de tiempos de aportación de la Policía Nacional''}.
+
+
+\section{Sentencia del juicio No. 17294-2021-00410}
+
+con sentencia emitida dentro del juicio No. 17294-2021-00410, notificada el 12 de julio de 2021, la Unidad Judicial Penal con Sede en la parroquia Iñaquito del Distrito Metropolitano de Quito, Provincia de Pichincha, aceptando parcialmente la acción de protección presentada en contra del IESS, ``\textit{ORDENA que en el plazo de 30 días, contados después de ejecutoriarse la sentencia, el CONSEJO DIRECTIVO DEL INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL, determine las condiciones para entregar la Jubilación Especial, en aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento,y de esta manera garantice la sostenibilidad,efectividad (...)}''.
+
+
+\section{Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento}
+En cumplimiento de la Sentencia el juicio No. 17294-2021-00410, el Consejo Directivo del IESS expide el Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, mediante la \legalcite{ResIESS_CD640}, de fecha 18 de agosto de 2021, el cual estipula lo siguiente:
+
+``\textit{Artículo 3.- Condiciones.- Los trabajadores comprendidos en el ámbito del presente reglamento podrán acogerse a la Jubilación especial establecida en la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, cuando cumplan con las siguientes condiciones:} 
+\begin{enumerate}[itemsep=1mm, topsep=0pt, label=\alph*)]
+\item \textit{No existe límite de edad};
+\item \textit{Acreditar al menos 300 imposiciones, las cuales deberán provenir exclusivamente de la industria del cemento;}
+\item \textit{Ser trabajador, que por su ocupación, se encuentre expuesto a factores de riesgo provenientes de la industria del cemento, durante 25 años (equivalente a las 300 imposiciones determinadas en el literal precedente),certificado por la Dirección del Seguro General de Riesgos del Trabajo a través de las Coordinaciones o Unidades Provinciales de Prestaciones de Pensiones, Riesgos del Trabajo, Fondos de Terceros y Seguro de Desempleo, o quienes hagan sus veces;}
+\item \textit{No encontrarse percibiendo una pensión por vejez, discapacidad, invalidez o incapacidad permanente total o absoluta de Riesgos del Trabajo, por parte de cualquiera de los seguros especializados del IESS; y,}
+\item \textit{Tener registrado el aviso de salida en historia laboral del Instituto Ecuatoriano de Seguridad Social, con todos los empleadores.}''
+\end{enumerate}
+
+``\textit{Artículo 4.- Cuantía de la prestación.- Para la cuantía de la pensión mensual de la jubilación especial para los trabajadores de la industria del cemento se deberá considerar el valor del último sueldo o salario percibido en la industria del cemento, observando las pensiones mínimas y máximas en base al tiempo aportado en años y en proporción del salario básico unificado vigente.
+Las pensiones mínimas se establecerán de acuerdo al tiempo aportado, en proporción del salario básico unificado mínimo de la categoría en la que cesó el trabajador previo a su condición de pensionista, de acuerdo a la siguiente tabla:}
+\begin{table}[ht]
+\centering
+\caption{\textit{PENSIÓN MÍNIMA MENSUAL CON BASE EN El TIEMPO APORTADO} } 
+\begin{tabular}{|c|c|}
+\hline
+\textbf{\textit{AÑOS APORTADOS}} & \textbf{\begin{tabular}[c]{@{}c@{}}\textit{PORCENTAJEDEL SALARIO}\\ \textit{BÁSICO UNIFICADO}\end{tabular}} \\ \hline
+\textit{25 - 30}                 & \textit{70\%}                                                                                      \\ \hline
+\textit{31 - 35}                 & \textit{80\%}                                                                                     \\ \hline
+\textit{36 - 39}                 & \textit{90\%}                                                                                     \\ \hline
+\textit{40 y más}                & \textit{100\%}                                                                                    \\ \hline
+\end{tabular}
+\end{table}
+
+
+\textit{Las pensiones máximas que se otorguen a partir de la fecha de derecho, se establecerán de acuerdo al tiempo aportado, en proporción del salario básico unificado mínimo del trabajador en general, de acuerdo a la siguiente tabla:}
+
+\begin{table}[ht]
+\centering
+\caption{\textit{PENSIÓN MÁXIMA MENSUAL CON BASE EN EL TIEMPO APORTADO}}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{\textit{AÑOS APORTADOS}} & \textbf{\begin{tabular}[c]{@{}c@{}}\textit{PORCENTAJEDEL SALARIO}\\ \textit{BÁSICO UNIFICADO}\end{tabular}} \\ \hline
+\textit{25 - 30}                 & \textit{400\%}                                                                                      \\ \hline
+\textit{31 - 35}                 & \textit{450\%}                                                                                      \\ \hline
+\textit{36 - 39}                 & \textit{500\%}                                                                                      \\ \hline
+\textit{40 y más}                & \textit{550\%}                                                                                     \\ \hline
+\end{tabular}
+\end{table}
+
+\textit{Las pensiones máximas del grupo familiar de montepío serán equivalentes al cuatrocientos cincuenta por ciento (450\%) del salario básico unificado mínimo del trabajador en general''.}
+
+``\textit{Artículo 5.- Base de cálculo.- Se considera para efectos de la determinación de la pensión y de la reserva matemática el último sueldo o salario, de conformidad con lo prescrito en la Constitución de la República, el artículo 80 del Código del Trabajo y la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento.
+Para efecto de la base de cálculo el IESS solicitará a la empresa cementera, la certificación del último sueldo salario que percibió el trabajador''.}
+
+``\textit{Artículo 6.- Revalorización de pensiones.- Las pensiones se incrementarán al inicio de cada año en la misma proporción que la inflación promedio anual del año anterior''.}
+\begin{center}
+\textbf{\textit{DISPOSICIONESGENERALES}}
+\end{center}
+
+``\textit{\textbf{PRIMERA}.- Los fondos para gastos por administración de la jubilación especial de los trabajadores de la Industria del Cemento, serán del 3\% del valor de la reserva matemática, que serán administrados por la Dirección del Sistema de Pensiones''.}
+
+\begin{center}
+\textbf{\textit{DISPOSICIONESTRANSITORIAS}}
+\end{center}
+``\textit{\textbf{SEGUNDA}.- La Dirección Actuarial, de Investigación y Estadística presentará el Estudio Actuarial pertinente al primer año de vigencia del presente reglamento; y, posteriormente cada 3 años, observando la normativa emitida por la Superintendencia de Bancos''.}
+

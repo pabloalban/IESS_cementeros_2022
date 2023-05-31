@@ -1,0 +1,563 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Metodología y procedimientos}
+\label{chp_modelo}
+
+Para el cálculo de las reservas matemáticas correspondientes al pago de la Jubilación Especial de los Trabajadores de la Industria del Cemento, se realiza el siguiente procedimiento:
+
+\begin{enumerate}[itemsep=0mm, topsep=0pt]
+\item A partir de la información de comercialización y precios del cemento entregados por la Dirección de Sistemas de Pensiones, a través del Memorando IESS-SDNGCSP-2018-1397-M, se calcula el factor de incidencia, como lo estipula el Artículo Único de la Ley Interpretativa del Artículo 4 de la Ley de Jubilación Trabajadores de la Industria del Cemento.
+
+\item	Se procede a pronosticar los precios del kilogramo de cemento y su respetiva demanda por empresa cementera. Más tarde, se elaboran los flujos de caja de los ingresos futuros, al multiplicar el factor de incidencia por el precio y demanda del cemento durante el período 2021 a 2045. 
+
+\item Se determina la tasa mínima de rendimiento de las inversiones del fondo de Jubilación Especial de los Trabajadores de la Industria del Cemento, considerando la tasa de inflación y la tasa de interés actuarial (6,25\% estipulada en la segunda disposición transitoria de la Resolución Nro. C.D. 596). Esta se utilizará para calcular los intereses generados por el fondo en el respectivo flujo de caja.
+
+\item  Por último, se determina la recursos necesarios para pagar las rentas por vejez a los trabajadores de la industria del cemento, tanto en forma retroactiva (el tiempo en que se obtuvo el derecho a partir de la fecha de derecho) como la reserva actuarial futura, según lo dispuesto en el Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento; se determina; además, la reserva matemática necesaria para pagar las pensiones del seguro IVM, por ser componente de la renta, según la vigésima séptima disposición reformatoria de la Resolución Nro. C.D. 554. La diferencia entre el valor del último sueldo y la jubilación de vejez otorgada por el IESS debería ser financiada por el Artículo 4 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento.
+\end{enumerate}
+
+Para el desarrollo de la metodología antes expuesta, se necesitan las predicciones de los precios del kilogramo del cemento y su respectiva demanda para cada una de las empresas cementeras. Los modelos matemáticos utilizados para este fin son expuestos en los numerales 5.1.1 y 5.1.5, respectivamente.
+
+\section{Análisis de los precios y comercialización por empresa cementera}
+
+A partir de la información de comercialización y precios del cemento entregados por la Dirección de Sistemas de Pensiones, a través del Memorando IESS-SDNGCSP-2018-1397-M, se estiman los modelos matemáticos estadísticos, basados en la metodología de regresiones lineales y series de tiempo, para el precio promedio y comercialización anual del kilogramo de cemento para cada empresa productora. Más tarde, se utilizarán estas predicciones para calcular los flujos de caja de cada empresa y, de esta manera, se podrá calcular los ingresos futuros por concepto de la Ley de la Jubilación Especial de los Trabajadores de la Industria del Cemento.
+
+\subsection{Modelos matemático-estadísticos para la predicción de los precios del cemento para cada empresa}
+
+Se utilizan los precios promedios anuales del kilogramo de cemento producidos por: HOLCIM, UNACEM (Lafarge) y UCEM (Guapán y Chimborazo), los cuales fueron recolectados y entregados por la Dirección de Sistemas de Pensiones, para el intervalo de tiempo de enero de 2000 a junio del 2018 y, además, se utilizó el precio promedio de enero a junio de 2018 cómo el precio referente para el 2018. 
+
+Para pronosticar el precio del kilogramo, no se utiliza un solo modelo, debido a que las tres empresas no ofrecen un producto de la misma calidad. Por ejemplo, la resistencia a la compresión del cemento a 56 días para el cemento producido por la empresa UCEM es $295,90\frac{Kg}{cm^2}$, lo cual demuestra que este obtuvo la mayor resistencia. La resistencia obtenida del cemento producido por la empresa UNACEM es $269,11\frac{K_g}{cm^2}$, la cual es la más baja dentro de las tres y, por último, la resistencia a la compresión del cemento producido por la empresa HOLCIM es $295,23\frac{K_g}{cm^2}$ (datos tomados de trabajo experimental, previo a la obtención del título de Ingeniero Civil por los señores Carlos Navarro y Lorena Martínez , en la Universidad de Ambato).
+
+\subsubsection{Modelo predictivo para el precio por kilogramo de cemento HOLCIM}
+Para modelar el precio por kilogramo de cemento HOLCIM, se implementa el modelo de regresión lineal con variable independiente al tiempo, en años, como se expresa a continuación:
+	\begin{equation}
+	\label{eq:precios_holcim}
+	y=\alpha+\beta\left(x-1999\right)+\varepsilon,\qquad\qquad\varepsilon\thicksim\mathcal{N}\left(0,\sigma^2\right)		
+	\end{equation}
+donde: $\varepsilon$ es el término aleatorio, el cual sigue una distribución normal con media cero y varianza $\sigma^2$; $\alpha$ y $\beta$ son los parámetros del modelo de regresión lineal a estimar; $x$ representa al año al que corresponde el registro (regresor o variable explicativa); y $y$ es el precio promedio anual del kilogramo de cemento producido por la empresa HOLCIM (variable dependiente o explicada).
+
+\subsubsection{Modelo predictivo para el precio por kilogramo de cemento UNACEM}
+Se implementa el modelo de regresión lineal con trasformación logarítmica y cubica en su variable explicativa para obtener el precio por kilogramo de cemento UNACEM, como se expresa a continuación:
+\begin{equation}
+	\label{eq:precios_unacem}
+	y=\alpha+\beta\,\log\left(x-1999\right)^3+\epsilon,\qquad\qquad\epsilon\thicksim\mathcal{N}\left(0,\sigma^2\right)		
+	\end{equation}
+donde: $\varepsilon$ es el término aleatorio, el cual sigue una distribución normal con media cero y varianza $\sigma^2$; $\alpha$ y $\beta$ son los parámetros del modelo de regresión lineal a estimar; $x$ representa al año al que corresponde el registro (regresor o variable explicativa); y $y$ es el promedio anual del kilogramo de cemento producido por la empresa.
+
+
+\subsubsection{Modelo predictivo para el precio por kilogramo de cemento UCEM}
+Se implementa el modelo de regresión lineal con trasformación logarítmica y cubica en su variable explicativa para obtener el precio por kilogramo de cemento UNACEM, como se expresa a continuación:
+			\begin{equation}
+	\label{eq:precios_ucem}
+	y=\alpha+\beta\,\log\left(x-1999\right)+\gamma\log\left(x-1999\right)+\epsilon,\qquad\qquad\epsilon\thicksim\mathcal{N}\left(0,\sigma^2\right)		
+	\end{equation}
+donde: $\varepsilon$ es el término aleatorio, el cual sigue una distribución normal con media cero y varianza $\sigma^2$; $\alpha$ y $\beta$ son los parámetros del modelo de regresión lineal a estimar; $x$ representa al año al que corresponde el registro (regresor o variable explicativa); y $y$ es el promedio anual del kilogramo de cemento producido por la empresa UCEM.
+
+\subsection{Estimaciones de los parámetros de los modelos para el precio por kilogramo para cada una de las empresas cementeras}
+
+Se muestran las estimaciones de los coeficientes para el modelo de regresión lineal para el precio del kilogramo de cemento de las empresas: HOLCIM (ver la tabla \ref{tab:iess_mod_precios_holcim}), UNACEM (ver la tabla \ref{tab:iess_mod_precios_unacem}) y UCEM (ver la tabla \ref{tab:iess_mod_precios_ucem}), que se plantearon en las ecuaciones \ref{eq:precios_holcim}, \ref{eq:precios_unacem} y \ref{eq:precios_ucem}, respectivamente. Además, se exponen varios estadísticos de interés, por ejemplo: el coeficiente de determinación, el estadístico de Durbin-Watson, el logaritmo de verosimilitud en escala logarítmica, etc.
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrlr}
+\caption{Modelos para el precio del kilogramo para HOLCIM}\\
+\label{tab:iess_mod_precios_holcim}\\
+\toprule
+\multicolumn{1}{c}{Coeficiente:}
+& \multicolumn{1}{c}{Estimación}
+& \multicolumn{1}{c}{Error Estándar}
+& \multicolumn{1}{c}{$Pr(>\left|t\right|)$}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Estimación}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Coeficiente:}
+& \multicolumn{1}{c}{Estimación}
+& \multicolumn{1}{c}{Error Estándar}
+& \multicolumn{1}{c}{$Pr(>\left|t\right|)$}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Estimación}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{6}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_mod_precios_holcim.tex}
+\end{longtable}
+}
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrlr}
+\caption{Modelos para el precio del kilogramo para UNACEM}\\
+\label{tab:iess_mod_precios_unacem}\\
+\toprule
+\multicolumn{1}{c}{Coeficiente:}
+& \multicolumn{1}{c}{Estimación}
+& \multicolumn{1}{c}{Error Estándar}
+& \multicolumn{1}{c}{$Pr(>\left|t\right|)$}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Estimación}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Coeficiente:}
+& \multicolumn{1}{c}{Estimación}
+& \multicolumn{1}{c}{Error Estándar}
+& \multicolumn{1}{c}{$Pr(>\left|t\right|)$}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Estimación}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{6}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_mod_precios_unacem.tex}
+\end{longtable}
+}
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrlr}
+\caption{Modelos para el precio del kilogramo para UCEM}\\
+\label{tab:iess_mod_precios_ucem}\\
+\toprule
+\multicolumn{1}{c}{Coeficiente:}
+& \multicolumn{1}{c}{Estimación}
+& \multicolumn{1}{c}{Error Estándar}
+& \multicolumn{1}{c}{$Pr(>\left|t\right|)$}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Estimación}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Coeficiente:}
+& \multicolumn{1}{c}{Estimación}
+& \multicolumn{1}{c}{Error Estándar}
+& \multicolumn{1}{c}{$Pr(>\left|t\right|)$}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Estimación}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{6}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_mod_precios_ucem.tex}
+\end{longtable}
+}
+
+
+
+En las tablas: \ref{tab:iess_mod_precios_holcim}, \ref{tab:iess_mod_precios_unacem} y \ref{tab:iess_mod_precios_ucem}, se exponen que las estimaciones de los coeficientes del modelo \ref{tab:iess_mod_precios_holcim}, \ref{tab:iess_mod_precios_unacem} y \ref{tab:iess_mod_precios_ucem}, respectivamente, son significativas a cualquier nivel de confianza. Los coeficientes de determinación son: 0,976, 0,956 y 0,959 para los modelos de HOLCIM, UNACEM y UCEM, respectivamente, es decir, que la variable independiente del modelo explica el 97,6\%, 95,6\% y 95,9\% de la volatilidad de la variable dependiente (precio por kilogramo de cemento).
+
+
+Además, en las tablas: \ref{tab:iess_mod_precios_holcim}, \ref{tab:iess_mod_precios_unacem} y \ref{tab:iess_mod_precios_ucem}, se puede observar el estadístico de Durbin-Watson, el cual es una prueba de hipótesis para verificar la indecencia de los residuos del modelo, para cada modelo matemático. Al observar la Tabla 8, se puede concluir la prueba no es concluyente, al probar que los residuos del modelo para el precio de cemento que produce la empresa HOLCIM están auto correlacionados positivamente ($d_{l;0,01}=0,9790<d=1,037<d_{u;0,01}=1,1324$), pero no existe evidencia estadística de que los residuos estén autocorrelacionados negativamente ($\left(4-d\right)=2,963>d_{u;0,01}=1,1324$), al nivel de significancia del 1\%.
+
+De igual manera, al observar la tabla \ref{tab:iess_mod_precios_unacem}, se puede afirmar que la prueba no es concluyente; los residuos del modelo para el precio de cemento que produce la empresa UNACEM están auto correlacionados positivamente ($d_{L;0,01}=0,9790<d=1,039<d_{U;0,01}=1,1324$), pero no existe evidencia estadística de que los residuos estén auto correlacionados negativamente ($\left(4-d\right)=2,961>d_{U;0,01}=1,1324$), al nivel de significancia del 1\%. 
+
+Por último, al observar la tabla \ref{tab:iess_mod_precios_ucem}, se puede concluir la prueba no es concluyente, al probar que los residuos del modelo para el precio de cemento que produce la empresa UCEM están auto correlacionados positivamente ($d_{L;0,01}=0,9790<d=1,034<d_{U;0,01}=1,1324$), pero no existe evidencia estadística de que los residuos estén auto correlacionados negativamente ($\left(4-d\right)=2,966>d_{U;0,01}=1,1324$), al nivel de significancia del 1\%. Cabe señalar que no se utiliza el mismo modelo para las tres empresas, debido a que no todos los coeficientes eran significativos a un nivel del 95\%. Esto demuestra que los precios de cada una de las empresas del estudio siguen diferentes tendencias en su evolución a través del tiempo.
+
+
+\subsection{Pruebas de diagnóstico de los modelos para los precios por kilogramo para cada una de las empresas cementeras}
+Una vez estimado el modelo, se debe asegurar que las ecuaciones expuestas sean las adecuadas para proceder a establecer las predicciones. En los modelos \ref{eq:precios_holcim}, \ref{eq:precios_unacem} y \ref{eq:precios_ucem}, se realizaron tres supuestos sobre sus errores, los cuales son: independencia, normalidad y homocedasticidad. Para comprobar estos supuestos, se realizan pruebas: Ljung - Box (para la independencia), Durbin-Koopman (para la homocedasticidad) y Shapiro-Wilk (Normalidad), donde las hipótesis nulas son: independencia, normalidad y homocedasticidad, respectivamente.
+
+{\fontsize{10}{11}\selectfont
+\begin{longtable}[H]{lcrrr}
+\caption{Pruebas de diagnósticos de los modelos para los precios de HOLCIM}\\
+\label{tab:iess_test_mod_holcim}\\
+\toprule
+\multicolumn{1}{c}{Prueba:}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Valor}
+& \multicolumn{1}{c}{Valor crítico al 5\%}
+& \multicolumn{1}{c}{p-valor}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Prueba:}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Valor}
+& \multicolumn{1}{c}{Valor crítico al 5\%}
+& \multicolumn{1}{c}{p-valor}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{5}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_test_mod_holcim.tex}
+\end{longtable}
+}
+
+{\fontsize{10}{11}\selectfont
+\begin{longtable}[H]{lcrrr}
+\caption{Pruebas de diagnósticos de los modelos para los precios de UNACEM}\\
+\label{tab:iess_test_mod_unacem}\\
+\toprule
+\multicolumn{1}{c}{Prueba:}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Valor}
+& \multicolumn{1}{c}{Valor crítico al 5\%}
+& \multicolumn{1}{c}{p-valor}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Prueba:}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Valor}
+& \multicolumn{1}{c}{Valor crítico al 5\%}
+& \multicolumn{1}{c}{p-valor}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{5}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_test_mod_unacem.tex}
+\end{longtable}
+}
+
+{\fontsize{10}{11}\selectfont
+\begin{longtable}[H]{lcrrr}
+\caption{Pruebas de diagnósticos de los modelos para los precios de UCEM}\\
+\label{tab:iess_test_mod_ucem}\\
+\toprule
+\multicolumn{1}{c}{Prueba:}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Valor}
+& \multicolumn{1}{c}{Valor crítico al 5\%}
+& \multicolumn{1}{c}{p-valor}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Prueba:}
+& \multicolumn{1}{c}{Estadístico}
+& \multicolumn{1}{c}{Valor}
+& \multicolumn{1}{c}{Valor crítico al 5\%}
+& \multicolumn{1}{c}{p-valor}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{5}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_test_mod_ucem.tex}
+\end{longtable}
+}
+
+En las tablas \ref{tab:iess_test_mod_holcim}, \ref{tab:iess_test_mod_unacem} y \ref{tab:iess_test_mod_ucem}, se puede observar las pruebas de hipótesis para las tres suposiciones utilizadas en los residuos de los modelos lineales (normalidad, independencia y homocedasticidad). Todos los modelos no rechazan las hipótesis nulas de la normalidad, independencia y de varianzas iguales al 98\% de nivel de significancia.
+
+\subsection{Predicción de los precios por kilogramo}
+
+En las figuras \ref{fig:iess_proy_precio_holcim}, \ref{fig:iess_proy_precio_unacem} y \ref{fig:iess_proy_precio_ucem}, y en la tabla \ref{tab:iess_proy_precios}, se observan las predicciones de los precios promedios por kilogramo de cemento en dólares para cada una de las empresas desde el 2019 hasta el 2045 usando los modelos mostrados en las tablas \ref{tab:iess_mod_precios_holcim}, \ref{tab:iess_mod_precios_unacem} y \ref{tab:iess_mod_precios_ucem} para el precio del kilogramo producido por las empresas HOLCIM, UNACEM y UCEM, respectivamente. En la figuras \ref{fig:iess_proy_precio_holcim}, \ref{fig:iess_proy_precio_unacem} y \ref{fig:iess_proy_precio_ucem}, se muestran en línea negra la evolución histórica de los precios del kilogramo desde el año 2000 al 2018; en cambio, las predicciones para los años 2019 al 2045 están de color azul y sus intervalos de confianza, al 95\% de nivel de significancia, en línea punteada.
+
+{\fontsize{11}{14}\selectfont
+\begin{longtable}[H]{crrr}
+\caption{Evolución histórica y predicciones del precio promedio anual kilogramo de cemento hasta 2045}\\
+\label{tab:iess_proy_precios}\\
+\toprule
+\multicolumn{1}{c}{Año}
+& \multicolumn{1}{c}{HOLCIM (\$)}
+& \multicolumn{1}{c}{UNACEM (\$)}
+& \multicolumn{1}{c}{UCEM (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Año}
+& \multicolumn{1}{c}{HOLCIM (\$)}
+& \multicolumn{1}{c}{UNACEM (\$)}
+& \multicolumn{1}{c}{UCEM (\$)}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{4}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_proy_precios.tex}
+\end{longtable}
+}
+
+\newpage
+\vspace*{\fill}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica y predicciones del precio promedio anual kilogramo de cemento HOLCIM}
+\label{fig:iess_proy_precio_holcim}
+\includegraphics[scale=1]{graficos/iess_proy_precio_holcim.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+
+\vspace*{\fill}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica y predicciones del precio promedio anual kilogramo de cemento UNACEM}
+\label{fig:iess_proy_precio_unacem}
+\includegraphics[scale=1]{graficos/iess_proy_precio_unacem.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+
+\vspace*{\fill}
+\newpage
+
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica y predicciones del precio promedio anual kilogramo de cemento UCEM}
+\label{fig:iess_proy_precio_ucem}
+\includegraphics[scale=1]{graficos/iess_proy_precio_ucem.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+
+\subsection{Predicción de la comercialización por empresa}
+Se utilizaron las toneladas de cemento comercializadas anualmente por cada empresa durante enero de 2000 a junio de 2018. Se estimó la comercialización para 2018 teniendo en cuenta que las ventas de cemento de julio a diciembre de 2017 con respecto a las de enero a junio de 2017 aumentaron en: 18,17\%, 7,3\% y 8,57\% para las empresas cementeras: HOLCIM, UNACEM y UCEM, respectivamente.
+
+Se utilizó la metodología de espacios de estados de \textcite{Commandeur2007}, particularmente el siguiente modelo con tendencia lineal local:
+	\begin{align}
+	\label{eq:ventas}
+	y&=\mu_{t}+\epsilon_{t},\qquad\qquad\epsilon\thicksim\mathcal{N}\left(0,\sigma_{\epsilon}^2\right)\\
+	\mu_{t+1}&=\mu_{t}+\nu_{t}+\xi_{t}\qquad\qquad\xi\thicksim\mathcal{N}\left(0,\sigma_{\xi}^2\right)\nonumber \\
+	\nu_{t+1}&=\nu_{t}+\zeta_{t}\qquad\qquad\zeta\thicksim\mathcal{N}\left(0,\sigma_{\zeta}^2\right)\nonumber
+	\end{align}
+para $t=1,\ldots,n$. 
+
+El modelo de tendencia local se obtiene al añadir una componente de pendiente ($\nu_{t}$) a la componente de nivel local ($\mu_{t}$). El modelo contiene dos ecuaciones de estados: la primera para modelar el nivel, y la otra para modelar la pendiente. La pendiente ($\nu_{t}$) puede ser considerada equivalente al coeficiente de la pendiente de la regresión clásica; en cambio, a la componente de nivel ($\mu_{t}$) se la considera cómo al intercepto que determina el nivel en la regresión clásica.
+
+Para la modelación de las tres series de tiempo, se utilizaron las siguientes transformaciones: primero, la función recíproca de la serie HOLCIM multiplicada por una constante (c=1.000.000), es decir, la transformación: ${c}/{HOLCIM}$; de igual manera, en la serie de tiempo UNACEM se utilizó la función recíproca multiplicada por una constante, ${c}/{UNACEM}$; y por último, en la serie de UCEM, solamente, se la divide para una constante, es decir, ${UCEM}/{c}$.
+
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[H]{crrrrrrrr}
+\caption{Evolución histórica y predicciones de los kilogramos vendidos de cemento hasta 2045}
+\label{tab:iess_proy_ventas}\\
+\toprule
+\multirow{2}[2]{*}{Año} &
+\multicolumn{4}{c}{Kilogramos vendidos} & 
+\multicolumn{4}{c}{Participación en el mercado}\\
+\cmidrule(r){2-5} \cmidrule(r){6-9}
+& \multicolumn{1}{c}{HOLCIM}
+& \multicolumn{1}{c}{UNACEM}
+& \multicolumn{1}{c}{UCEM}
+& \multicolumn{1}{c}{Total}
+& \multicolumn{1}{c}{HOLCIM}
+& \multicolumn{1}{c}{UNACEM}
+& \multicolumn{1}{c}{UCEM}
+& \multicolumn{1}{c}{Total}\\
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(\%)}
+& \multicolumn{1}{c}{(\%)}
+& \multicolumn{1}{c}{(\%)}
+& \multicolumn{1}{c}{(\%)}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multirow{2}[2]{*}{Año} &
+\multicolumn{4}{c}{Kilogramos vendidos} & 
+\multicolumn{4}{c}{Participación en el mercado}\\
+\cmidrule(r){2-5} \cmidrule(r){6-9}
+& \multicolumn{1}{c}{HOLCIM}
+& \multicolumn{1}{c}{UNACEM}
+& \multicolumn{1}{c}{UCEM}
+& \multicolumn{1}{c}{Total}
+& \multicolumn{1}{c}{HOLCIM}
+& \multicolumn{1}{c}{UNACEM}
+& \multicolumn{1}{c}{UCEM}
+& \multicolumn{1}{c}{Total}\\
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(Kg)}
+& \multicolumn{1}{c}{(\%)}
+& \multicolumn{1}{c}{(\%)}
+& \multicolumn{1}{c}{(\%)}
+& \multicolumn{1}{c}{(\%)}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{9}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Elaborado: DAIE\\}
+\endlastfoot
+\input{tablas/iess_proy_ventas.tex}
+\end{longtable}
+}
+
+\newpage
+\vspace*{\fill}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica y predicciones de la comercialización de cemento HOLCIM}
+\label{fig:iess_proy_ventas_holcim}
+\includegraphics[scale=1]{graficos/iess_proy_ventas_holcim.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+
+\vspace*{\fill}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica y predicciones de la comercialización de cemento UNACEM}
+\label{fig:iess_proy_ventas_unacem}
+\includegraphics[scale=1]{graficos/iess_proy_ventas_unacem.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+\vspace*{\fill}
+\newpage
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica y predicciones de la comercialización de cemento UCEM}
+\label{fig:iess_proy_ventas_ucem}
+\includegraphics[scale=1]{graficos/iess_proy_ventas_ucem.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+
+\section{Tasa de permanencia, salida y estimación de los beneficiarios de la Jubilación Especial de los Trabajadores de la Industria del Cemento}
+
+Se calculó la probabilidad de permanencia de un trabajador en la industria del cemento (ver figura \ref{fig:iess_tasa_permanencia}), al cual es el complemento de la probabilidad de salida. Para lo cual, se calculó el número de salidas anuales desde el año 1989 hasta el año 2017, y este número se le dividió el número de trabajadores cotizantes en ese año.
+
+\begin{figure}[]
+\centering
+\caption{Probabilidad de permanencia de un año de un trabajador del cemento de edad $x$}
+\label{fig:iess_tasa_permanencia}
+\includegraphics[scale=1]{graficos/iess_tasa_permanencia.png}
+\caption*{\scriptsize Elaborado: DAIE\\}
+\end{figure}
+
+Como se puede observar en la figura anterior, la probabilidad de permanencia de los trabajadores de la industria del cemento con edades comprendido entre 25 y 65 años es muy alta (superior al 90\%).
+
+Siguiendo la metodología planteada en \textcite{Thullen}, se estima el número de pensionistas de la jubilación especial, $L_{x,t}$, de edad $x$, sexo $g$ en el año $t$ y se calcula utilizando la siguiente fórmula:
+\begin{align}
+	\label{eq:beneficiarios}
+	L_{x_{0},g,t}&=E_{x_{0},g,t}, \qquad\qquad x=x_{0}\\
+	L_{x,g,t}&=L_{x-t,g,0}\,\left(\frac{l_{x+t,g}}{l_{x,g}}\right)\,p^{per}_{x-1,x}+E_{x,g,t}, \qquad\qquad x=x_{0}+1,\ldots,\omega.
+\end{align}
+donde: $p_{x-1,x}^{per}$ es la probabilidad de permanencia, es decir, la probabilidad de que una persona de edad x permanezca trabajando en la industria del cemento hasta la edad $x+1$. En cambio, $E_{x,t}$ es la función de renovación de los trabajadores activos en la industria del cemento, pero para este estudio será igual a cero (0), debido a que el horizonte del estudio es de 25 años, y los nuevos ingresos empezarían a jubilarse en 26 años. Por otro lado, de las tablas de mortalidad se obtiene $l_x$, número de sobrevivientes para la cohorte de edad $x$, con:
+	\begin{equation}
+l_{x+t,g}=p_{x,g}\,l_{x,g}		
+	\end{equation}
+donde $p_x$ es la probabilidad de que una persona sobreviva al menos hasta la edad $x+1$.
+
+\section{Cálculo de las prestaciones de la Jubilación Especial de los Trabajadores de la Industria del Cemento}
+
+La base para el cálculo de las reservas matemáticas es el valor actual esperado de los pagos por prestaciones a lo largo de la vida del asegurado. Desde este punto de vista, se puede desarrollar expresiones matemáticas para el valor actual esperado de las anualidades (en este caso serán pagos mensuales), asumiendo una tasa de interés efectiva de descuento anual constante y determinística, i (tasa actuarial igual al 6,25\%). Al definir:
+	\begin{equation}
+	\label{eq:factor_descuento}
+v=\frac{1}{1+i},		
+	\end{equation}
+donde $i$ es  la tasa de interés actuarial igual a 6,25\%.
+
+Se establece el valor actual de las anualidades a pagar en el año $t$, $B_{t}$, (la jubilación especial se financia a través de un impuesto) por el pago de la renta cementera anual igual a $P_{x,g,t}$ ( ver ecuación \ref{eq:renta_cemento} ) por año, pagable por al menos 25 años, con la siguiente expresión matemática:
+		\begin{equation}
+B_{t}=\sum_{g=1}^{2}\sum_{t=1}^{\omega}v^t\,P_{x,g,t}\,L_{x,g,t},		
+	\end{equation}
+donde: $\omega$ es le número de períodos de tiempo (en este estudio, 25 años); $v$ es el factor de descuento (ver ecuación \ref{eq:factor_descuento}) y $P_{x,g,t}$ es la renta cementera anual jubilado, la cual es financiada por la Ley de la Jubilación Especial, y se calcula con la siguiente expresión matemática:
+		\begin{equation}
+		\label{eq:renta_cemento}
+P_{x,g,t}= 13\,R_{x,g,t}^{cem}; 		
+	\end{equation}
+donde: la renta mensual del cemento, $R_{x,g,t}^{cem}$ se calcula al considerar el Artículo 3 de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y luego de calcular la renta inicial a conceder (RIC) del seguro IVM, $R_{x,g,t}^{ivm}$, se calcula la renta del cemento. La Renta del cemento es la diferencia entre el último sueldo en la industria del cemento, $S_{x,g,T}$ y la RIC del IVM, usando la siguiente expresión:	
+			\begin{equation}
+			R_{x,g,t}^{cem}=S_{x,g,T} - R_{x,g,t}^{ivm}
+	\end{equation}
+A continuación, se calcula la renta calculada, $R_{x,g,t}^{cal}$, la cual es la suma entre la Renta del IVM y la Renta del Cemento, es decir, el valor a recibir mensualmente como pensión y sigue la siguiente fórmula:
+						\begin{align}
+R_{x,g,t}^{cal}&=R_{x,g,t}^{cem} + R_{x,g,t}^{ivm};
+	\end{align}
+	
+% En este estudio, se calcula la pensión especial a los trabajadores de la industria del cemento, como la suma de la Renta del cemento más la Renta del IVM; pero en este caso las pensiones tienen límites máximos y mínimos según sus años de aportaciones totales, fuera o dentro de la industria del cemento. De esta forma, se utilizan las tablas de establecidas en la Resolución No. C.D. 100 de los límites o topes de las rentas por vejez del IESS para calcular las pensiones mínimas y máximas de la Jubilación Especial de los Trabajadores de la Industria del Cemento. Se puede expresar en forma matemática, como se muestra, a continuación:
+% \begin{equation}
+% \label{eq:renta_concedida}
+% R_{x,g,t}^{concedida}=\max\left(\min\left(R_{x,g,t}^{cal}; P_{t}^{max}\right);P_{t}^{min}\right);
+% 	\end{equation}
+	
+Además, la renta total percibida por el jubilado se revalorizará cada año según la tasa de inflación promedio (debido a que una reducción de esta vulneraría los derechos adquiridos de los pensionistas de la industria del cemento, por el Artículo 225 de la Ley de Seguridad), según el Artículo 2 de Resolución No. C.D. 300.
+
+\section{Cálculos para la estimación de las prestaciones por montepío en la Jubilación Especial de los Trabajadores de la Industria del Cemento}
+Debido a las limitaciones de la información histórica referente al número de beneficiarios de Montepío, en el que el causante es un trabajador activo o jubilado de la industria del cemento, se procede a realizar estimaciones utilizando los datos históricos del número de beneficiarios de Montepío en el Seguro IVM. De esta manera, se estima que la probabilidad de recibir una pensión de orfandad, $p_{o}$, o viudez, $p_{v}$, cuando el causante es un trabajador activo o jubilado de la industria del cemento es igual a 0,94\% y 2,24\%, respectivamente. Las probabilidades se calculan como el promedio de la proporción entre el número de beneficiarios de una pensión de orfandad o viudez con el número total de afiliados más el número total de pensionistas durante el período 2012 a 2017. En términos matemáticos, se puede expresar como:
+\begin{equation}
+\label{eq:p_o}
+p_o=\frac{\text{Número de beneficiarios de orfandad}}{\text{Número de afiliados + Número de pensionistas}},
+	\end{equation}
+y	
+					\begin{equation}
+\label{eq:p_v}
+p_v=\frac{\text{Número de beneficiarios de viudedad}}{\text{Número de afiliados + Número de pensionistas}},
+	\end{equation}
+Para estimar el gasto prestacional en el pago de pensiones a los beneficiarios de montepío, se multiplica la probabilidad de orfandad, $p_{o}$, o viudez, $p_{v}$, con el número de individuos de la población por la renta promedio anual del año en cuestión y, por último, se multiplica el porcentaje respectivo de la renta a recibir (60\% para la viuda y 40\% para los huérfanos, según la disposición reformatoria vigésima sexta de la Resolución No. C.D. 554). Lo antes mencionado se puede expresar matemáticamente de la siguiente manera:
+\begin{equation}
+\label{eq:B_orf}
+B^{orf}_{t}=0,4 \, p_{o}\, N\, \bar{R}_{t}^{cal},
+	\end{equation}
+y	
+	\begin{equation}
+\label{eq:B_viu}
+B^{viu}_{t}=0,6 \, p_{v}\, N\, \bar{R}_{t}^{cal},
+	\end{equation}
+donde: $\bar{R}_{t}^{cal}$ es el gasto prestacional anual por pensiones dividido para el número de pensionistas de la de la Jubilación Especial de los Trabajadores de la Industria del Cemento.
+
+\section{Balance Actuarial}
+
+Con el objeto de construir el balance actuarial, en primer lugar, se define la reserva inicial a la fecha de corte, $V_0$, y que equivale al saldo de la cuenta de patrimonio a esa fecha
+
+En segundo lugar, se proyecta el balance corriente, $V_t^{cor}$, el cual corresponde a la diferencia de los ingresos menos los egresos de cada año $t>0$:
+\begin{equation}
+\label{eq:balance_corriente}
+V_{t}^{cor}=I_{t}-B_{t};
+	\end{equation}
+Para $t=0$, se defne el balance corriente $V_t^{cor}=0$, pues a la fecha de corte nos interesamos solamente en la reserva inicial $V_0$.
+
+En tercer lugar, se calcula el balance capitalizado $V_{t}^{cap}$ para cada año $t$ del horizonte de análisis. Este balance representa la evolución proyectada de la reserva actual hasta el final del horizonte de análisis. Por lo tanto, $V_0^{cap}=V_0$ y utilizando el factor de capitalización $u$; para $t > 0$, se obtiene:
+\begin{equation}
+\label{eq:balance_cap}
+V_{t}^{cap}=u\,V_{t-1}^{cap}+V_{t}^{cor};
+	\end{equation}
+o de manera equivalente:
+		\begin{equation}
+\label{eq:balance_capitalizado}
+V_{t}^{cap}=u\,V_{0}+ \sum^{t}_{s=0}v^{t-s}\left(I_{t}-B_{t}\right),
+	\end{equation}
+Finalmente, el balance actuarial del fondo, calculado en la fecha de corte $t=0$ y con un horizonte de proyección $T$, se denotará por $V_T$, y corresponde a la reserva inicial más el valor actuarial presente de los ingresos futuros y menos el valor actuarial presente de los egresos futuros. En consecuencia, se tiene:
+\begin{equation}
+\label{eq:V_T}
+V_{T}=V_{0}+ \sum^{T}_{s=0}v^{t}\left(I_{t}-B_{t}\right),
+	\end{equation}
+
+Esta formulación corresponde a la reserva matemática prospectiva que permite determinar la situación actuarial hasta el horizonte $T$. El valor $V_T$ se expresa en valor actuarial presente (VAP), haciendo uso del factor de actualización $v$, que a su vez está determinado por la tasa actuarial.
+
+En base a lo anterior, la situación actuarial del Fondo de la \Sexpr{REP_seg} se establece como sigue:
+	
+\begin{itemize}
+\item	Si el balance actuarial es negativo, $V_T<0$, se concluye que, a la fecha de corte, el Fondo de la \Sexpr{REP_seg} presenta un déficit actuarial en el horizonte $T$;
+\item	Si, por el contrario, $V_T > 0$, entonces, a la fecha de corte, el seguro presenta un superávit actuarial con horizonte $T$; y,
+\item	Si $V_T = 0$, a la fecha de corte, el seguro está en una situación de equilibrio actuarial con horizonte $T$.
+\end{itemize}
+
+En este estudio nos interesa determinar la situación actuarial del Fondo de la \Sexpr{REP_seg} hasta el horizonte T=25.
+
