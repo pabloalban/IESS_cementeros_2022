@@ -40,7 +40,7 @@ Del presente estudio se obtienen las siguientes conclusiones:
 
 %\newpage
 
-Quito, 31 de mayo de 2023 \\
+Quito, 02 de junio de 2023 \\
 
 \vspace{0.3cm}
 Atentamente,
