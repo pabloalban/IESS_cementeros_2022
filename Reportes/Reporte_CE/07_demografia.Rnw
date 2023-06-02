@@ -2,20 +2,20 @@
 \chapter[Análisis demográfico]{Análisis demográfico}
 \label{chp_demog}
 
-En esta sección se muestran las estadísticas descriptivas de la población de trabajadores (activos) y ex trabajadores (jubilados por vejez y cesantes) de la industria del cemento. Para el análisis estadístico descriptivo, se discrimina a la población cementera por: derecho a la jubilación especial de los trabajadores de la industria del cemento, empresa productora del cemento, género y cargo homologado por la Dirección de Riesgos del Trabajo (“Administrativo” u “Expuesto al Riesgo”).
+En esta sección se muestran las estadísticas descriptivas de la población de trabajadores (activos) y extrabajadores (jubilados por vejez y cesantes) de la industria del cemento. Para el análisis estadístico descriptivo, se discrimina a la población cementera por: derecho a la jubilación especial de los trabajadores de la industria del cemento, empresa productora del cemento, género y cargo homologado por la Dirección de Riesgos del Trabajo (“Administrativo” u “Expuesto al Riesgo”).
 
 \section{Estructura demográfica de la población beneficiaria}
 
-En este estudio se divide a los trabajadores y ex trabajadores en tres poblaciones (a agosto de 2020):
+En este estudio se divide a los trabajadores y extrabajadores en tres poblaciones (a agosto de 2020):
 \begin{itemize}
-\item	Ex trabajadores de la industria del cemento con 300 o más imposiciones al IESS en la industria del cemento, que se encuentran jubilados por vejez o cesantes;
+\item	extrabajadores de la industria del cemento con 300 o más imposiciones al IESS en la industria del cemento, que se encuentran jubilados por vejez o cesantes;
 \item	Trabajadores activos con derecho (trabajadores activos con 300 o más imposiciones en la industria del cemento); y,
 \item	Trabajadores activos sin derecho (los cuales se encuentran trabajando en una empresa cementera y no cumplen las condiciones de jubilación especial de los trabajadores de la industria del cemento).
 \end{itemize}
 
-Por trabajadores jubilados por vejez, se hace referencia a los ex trabajadores del cemento que se les otorgó el derecho a la jubilación de vejez del IESS y tienen 300 o más imposiciones en la industria del cemento; sin importar si estaban en puestos con exposición al ruido o polvo, o si el ex trabajador tuvo las 300 imposiciones en un puesto operativo o administrativo. A continuación, en la siguiente Tabla se muestra el número de individuos para cada población y empresa cementera.
+Por trabajadores jubilados por vejez, se hace referencia a los extrabajadores del cemento que se les otorgó el derecho a la jubilación de vejez del IESS y tienen 300 o más imposiciones en la industria del cemento; sin importar si estaban en puestos con exposición al ruido o polvo, o si el ex trabajador tuvo las 300 imposiciones en un puesto operativo o administrativo. A continuación, en la siguiente Tabla se muestra el número de individuos para cada población y empresa cementera.
 
-En el presente estudio, se considera una población de 2.286 trabajadores o ex trabajadores de la industria del cemento (ver tabla \ref{tab:iess_exposicion_riesgo}), de los cuales 384 están jubilados por vejez (a agosto de 2020), 60 están cesantes, 91 trabajadores activos tienen derecho a la jubilación especial de los trabajadores de la industria del cemento, con al menos 300 imposiciones en la industria del cemento, y 1.751 trabajadores activos en la industria del cemento sin derecho a jubilación especial de los trabajadores de la industria del cemento, con menos de 300 imposiciones cementeras a agosto del 2020. 
+En el presente estudio, se considera una población de 2.286 trabajadores o extrabajadores de la industria del cemento (ver tabla \ref{tab:iess_exposicion_riesgo}), de los cuales 384 están jubilados por vejez (a agosto de 2020), 60 están cesantes, 91 trabajadores activos tienen derecho a la jubilación especial de los trabajadores de la industria del cemento, con al menos 300 imposiciones en la industria del cemento, y 1.751 trabajadores activos en la industria del cemento sin derecho a jubilación especial de los trabajadores de la industria del cemento, con menos de 300 imposiciones cementeras a agosto del 2020. 
 
 {\fontsize{10}{11}\selectfont
 \begin{longtable}[H]{lrrr}
@@ -48,10 +48,10 @@ Elaborado: DAIE.\\}
 }
 
 Al 31 de agosto de 2020, se registran 2.286 trabajadores o extrabajadores de la industria del cemento con vida, de los cuales 251 ocupan cargos administrativos y 2.035 están en puestos operativos que están expuestos al ruido y polvo. 
-Se tienen 1.842 trabajadores activos y 444 trabajadores jubilados por vejez o cesantes (384 jubilados por vejez y 60 cesantes) en la industria del cemento. En proporción los ex trabajadores jubilados por vejez o cesantes del cemento (440) representan el 19,42\%, los activos con derecho son el 3,98\% y los activos sin derecho (trabajadores con menos de 300 imposiciones en la industria del cemento) son la mayoría, representan 76,6\%. También se observa que la mayor empresa es UCEM con 1.018 trabajadores o ex trabajadores (44,53\%) y UNACEM la más pequeña con 264 (11,55\%).
+Se tienen 1.842 trabajadores activos y 444 trabajadores jubilados por vejez o cesantes (384 jubilados por vejez y 60 cesantes) en la industria del cemento. En proporción los extrabajadores jubilados por vejez o cesantes del cemento (440) representan el 19,42\%, los activos con derecho son el 3,98\% y los activos sin derecho (trabajadores con menos de 300 imposiciones en la industria del cemento) son la mayoría, representan 76,6\%. También se observa que la mayor empresa es UCEM con 1.018 trabajadores o extrabajadores (44,53\%) y UNACEM la más pequeña con 264 (11,55\%).
 
 
-Con Memorando IESS-SDNGCSP-2018-1397-M de 25 de octubre de 2018, la Dirección del Sistema de Pensiones envía un listado de los trabajadores de cemento con su cargo homologado (Administrativo, Operativo y Otros), dicha calificación fue realizada por la Dirección de Riesgos del Trabajo. Cabe mencionar que esta clasificación no se la realizó con un estudio individual de puestos de trabajo, sino con el listado de cargos registrados por las empresas en el IESS. De esta manera, esta clasificación puede contener información errónea y los resultados al utilizar esta clasificación podrían cambiar si se realiza un estudio individual de puestos de trabajo. En la siguiente Tabla 20, se muestra la distribución de los trabajadores y ex trabajadores por cargo homologado (“Administrativos” u “Operativo”) (en los operativos también se incluyó a los que tienen cargo homologado “Otros” y “NA”, debido a que representan una parte pequeña de la población y que no se pudo determinar su clasificación), para cada empresa y género. 
+Con Memorando IESS-SDNGCSP-2018-1397-M de 25 de octubre de 2018, la Dirección del Sistema de Pensiones envía un listado de los trabajadores de cemento con su cargo homologado (Administrativo, Operativo y Otros), dicha calificación fue realizada por la Dirección de Riesgos del Trabajo. Cabe mencionar que esta clasificación no se la realizó con un estudio individual de puestos de trabajo, sino con el listado de cargos registrados por las empresas en el IESS. De esta manera, esta clasificación puede contener información errónea y los resultados al utilizar esta clasificación podrían cambiar si se realiza un estudio individual de puestos de trabajo. En la siguiente Tabla 20, se muestra la distribución de los trabajadores y extrabajadores por cargo homologado (“Administrativos” u “Operativo”) (en los operativos también se incluyó a los que tienen cargo homologado “Otros” y “NA”, debido a que representan una parte pequeña de la población y que no se pudo determinar su clasificación), para cada empresa y género. 
 
 {\fontsize{10}{11}\selectfont
 \begin{longtable}[H]{lrrrrr}
@@ -175,11 +175,11 @@ Elaborado: DAIE.\\}
 \end{longtable}
 }
 
-De los 231 ex trabajadores del cemento fallecidos, con al menos 300 imposiciones en la industria del cemento, 222 (96,1\%) son hombres y, solamente, 9 son mujeres. Además, a la fecha de corte, 31 de agosto de 2020, se registraron 111 ex trabajadores fallecidos de HOLCIM y 120 de UCEM. Según la homologación de cargos, realizada por la Dirección de Riesgos de Trabajo, no se registraron ex trabajadores fallecidos con cargo homologado “Administrativo”.
+De los 231 extrabajadores del cemento fallecidos, con al menos 300 imposiciones en la industria del cemento, 222 (96,1\%) son hombres y, solamente, 9 son mujeres. Además, a la fecha de corte, 31 de agosto de 2020, se registraron 111 extrabajadores fallecidos de HOLCIM y 120 de UCEM. Según la homologación de cargos, realizada por la Dirección de Riesgos de Trabajo, no se registraron extrabajadores fallecidos con cargo homologado “Administrativo”.
 
 \begin{table}[H]
 \begin{center}
-\caption{Ex trabajadores fallecidos, por empresa y condición de jubilación por vejez.}
+\caption{extrabajadores fallecidos, por empresa y condición de jubilación por vejez.}
 \label{tab:iess_fallecidos}
 \begin{tabular}{lccc}
 \hline
@@ -193,9 +193,9 @@ Elaborado: DAIE.\\}
 \end{center}
 \end{table}
 
-A la fecha de corte, 31 de agosto de 2020, se registró 231 ex trabajadores del cemento fallecidos, de los cuales 142 (61,47\%) no se les otorgó alguna jubilación por vejez; en cambio 89 (38,53\%) obtuvieron el derecho a una jubilación por vejez en el IESS. En cambio, de los 142 ex trabajadores cesantes que no se les otorgó una jubilación por vejez, con 300 imposiciones en la industria del cemento, se otorgaron al menos una pensión de montepío a la viuda o hijos menores de 18 años de 101 ex trabajadores sin jubilación por vejez; es decir, que el 71,13\% de los ex trabajadores fallecidos sin jubilación por vejez fueron causantes de una pensión por viudez u orfandad. Por consiguiente, 41 ex trabajadores fallecidos de la industria del cemento, con al menos 300 imposiciones en la industria del cemento, no recibieron ni pensión por vejez o causaron una pensión por viudez u orfandad; esto debido a que no alcanzaron a cumplir con los requisitos de la jubilación por vejez del IESS o no la solicitaron.
+A la fecha de corte, 31 de agosto de 2020, se registró 231 extrabajadores del cemento fallecidos, de los cuales 142 (61,47\%) no se les otorgó alguna jubilación por vejez; en cambio 89 (38,53\%) obtuvieron el derecho a una jubilación por vejez en el IESS. En cambio, de los 142 extrabajadores cesantes que no se les otorgó una jubilación por vejez, con 300 imposiciones en la industria del cemento, se otorgaron al menos una pensión de montepío a la viuda o hijos menores de 18 años de 101 extrabajadores sin jubilación por vejez; es decir, que el 71,13\% de los extrabajadores fallecidos sin jubilación por vejez fueron causantes de una pensión por viudez u orfandad. Por consiguiente, 41 extrabajadores fallecidos de la industria del cemento, con al menos 300 imposiciones en la industria del cemento, no recibieron ni pensión por vejez o causaron una pensión por viudez u orfandad; esto debido a que no alcanzaron a cumplir con los requisitos de la jubilación por vejez del IESS o no la solicitaron.
 
-\section{Análisis demográfico de la población de trabajadores y ex trabajadores de la industria del cemento}
+\section{Análisis demográfico de la población de trabajadores y extrabajadores de la industria del cemento}
 
 La población de trabajadores activos con al menos 300 imposiciones en la industria del cemento se compone por 91 individuos, de los cuales 82 son hombres con edad promedio igual a 53,62 años y 2 son mujeres con edad promedio igual a 48,33 años. En la pirámide poblacional de los trabajadores activos con derecho a la jubilación especial de los trabajadores de la industria del cemento (ver figura \ref{fig:iess_pir_edad_sexo_CD}), se puede observar que la población se compone principalmente por hombres para edades mayores de 47 años. También muestra una forma estancada, la cual nos indica que los ingresos de nuevos individuos a la población son constantes.
 
@@ -211,7 +211,7 @@ Elaborado: DAIE.\\}
 
 Los trabajadores activos del cemento con menos de 300 imposiciones de la industria del cemento (ver figura \ref{fig:iess_pir_edad_sexo_SD}), 1.751 individuos, de los cuales 1.490 son hombres tienen edad promedio igual a 45,65 años y 261 son mujeres tienen edad promedio igual a 38,96 años. Además, se puede observar que la población se compone principalmente por hombres entre 28 y 42 años. También muestra una forma regresiva, la cual nos indica que los ingresos de nuevos individuos a la población son muy pocos.
 
-La población de ex trabajadores cesantes de la industria del cemento con al menos 300 imposiciones del cemento se compone por 60 individuos, de los cuales 53 son hombres con edad promedio igual a 57 años y 7 son mujeres con edad promedio igual a 56,43 años de edad. En la pirámide poblacional de los ex trabajadores cesantes (ver figura \ref{fig:iess_pir_edad_sexo_CS}), se puede observar que la población de jubilados por vejez se compone principalmente por hombres entre 50 y 61 años. Además, muestra una forma regresiva, la cual nos indica un bajo ingreso a de nuevos individuos a la población y un previsible envejecimiento de la población e incluso pérdida de la población.
+La población de extrabajadores cesantes de la industria del cemento con al menos 300 imposiciones del cemento se compone por 60 individuos, de los cuales 53 son hombres con edad promedio igual a 57 años y 7 son mujeres con edad promedio igual a 56,43 años de edad. En la pirámide poblacional de los extrabajadores cesantes (ver figura \ref{fig:iess_pir_edad_sexo_CS}), se puede observar que la población de jubilados por vejez se compone principalmente por hombres entre 50 y 61 años. Además, muestra una forma regresiva, la cual nos indica un bajo ingreso a de nuevos individuos a la población y un previsible envejecimiento de la población e incluso pérdida de la población.
 
 \begin{figure}[H]
 \centering
@@ -224,7 +224,7 @@ Elaborado: DAIE.\\}
 
 \begin{figure}[H]
 \centering
-\caption{Pirámide poblacional de ex trabajadores cesantes con 300 o más imposiciones en la industria del cemento}
+\caption{Pirámide poblacional de extrabajadores cesantes con 300 o más imposiciones en la industria del cemento}
 \label{fig:iess_pir_edad_sexo_CS}
 \includegraphics[scale=1]{graficos/iess_pir_edad_sexo_CS.png}
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
@@ -235,7 +235,7 @@ La población de jubilados por vejez, con al menos 300 imposiciones del cemento,
 
 \begin{figure}[H]
 \centering
-\caption{Pirámide poblacional de ex trabajadores jubilados por vejez con 300 o más imposiciones en la industria del cemento}
+\caption{Pirámide poblacional de extrabajadores jubilados por vejez con 300 o más imposiciones en la industria del cemento}
 \label{fig:iess_pir_edad_sexo_JB}
 \includegraphics[scale=1]{graficos/iess_pir_edad_sexo_JB.png}
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\

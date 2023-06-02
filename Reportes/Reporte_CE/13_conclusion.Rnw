@@ -9,7 +9,8 @@
 Del presente estudio se obtienen las siguientes conclusiones:
 
 \begin{enumerate}[itemsep=1mm, topsep=0pt]
-\item	El resultado de la valuación actuarial refleja una quiebra financiera, debido a que los recursos económicos disponibles a la fecha de corte son USD \Sexpr{REP$cap_ini} y estos valores son insuficientes para la cancelación de sus obligaciones en el año 2023 (USD 4.102.732,30) y presenta un déficit actuarial por USD \Sexpr{REP$reliq_esc_1}. Su año de desfinanciamiento es 2023 y se necesita una prima suficiente igual a \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas del cemento en el Ecuador.
+
+\item	El resultado de la valuación actuarial refleja una quiebra financiera, debido a que los recursos económicos disponibles a la fecha de corte son USD \Sexpr{REP$cap_ini} y estos valores son insuficientes para la cancelación de sus obligaciones en el año 2023 (USD 4.102.732,30) y presenta un déficit actuarial por USD \Sexpr{REP$bal_act_esc_1}. Su año de desfinanciamiento es 2023 y se necesita una prima suficiente igual a \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas del cemento en el Ecuador.
 
 \item No existe el debido financiamiento para la entrega de la Jubilación Especial de los Trabajadores de la Industria del Cemento, contraviniendo el artículo 369 de la Constitución, debido a que no se realizaron estudios actuariales para determinar la prima suficiente que garantice el financiamiento, cuando se expidió la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, en el año 1989; y, en la expedición de la Ley Interpretativa, de fecha 06 de marzo de 2017, lo cual contraviene el artículo 233 de la Ley de Seguridad Social que establece: “\textit{No se creará prestación alguna ni se mejorarán las existentes a cargo del Seguro Social Obligatorio aplicado por el IESS, si no se encontraren debidamente financiadas y respaldadas en los resultados de estudios actuariales que demuestren su solvencia y sostenibilidad}”.
 
@@ -28,11 +29,14 @@ Del presente estudio se obtienen las siguientes conclusiones:
 \section{Recomendaciones}
 \label{chp_conclusion:recomendacion}
 
+Del presente estudio, se desprenden las siguientes recomendaciones:
+
 \begin{enumerate}[itemsep=0mm, topsep=0pt]
-\item Sugerir al Procurador General del IESS y el Director del Sistema de Pensiones interponer una demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa, debido a que contravienen los artículos 369 de la Constitución y 233 de la Ley de Seguridad Social.
+\item Sugerir al Procurador General del IESS y el Director del Sistema de Pensiones interpongan sus buenos oficios para continuar la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa, debido a que no se encontraron respaldadas en estudios actuariales, contraviniendo los artículos 369 de la Constitución y 233 de la Ley de Seguridad Social.
 
 \item Que, para esta jubilación especial, la Ley establezca un financiamiento propio, destinado a cubrir la reducción de tiempo en edad y aportes; se debe cambiar la tasa de contribución de las empresas cementeras a \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas totales del cemento en el Ecuador o que cada empresa cementera cancele el valor de cada reserva matemática de sus extrabajadores.
-\item La Dirección del Sistema de Pensiones debe las gestiones necesarias para cobrar los valores pendientes a las empresas cementeras por la Jubilación de la Industria del Cemento.
+
+\item La Dirección del Sistema de Pensiones debe realizar las gestiones necesarias para cobrar los valores pendientes a las empresas cementeras por la Jubilación de la Industria del Cemento.
 
 \item	Sugerir que este informe se traslade a la Corte Constitucional y a la Corte Nacional de Justicia para que se ponga en conocimiento de jueces y tribunales respectivos; e impulsar la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa.
 

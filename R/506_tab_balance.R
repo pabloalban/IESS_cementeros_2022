@@ -69,7 +69,7 @@ for ( i in 1:length( escenarios_lista ) ) {
                       activo = 'Total activo actuarial', 
                       reserva_matematica_vap = 'Reserva matemática', 
                       montepio_pr_vap = 'Beneficios de montepío',
-                      liquidacion_pr_vap = 'Liquidaciones a ex trabajadores',
+                      liquidacion_pr_vap = 'Liquidaciones a extrabajadores',
                       gastos_adm_vap = 'Gastos administrativos',
                       pasivo = 'Total pasivo actuarial',
                       V = 'Déficit actuarial' )
