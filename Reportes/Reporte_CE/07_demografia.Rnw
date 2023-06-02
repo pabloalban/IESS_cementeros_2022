@@ -179,7 +179,7 @@ De los 231 extrabajadores del cemento fallecidos, con al menos 300 imposiciones 
 
 \begin{table}[H]
 \begin{center}
-\caption{extrabajadores fallecidos, por empresa y condición de jubilación por vejez.}
+\caption{Extrabajadores fallecidos, por empresa y condición de jubilación por vejez.}
 \label{tab:iess_fallecidos}
 \begin{tabular}{lccc}
 \hline
