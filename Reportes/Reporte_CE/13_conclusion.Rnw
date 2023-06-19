@@ -45,10 +45,9 @@ Del presente estudio, se desprenden las siguientes recomendaciones:
 %\newpage
 
 Quito, 02 de junio de 2023 \\
-
-\vspace{0.3cm}
+%\vspace{0.3cm}
 Atentamente,
-\vspace{2.2cm}
+\vspace{2cm}
 %--------------------------------------------------------------------------------------------------
 % \begin{figure}[H]
 % 	\centering

@@ -31,7 +31,7 @@ El artículo 369 de la Constitución de la República del Ecuador establece: “
 
 
 \section{Sobre la elaboración de estudios actuariales}
-El Artículo 233 de la Ley de Seguridad Social, publicado en el Registro Oficial Suplemento 465 de fecha 30 de noviembre de 2011, establece: ``\textit{CAMBIOS EN EL REGIMEN PRESTACIONAL. - No se creará prestación alguna ni se mejorarán las existentes a cargo del Seguro Social Obligatorio aplicado por el IESS, si no se encontraren debidamente financiadas y respaldadas en los resultados de estudios actuariales que demuestren su solvencia y sostenibilidad''.}
+El Artículo 233 de la Ley de Seguridad Social, publicado en el Registro Oficial Suplemento 465 de fecha 30 de noviembre de 2001, establece: ``\textit{CAMBIOS EN EL REGIMEN PRESTACIONAL. - No se creará prestación alguna ni se mejorarán las existentes a cargo del Seguro Social Obligatorio aplicado por el IESS, si no se encontraren debidamente financiadas y respaldadas en los resultados de estudios actuariales que demuestren su solvencia y sostenibilidad''.}
 
 
 \section{Sobre las atribuciones y responsabilidades de la Dirección Actuarial, de Investigación y Estadística}
