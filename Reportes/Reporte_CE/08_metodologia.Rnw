@@ -508,23 +508,23 @@ Con este fin se calcula la renta matemática vitalicia, previo a la entrega de l
 
 La Renta temporal está dado por:
 
-	\[ \text{Renta Temporal} = \actsymb[][]{\ddot{a}}{x:\angln} \cdot \left( (\text{Renta IVM} + \text{Renta Cemento} ) \cdot 13 + 450 \right)
+	\[ \text{Renta Temporal} = \actsymb[][]{\ddot{a}}{x:\angln} \cdot \left( (\text{Renta IVM} + \text{Renta Cemento} ) \cdot 13 + 450 \right),
 \]
  donde: $n$ es la edad de derecho del Seguro de IVM y 
-	\[ \actsymb[][]{\ddot{a}}{x:\angln} = \frac{N_x - N_n}{D_x}
-\].
+	\[ \actsymb[][]{\ddot{a}}{x:\angln} = \frac{N_x - N_n}{D_x}.
+\]
 
 Por otro lado, la renta diferida utiliza la siguiente expresción matemática:
 
-	\[ \text{Renta Diferida} = k/\actsymb[][]{\ddot{a}}{x} \cdot \left(  \text{Renta Cemento} \cdot 13 \right)
+	\[ \text{Renta Diferida} = k/\actsymb[][]{\ddot{a}}{x} \cdot \left(  \text{Renta Cemento} \cdot 13 \right),
 \]
  donde: $k= n - \text{edad actual}$  y 
-	\[  k/\actsymb[][]{\ddot{a}}{x} = \frac{N_{x+k+1}}{D_x}
-\].
+	\[  k/\actsymb[][]{\ddot{a}}{x} = \frac{N_{x+k+1}}{D_x}.
+\]
 
 Por lo tanto, renta matemática es igual a 
 
-	\[ \text{Renta Matemática} = \text{Renta Temporal} + \text{Renta Diferida} \]. 
+	\[ \text{Renta Matemática} = \text{Renta Temporal} + \text{Renta Diferida}. \] 
 
 \section{Cálculos para la estimación de las prestaciones por montepío en la Jubilación Especial de los Trabajadores de la Industria del Cemento}
 Debido a las limitaciones de la información histórica referente al número de beneficiarios de Montepío, en el que el causante es un trabajador activo o jubilado de la industria del cemento, se procede a realizar estimaciones utilizando los datos históricos del número de beneficiarios de Montepío en el Seguro IVM. De esta manera, se estima que la probabilidad de recibir una pensión de orfandad, $p_{o}$, o viudez, $p_{v}$, cuando el causante es un trabajador activo o jubilado de la industria del cemento es igual a 0,94\% y 2,24\%, respectivamente. Las probabilidades se calculan como el promedio de la proporción entre el número de beneficiarios de una pensión de orfandad o viudez con el número total de afiliados más el número total de pensionistas durante el período 2012 a 2017. En términos matemáticos, se puede expresar como:
