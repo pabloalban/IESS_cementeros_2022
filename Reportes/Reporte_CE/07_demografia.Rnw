@@ -288,7 +288,7 @@ Por último, se presenta una lista de siete (7) pensionistas de la jubilación d
 \bottomrule \multicolumn{6}{r}{continúa...} \\
 \endfoot
 %\hline
-\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones y Dirección del Seguro General de Riesgos del Trabajo\\
+\caption*{\scriptsize Fuente: DSP y DSGRT\\
 Elaborado: DAIE\\}
 \endlastfoot
   \input{tablas/tab_pensionistas_administrativos.tex}

@@ -79,17 +79,57 @@ Entre las principales conclusiones, se tiene:
 
 \item	Se concluye que la Jubilación Especial de la Industria del Cemento, bajo las condiciones o requisitos establecidos en la Ley de Jubilación Especial y su interpretativa (pensión igual al 100\% del último sueldo, sin límite de edad y cumplidas mínimo 300 imposiciones en la industria del cemento; con el aporte establecido); \textbf{NO} es suficiente para otorgar la prestación ni siquiera en sus obligaciones en el año 2023 y consecuentemente no es sostenible en el tiempo y atenta al sistema pensional ecuatoriano, generando un perjuicio a el Fondo de pensiones del Seguro IVM del IESS igual a USD 29.294.516,87 en los próximos veinte (20) años.
 
+\item A través de fallos judiciales, se entrego a siete (7) extrabajadores, con cargos administrativos, la Jubilación Especial de la Industria del Cemento, a pesar de contravenir el artículo 3 del Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, expedida mediante la \legalcite{ResIESS_CD640}, de fecha 18 de agosto de 2021, que establece: 
+“\textit{c) Ser trabajador, que por su ocupación, se encuentre expuesto a factores de riesgo provenientes de la industria del cemento, durante 25 años (equivalente a las 300 imposiciones determinadas en el literal precedente),certificado por la Dirección del Seguro General de Riesgos del Trabajo a través de las Coordinaciones o Unidades Provinciales de Prestaciones de Pensiones, Riesgos del Trabajo, Fondos de Terceros y Seguro de Desempleo, o quienes hagan sus veces;}”.
+A continuación, se presenta la lista de jubilados de la Jubilación Especial de los Trabajadores de la Industria del Cemento, que ejercían cargos administrativos en la industria del cemento:
+{\fontsize{8}{11}\selectfont
+\begin{longtable}[H]{lcclcl}
+\caption{Pensionistas de la Jubilación Especial de la Industria del Cemento, que se encontraban con cargos administrativos}
+\label{tab:tab_pensionistas_administrativos}\\
+\toprule
+\multicolumn{1}{c}{Provincia}   & 
+\multicolumn{1}{c}{Empresa}   &
+\multicolumn{1}{c}{Cédula}   & 
+\multicolumn{1}{c}{Nombre}   & 
+\multicolumn{1}{c}{Edad}   &
+\multicolumn{1}{c}{Ocupación} \\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Provincia}   & 
+\multicolumn{1}{c}{Empresa}   &
+\multicolumn{1}{c}{Cédula}   & 
+\multicolumn{1}{c}{Nombre}   & 
+\multicolumn{1}{c}{Edad}   &
+\multicolumn{1}{c}{Ocupación} \\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{6}{r}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: DSP y DSGRT\\
+Elaborado: DAIE\\}
+\endlastfoot
+  \input{tablas/tab_pensionistas_administrativos.tex}
+\end{longtable}
+}
+
 \end{enumerate}
 % --------------------------------------------------------------------------------------------------
 Las principales recomendaciones de esta Dirección son:
 \begin{enumerate}[itemsep=0mm, topsep=0pt]
-\item Sugerir al Procurador General del IESS y el Director del Sistema de Pensiones interpongan sus buenos oficios para continuar la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa, debido a que no se encontraron respaldadas en estudios actuariales, contraviniendo los artículos 369 de la Constitución y 233 de la Ley de Seguridad Social.
+\item Sugerir que la Subdirección Nacional de Patrocinio interpongan sus buenos oficios para continuar la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa, debido a que no se encontraron respaldadas en estudios actuariales.
 
 \item Que, para esta jubilación especial, la Ley establezca un financiamiento propio, destinado a cubrir la reducción de tiempo en edad y aportes; se debe cambiar la tasa de contribución de las empresas cementeras a \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas totales del cemento en el Ecuador o que cada empresa cementera cancele el valor de cada reserva matemática de sus extrabajadores.
 
 \item La Dirección del Sistema de Pensiones debe realizar las gestiones necesarias para cobrar los valores pendientes a las empresas cementeras por la Jubilación de la Industria del Cemento.
 
-\item	Sugerir que este informe se traslade a la Corte Constitucional y a la Corte Nacional de Justicia para que se ponga en conocimiento de jueces y tribunales respectivos; e impulsar la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa.
+\item	Recomienda a la máxima autoridad del IESS, en coordinación con la Dirección del Sistema de Pensiones, elaborar un proyecto de Ley para la Asamblea Nacional, con el fin de establecer la contribución de las empresas cementeras en \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas totales del cemento en el Ecuador para financiar la jubilación especial.
 
+\item Se recomienda que la Dirección Actuarial, de Investigación y Estadística calcule una reserva matemática anual de contingencia, necesaria para cubrir los valores anuales de las pensiones y décimos de los nuevos jubilados de la industria del cemento, hasta que se establezca el debido financiamiento para esta prestación.
+
+\item La Subdirección Nacional Financiera del Sistema de Pensiones deberá elaborar los balances financieros del Jubilación Especial de la Industria del Cemento, indicando sus inversiones e ingresos financieros.
 \end{enumerate}
 
