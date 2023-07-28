@@ -122,11 +122,9 @@ Las principales recomendaciones de esta Dirección son:
 \begin{enumerate}[itemsep=0mm, topsep=0pt]
 \item Sugerir que la Subdirección Nacional de Patrocinio interpongan sus buenos oficios para continuar la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa, debido a que no se encontraron respaldadas en estudios actuariales.
 
-\item Que, para esta jubilación especial, la Ley establezca un financiamiento propio, destinado a cubrir la reducción de tiempo en edad y aportes; se debe cambiar la tasa de contribución de las empresas cementeras a \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas totales del cemento en el Ecuador o que cada empresa cementera cancele el valor de cada reserva matemática de sus extrabajadores.
-
 \item La Dirección del Sistema de Pensiones debe realizar las gestiones necesarias para cobrar los valores pendientes a las empresas cementeras por la Jubilación de la Industria del Cemento.
 
-\item	Recomienda a la máxima autoridad del IESS, en coordinación con la Dirección del Sistema de Pensiones, elaborar un proyecto de Ley para la Asamblea Nacional, con el fin de establecer la contribución de las empresas cementeras en \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas totales del cemento en el Ecuador para financiar la jubilación especial.
+\item	Se recomienda a la máxima autoridad del IESS, en coordinación con la Dirección del Sistema de Pensiones, elaborar un proyecto de Ley para la Asamblea Nacional, con el fin de establecer la contribución de las empresas cementeras en \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas totales del cemento en el Ecuador para financiar la jubilación especial.
 
 \item Se recomienda que la Dirección Actuarial, de Investigación y Estadística calcule una reserva matemática anual de contingencia, necesaria para cubrir los valores anuales de las pensiones y décimos de los nuevos jubilados de la industria del cemento, hasta que se establezca el debido financiamiento para esta prestación.
 
