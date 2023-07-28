@@ -2,7 +2,7 @@
 message( paste( rep( '-', 100 ), collapse = '' ) )
 message( '\tCargando paquetes' )
 
-suppressPackageStartupMessages( library( actuar ) )
+#suppressPackageStartupMessages( library( actuar ) )
 suppressPackageStartupMessages( library( colorRamps ) )
 suppressPackageStartupMessages( library( data.table ) )
 suppressPackageStartupMessages( library( digest ) )

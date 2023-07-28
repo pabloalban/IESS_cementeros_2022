@@ -2,20 +2,11 @@
 \chapter[Análisis demográfico]{Análisis demográfico}
 \label{chp_demog}
 
-En esta sección se muestran las estadísticas descriptivas de la población de trabajadores (activos) y extrabajadores (jubilados por vejez y cesantes) de la industria del cemento. Para el análisis estadístico descriptivo, se discrimina a la población cementera por: derecho a la jubilación especial de los trabajadores de la industria del cemento, empresa productora del cemento, género y cargo homologado por la Dirección de Riesgos del Trabajo (“Administrativo” u “Expuesto al Riesgo”).
+En este capítulo se muestran las estadísticas descriptivas de la población de trabajadores (activos) y pensionistas de la industria del cemento. Para el análisis estadístico descriptivo, se discrimina a la población cementera por: empresa productora del cemento, género y cargo homologado por la Dirección de Riesgos del Trabajo (“Administrativo” u “Expuesto al Riesgo”).
 
-\section{Estructura demográfica de la población beneficiaria}
+\section{Estructura demográfica de los trabajadores de la industria del cemento}
 
-En este estudio se divide a los trabajadores y extrabajadores en tres poblaciones (a agosto de 2020):
-\begin{itemize}
-\item	extrabajadores de la industria del cemento con 300 o más imposiciones al IESS en la industria del cemento, que se encuentran jubilados por vejez o cesantes;
-\item	Trabajadores activos con derecho (trabajadores activos con 300 o más imposiciones en la industria del cemento); y,
-\item	Trabajadores activos sin derecho (los cuales se encuentran trabajando en una empresa cementera y no cumplen las condiciones de jubilación especial de los trabajadores de la industria del cemento).
-\end{itemize}
-
-Por trabajadores jubilados por vejez, se hace referencia a los extrabajadores del cemento que se les otorgó el derecho a la jubilación de vejez del IESS y tienen 300 o más imposiciones en la industria del cemento; sin importar si estaban en puestos con exposición al ruido o polvo, o si el ex trabajador tuvo las 300 imposiciones en un puesto operativo o administrativo. A continuación, en la siguiente Tabla se muestra el número de individuos para cada población y empresa cementera.
-
-En el presente estudio, se considera una población de 2.286 trabajadores o extrabajadores de la industria del cemento (ver tabla \ref{tab:iess_exposicion_riesgo}), de los cuales 384 están jubilados por vejez (a agosto de 2020), 60 están cesantes, 91 trabajadores activos tienen derecho a la jubilación especial de los trabajadores de la industria del cemento, con al menos 300 imposiciones en la industria del cemento, y 1.751 trabajadores activos en la industria del cemento sin derecho a jubilación especial de los trabajadores de la industria del cemento, con menos de 300 imposiciones cementeras a agosto del 2020. 
+En el presente estudio, se considera una población de 2.286 trabajadores de la industria del cemento (ver tabla \ref{tab:iess_exposicion_riesgo}), de los cuales doscientos cincuenta y uno (251) laboran en cargos administrativos, sin exposición al riesgo, según los certifica la DSGRT, que representa el 10,98\% de los trabajadores de la industria del cemento. Por otro lado, por empresa, UCEM registra 1.018 (44,53\%) trabajadores, HOLCIM tiene 945 (41,34\%) trabajadores y UNACEM registro 323 (14,13\%) trabajadores.
 
 {\fontsize{10}{11}\selectfont
 \begin{longtable}[H]{lrrr}
@@ -41,89 +32,13 @@ En el presente estudio, se considera una población de 2.286 trabajadores o extr
 \endfoot
 %\hline
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \endlastfoot
 \input{tablas/iess_exposicion_riesgo.tex}
 \end{longtable}
 }
 
-Al 31 de agosto de 2020, se registran 2.286 trabajadores o extrabajadores de la industria del cemento con vida, de los cuales 251 ocupan cargos administrativos y 2.035 están en puestos operativos que están expuestos al ruido y polvo. 
-Se tienen 1.842 trabajadores activos y 444 trabajadores jubilados por vejez o cesantes (384 jubilados por vejez y 60 cesantes) en la industria del cemento. En proporción los extrabajadores jubilados por vejez o cesantes del cemento (440) representan el 19,42\%, los activos con derecho son el 3,98\% y los activos sin derecho (trabajadores con menos de 300 imposiciones en la industria del cemento) son la mayoría, representan 76,6\%. También se observa que la mayor empresa es UCEM con 1.018 trabajadores o extrabajadores (44,53\%) y UNACEM la más pequeña con 264 (11,55\%).
-
-
-Con Memorando IESS-SDNGCSP-2018-1397-M de 25 de octubre de 2018, la Dirección del Sistema de Pensiones envía un listado de los trabajadores de cemento con su cargo homologado (Administrativo, Operativo y Otros), dicha calificación fue realizada por la Dirección de Riesgos del Trabajo. Cabe mencionar que esta clasificación no se la realizó con un estudio individual de puestos de trabajo, sino con el listado de cargos registrados por las empresas en el IESS. De esta manera, esta clasificación puede contener información errónea y los resultados al utilizar esta clasificación podrían cambiar si se realiza un estudio individual de puestos de trabajo. En la siguiente Tabla 20, se muestra la distribución de los trabajadores y extrabajadores por cargo homologado (“Administrativos” u “Operativo”) (en los operativos también se incluyó a los que tienen cargo homologado “Otros” y “NA”, debido a que representan una parte pequeña de la población y que no se pudo determinar su clasificación), para cada empresa y género. 
-
-{\fontsize{10}{11}\selectfont
-\begin{longtable}[H]{lrrrrr}
-\caption{Trabajadores activos expuestos al riesgo por empresa}\\
-\label{tab:iess_operativos_estado}\\
-\toprule
-\multicolumn{1}{c}{Empresa:}
-& \multicolumn{1}{c}{Activos con derecho}
-& \multicolumn{1}{c}{Activos sin derecho}
-& \multicolumn{1}{c}{Cesantes}
-& \multicolumn{1}{c}{Jubilados por vejez}
-& \multicolumn{1}{c}{Total}\\
-\midrule
-\endfirsthead
-
-\toprule
-\multicolumn{1}{c}{Empresa:}
-& \multicolumn{1}{c}{Activos con derecho}
-& \multicolumn{1}{c}{Activos sin derecho}
-& \multicolumn{1}{c}{Cesantes}
-& \multicolumn{1}{c}{Jubilados por vejez}
-& \multicolumn{1}{c}{Total}\\
-\midrule
-\endhead
-
-\bottomrule \multicolumn{6}{r}{continúa...} \\
-\endfoot
-%\hline
-\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
-\endlastfoot
-\input{tablas/iess_operativos_estado.tex}
-\end{longtable}
-}
-
-
-{\fontsize{10}{11}\selectfont
-\begin{longtable}[H]{lrrrrr}
-\caption{Trabajadores activos administrativos por empresa}\\
-\label{tab:iess_administrativos_estado}\\
-\toprule
-\multicolumn{1}{c}{Empresa:}
-& \multicolumn{1}{c}{Activos con derecho}
-& \multicolumn{1}{c}{Activos sin derecho}
-& \multicolumn{1}{c}{Cesantes}
-& \multicolumn{1}{c}{Jubilados por vejez}
-& \multicolumn{1}{c}{Total}\\
-\midrule
-\endfirsthead
-
-\toprule
-\multicolumn{1}{c}{Empresa:}
-& \multicolumn{1}{c}{Activos con derecho}
-& \multicolumn{1}{c}{Activos sin derecho}
-& \multicolumn{1}{c}{Cesantes}
-& \multicolumn{1}{c}{Jubilados por vejez}
-& \multicolumn{1}{c}{Total}\\
-\midrule
-\endhead
-
-\bottomrule \multicolumn{6}{r}{continúa...} \\
-\endfoot
-%\hline
-\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
-\endlastfoot
-\input{tablas/iess_administrativos_estado.tex}
-\end{longtable}
-}
-
-
-En la tabla \ref{tab:iess_riesgo_empresa_sexo}, se presenta el número de individuos por género, 1.988 hombres y 298 mujeres. Las mujeres apenas representan el 13,04\% de la población y, al 31 de agosto de 2020, solo existen registros de 27 ex trabajadoras del cemento (jubiladas o cesantes) con 300 o más aportes en la industria del cemento. Esto se debe que el trabajo operativo requiere una alta demanda física.
+En la tabla \ref{tab:iess_riesgo_empresa_sexo}, se presenta el número de individuos por género, 1.988 hombres y 298 mujeres. Las mujeres apenas representan el 13,04\% de la población.
 
 {\fontsize{9}{11}\selectfont
 \begin{longtable}[H]{lrrrrrrrrr}
@@ -169,78 +84,70 @@ En la tabla \ref{tab:iess_riesgo_empresa_sexo}, se presenta el número de indivi
 \endfoot
 %\hline
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \endlastfoot
   \input{tablas/iess_riesgo_empresa_sexo.tex}
 \end{longtable}
+
+Para el año 2022, los trabajadores de la industria del cemento registraron la masa salarial igual a USD 41.674.913,72, de los cuales solo USD 8.651.791,92 (20,76\%) corresponde a las mujeres. En relación con el 2021, la masa salarial creció de USD 35.520.306,13 a USD 41.674.913,72, lo que representa un crecimiento igual a 17,33\%. Durante los últimos diez (10) años, la masa salarial creció 4,55\% en promedio, cada año. En la tabla \ref{tab:iess_masa_salarial}, se presenta la evolución de la masa salarial de los trabajadores de la industria del trabajo.
+
+{\fontsize{9}{11}\selectfont
+\begin{longtable}[H]{crrr}
+\caption{Evolución de la masa salarial de los trabajadores de la industria del cemento}
+\label{tab:iess_masa_salarial}\\
+\toprule
+\multirow{2}[2]{*}{Año:} &
+\multicolumn{3}{c}{Masa Salarial} \\
+\cmidrule(r){2-4}
+& \multicolumn{1}{c}{Hombres}   &
+\multicolumn{1}{c}{Mujeres}   & 
+\multicolumn{1}{c}{Total}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multirow{2}[2]{*}{Año:} &
+\multicolumn{3}{c}{Masa Salarial} \\
+\cmidrule(r){2-4}
+& \multicolumn{1}{c}{Hombres}   &
+\multicolumn{1}{c}{Mujeres}   & 
+\multicolumn{1}{c}{Total}\\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{4}{r}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: Dirección Nacional de Afiliación y Cobertura \\
+Elaborado: DAIE\\}
+\endlastfoot
+  \input{tablas/iess_masa_salarial.tex}
+\end{longtable}
 }
 
-De los 231 extrabajadores del cemento fallecidos, con al menos 300 imposiciones en la industria del cemento, 222 (96,1\%) son hombres y, solamente, 9 son mujeres. Además, a la fecha de corte, 31 de agosto de 2020, se registraron 111 extrabajadores fallecidos de HOLCIM y 120 de UCEM. Según la homologación de cargos, realizada por la Dirección de Riesgos de Trabajo, no se registraron extrabajadores fallecidos con cargo homologado “Administrativo”.
-
-\begin{table}[H]
-\begin{center}
-\caption{Extrabajadores fallecidos, por empresa y condición de jubilación por vejez.}
-\label{tab:iess_fallecidos}
-\begin{tabular}{lccc}
-\hline
-Empresa: & \multicolumn{1}{l}{Sin jubilación por vejez} & \multicolumn{1}{l}{Con jubilación por vejez} & \multicolumn{1}{l}{Total} \\ \hline
-HOLCIM   & 75                                           & 36                                           & 111                       \\
-UCEM     & 67                                           & 53                                           & 120                       \\ \hline
-Total    & 142                                          & 89                                           & 231                       \\ \hline
-\end{tabular}
-\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
-\end{center}
-\end{table}
-
-A la fecha de corte, 31 de agosto de 2020, se registró 231 extrabajadores del cemento fallecidos, de los cuales 142 (61,47\%) no se les otorgó alguna jubilación por vejez; en cambio 89 (38,53\%) obtuvieron el derecho a una jubilación por vejez en el IESS. En cambio, de los 142 extrabajadores cesantes que no se les otorgó una jubilación por vejez, con 300 imposiciones en la industria del cemento, se otorgaron al menos una pensión de montepío a la viuda o hijos menores de 18 años de 101 extrabajadores sin jubilación por vejez; es decir, que el 71,13\% de los extrabajadores fallecidos sin jubilación por vejez fueron causantes de una pensión por viudez u orfandad. Por consiguiente, 41 extrabajadores fallecidos de la industria del cemento, con al menos 300 imposiciones en la industria del cemento, no recibieron ni pensión por vejez o causaron una pensión por viudez u orfandad; esto debido a que no alcanzaron a cumplir con los requisitos de la jubilación por vejez del IESS o no la solicitaron.
-
-\section{Análisis demográfico de la población de trabajadores y extrabajadores de la industria del cemento}
-
-La población de trabajadores activos con al menos 300 imposiciones en la industria del cemento se compone por 91 individuos, de los cuales 82 son hombres con edad promedio igual a 53,62 años y 2 son mujeres con edad promedio igual a 48,33 años. En la pirámide poblacional de los trabajadores activos con derecho a la jubilación especial de los trabajadores de la industria del cemento (ver figura \ref{fig:iess_pir_edad_sexo_CD}), se puede observar que la población se compone principalmente por hombres para edades mayores de 47 años. También muestra una forma estancada, la cual nos indica que los ingresos de nuevos individuos a la población son constantes.
+La población de activa de los trabajadores de la industria del cemento registra una edad promedio igual a 39,91 años en los hombres y 34,99 años en las mujeres. Además, las mujeres solo representan el 14,97\% de la población activa, la mayoría corresponde al género masculino (85,03\%). En la figura \ref{fig:iess_pir_edad_sexo}, se presenta la pirámide poblacional de los trabajadores de la industria del cemento, la cual presenta una forma regresiva, con bajas tasas de entradas de trabajadores jóvenes y una baja representación de trabajadores mayores de 60 años y el 70\% de población es hombre en edades comprendidas entre 30 a 50 años.
 
 \begin{figure}[H]
 \centering
-\caption{Pirámide poblacional de trabajadores activos con 300 o más imposiciones en la industria del cemento}
-\label{fig:iess_pir_edad_sexo_CD}
-\includegraphics[scale=1]{graficos/iess_pir_edad_sexo_CD.png}
+\caption{Pirámide poblacional de los Trabajadores de la Industria del Cemento}
+\label{fig:iess_pir_edad_sexo}
+\includegraphics[scale=1]{graficos/iess_pir_edad_sexo.png}
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \end{figure}
 
 
-Los trabajadores activos del cemento con menos de 300 imposiciones de la industria del cemento (ver figura \ref{fig:iess_pir_edad_sexo_SD}), 1.751 individuos, de los cuales 1.490 son hombres tienen edad promedio igual a 45,65 años y 261 son mujeres tienen edad promedio igual a 38,96 años. Además, se puede observar que la población se compone principalmente por hombres entre 28 y 42 años. También muestra una forma regresiva, la cual nos indica que los ingresos de nuevos individuos a la población son muy pocos.
-
-La población de extrabajadores cesantes de la industria del cemento con al menos 300 imposiciones del cemento se compone por 60 individuos, de los cuales 53 son hombres con edad promedio igual a 57 años y 7 son mujeres con edad promedio igual a 56,43 años de edad. En la pirámide poblacional de los extrabajadores cesantes (ver figura \ref{fig:iess_pir_edad_sexo_CS}), se puede observar que la población de jubilados por vejez se compone principalmente por hombres entre 50 y 61 años. Además, muestra una forma regresiva, la cual nos indica un bajo ingreso a de nuevos individuos a la población y un previsible envejecimiento de la población e incluso pérdida de la población.
+Para los trabajadores de la industria del cemento, el salario promedio mensual es USD 2.050,76 para los hombres y USD 3.170,16 para las mujeres; es decir, las mujeres representan solo el 14,97\% de la fuerza laboral; pero reciben un salario 54,58\% mayor a los hombres, debido a que las mujeres tienen cargos administrativos y de gerencia; mientras que la mayoría de los hombres realizan tareas operativas. En la figura \ref{fig:iess_pir_sal}, se presenta los salarios promedios por edad y sexo.
 
 \begin{figure}[H]
 \centering
-\caption{Pirámide poblacional de trabajadores activos con menos de 300 imposiciones en la industria del cemento}
-\label{fig:iess_pir_edad_sexo_SD}
-\includegraphics[scale=1]{graficos/iess_pir_edad_sexo_SD.png}
+\caption{Salarios promedio por edad y sexo de los Trabajadores de la Industria del Cemento}
+\label{fig:iess_pir_sal}
+\includegraphics[scale=1]{graficos/iess_pir_sal.png}
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\caption{Pirámide poblacional de extrabajadores cesantes con 300 o más imposiciones en la industria del cemento}
-\label{fig:iess_pir_edad_sexo_CS}
-\includegraphics[scale=1]{graficos/iess_pir_edad_sexo_CS.png}
-\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
-\end{figure}
-
-La población de jubilados por vejez, con al menos 300 imposiciones del cemento, se compone por 384 individuos, de los cuales 363 son hombres con edad promedio igual a 74,07 años y 21 son mujeres con edad promedio igual a 69 años. También muestra una forma regresiva, la cual nos indica un bajo ingreso a de nuevos individuos a la población y un previsible envejecimiento de la población e incluso pérdida de la población. 
-
-\begin{figure}[H]
-\centering
-\caption{Pirámide poblacional de extrabajadores jubilados por vejez con 300 o más imposiciones en la industria del cemento}
-\label{fig:iess_pir_edad_sexo_JB}
-\includegraphics[scale=1]{graficos/iess_pir_edad_sexo_JB.png}
-\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
-\end{figure}
 
 \section{Estructura demográfica de la población pensionista}
 
@@ -270,7 +177,7 @@ A diciembre de 2022, se ha otorgado a el derecho a la Jubilación Especial de lo
 \endfoot
 %\hline
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \endlastfoot
   \input{tablas/iess_empresa_riesgo_pen.tex}
 \end{longtable}
@@ -285,7 +192,7 @@ El promedio de edad de los pensionistas de la Jubilación Especial de los Trabaj
 \label{fig:iess_pir_pensionistas}
 \includegraphics[scale=1]{graficos/iess_pir_pensionistas.png}
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \end{figure}
 
 La edad de los pensionistas tiene un rango desde los 48 años y 72 años, el 50\% de los pensionistas están por debajo de los 58 años y solo el 20\% de los pensionistas de la jubilación especial tienen edades mayores entre 60 años a 72 años. En la tabla \ref{tab:iess_pensionistas_rango_edad}, se presenta la distribución de los pensionistas por rangos de edad.
@@ -334,7 +241,7 @@ La edad de los pensionistas tiene un rango desde los 48 años y 72 años, el 50\
 \endfoot
 %\hline
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \endlastfoot
   \input{tablas/iess_pensionistas_rango_edad.tex}
 \end{longtable}
@@ -349,5 +256,41 @@ A diciembre de 2022, el promedio de las pensiones mensuales, sin décimas, de la
 \label{fig:iess_pir_pensiones}
 \includegraphics[scale=1]{graficos/iess_pir_pensiones.png}
 \caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones\\
-Elaborado: DAIE.\\}
+Elaborado: DAIE\\}
 \end{figure}
+
+Por último, se presenta una lista de siete (7) pensionistas de la jubilación de la industria del cemento que ejercían sus labores en cargos administrativos, los cuales obtuvieron su derecho a través de un fallo judicial y no completaron requisitos establecidos en el artículo 3 del Reglamento de Aplicación de la Ley de Jubilación Especial De Los Trabajadores De La Industria del Cemento, emitida en la \legalcite{ResIESS_CD640}.
+
+{\fontsize{8}{11}\selectfont
+\begin{longtable}[H]{lcclcl}
+\caption{Pensionistas de la Jubilación Especial de la Industria del Cemento, que se encontraban con cargos administrativos}
+\label{tab:tab_pensionistas_administrativos}\\
+\toprule
+\multicolumn{1}{c}{Provincia}   & 
+\multicolumn{1}{c}{Empresa}   &
+\multicolumn{1}{c}{Cédula}   & 
+\multicolumn{1}{c}{Nombre}   & 
+\multicolumn{1}{c}{Edad}   &
+\multicolumn{1}{c}{Ocupación} \\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Provincia}   & 
+\multicolumn{1}{c}{Empresa}   &
+\multicolumn{1}{c}{Cédula}   & 
+\multicolumn{1}{c}{Nombre}   & 
+\multicolumn{1}{c}{Edad}   &
+\multicolumn{1}{c}{Ocupación} \\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{6}{r}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: Dirección del Sistema de Pensiones y Dirección del Seguro General de Riesgos del Trabajo\\
+Elaborado: DAIE\\}
+\endlastfoot
+  \input{tablas/tab_pensionistas_administrativos.tex}
+\end{longtable}
+}
