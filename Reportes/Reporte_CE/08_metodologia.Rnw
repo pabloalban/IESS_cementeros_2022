@@ -499,6 +499,33 @@ R_{x,g,t}^{cal}&=R_{x,g,t}^{cem} + R_{x,g,t}^{ivm};
 	
 Además, la renta total percibida por el jubilado se revalorizará cada año según la tasa de inflación promedio (debido a que una reducción de esta vulneraría los derechos adquiridos de los pensionistas de la industria del cemento, por el Artículo 225 de la Ley de Seguridad), según el Artículo 2 de Resolución No. C.D. 300.
 
+
+De acuerdo con el literal d) del artículo 8 del Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, expedido mediante \legalcite{ResIESS_CD640}, se determina el calculo de la reserva matemática dentro del proceso para acceder a la jubilación especial, con las siguientes palabras: 
+
+“\textit{d) En el caso que el informe determine que el solicitante fue trabajador expuesto a factores de alto riesgo en la industria del cemento y cumplan con los requisitos de imposiciones, las Coordinaciones o Unidades Provinciales de Prestaciones de Pensiones, Riesgos del Trabajo, Fondos de Terceros y Seguro de Desempleo, o quienes hagan sus veces, remitirá el informe a la Dirección Actuarial, de Investigación y Estadística para que la misma realice el cálculo de la reserva matemática de la condición especial del cemento, caso contrario se deberá proceder con la correspondiente notificación al interesado y el respectivo archivo de la solicitud}”.
+
+Con este fin se calcula la renta matemática vitalicia, previo a la entrega de la jubilación especial de los trabajadores de la industria del cemento, la cual consta de dos (2) partes. La primera una renta temporal, la cual cubre las prestaciones hasta la fecha de derecho del IVM del afiliado. En tal período de tiempo la totalidad de la pensión se entregará del Fondo del Cemento, debido a que no cumple requisitos del Seguro del IVM. En segundo lugar, una renta diferiría que cubre las prestaciones desde la fecha de derecho en el IVM hasta la defunción del beneficiario, en esta parte, al cumplir derechos del Seguro del IVM, el beneficiario recibe su pensión igual al 100\% de su último sueldo compuesta de dos (2) componentes, una parte del cemento y una parte del IVM.
+
+La Renta temporal está dado por:
+
+	\[ \text{Renta Temporal} = \actsymb[][]{\ddot{a}}{x:\angln} \cdot \left( (\text{Renta IVM} + \text{Renta Cemento} ) \cdot 13 + 450 \right)
+\]
+ donde: $n$ es la edad de derecho del Seguro de IVM y 
+	\[ \actsymb[][]{\ddot{a}}{x:\angln} = \frac{N_x - N_n}{D_x}
+\].
+
+Por otro lado, la renta diferida utiliza la siguiente expresción matemática:
+
+	\[ \text{Renta Diferida} = k/\actsymb[][]{\ddot{a}}{x} \cdot \left(  \text{Renta Cemento} \cdot 13 \right)
+\]
+ donde: $k= n - \text{edad actual}$  y 
+	\[  k/\actsymb[][]{\ddot{a}}{x} = \frac{N_{x+k+1}}{D_x}
+\].
+
+Por lo tanto, renta matemática es igual a 
+
+	\[ \text{Renta Matemática} = \text{Renta Temporal} + \text{Renta Diferida} \]. 
+
 \section{Cálculos para la estimación de las prestaciones por montepío en la Jubilación Especial de los Trabajadores de la Industria del Cemento}
 Debido a las limitaciones de la información histórica referente al número de beneficiarios de Montepío, en el que el causante es un trabajador activo o jubilado de la industria del cemento, se procede a realizar estimaciones utilizando los datos históricos del número de beneficiarios de Montepío en el Seguro IVM. De esta manera, se estima que la probabilidad de recibir una pensión de orfandad, $p_{o}$, o viudez, $p_{v}$, cuando el causante es un trabajador activo o jubilado de la industria del cemento es igual a 0,94\% y 2,24\%, respectivamente. Las probabilidades se calculan como el promedio de la proporción entre el número de beneficiarios de una pensión de orfandad o viudez con el número total de afiliados más el número total de pensionistas durante el período 2012 a 2017. En términos matemáticos, se puede expresar como:
 \begin{equation}
