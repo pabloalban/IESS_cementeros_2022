@@ -28,27 +28,29 @@ Instituto Ecuatoriano de Seguridad Social}}}}}
 
 \vspace{0.5cm}
 
-\begin{center}
 
 \parbox{\textwidth}{ 
 
-  {\centering \fontsize{22pt}{30} { \selectfont{ \bfseries{ \textcolor{iess_blue} 
-    { \Sexpr{REP_tit} } } } \par } } 
+  {\begin{center} \fontsize{22pt}{30} { \selectfont{ \bfseries{ \textcolor{iess_blue} 
+    { \Sexpr{REP_tit} } } } \par } \end{center} } 
 }
 
-% \vspace{1cm}
-% {\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Fecha de valuación: 
-% \Sexpr{REP_fec_fin}}}}}}\\
+\vspace{0.3cm}
 
+\begin{center} 
+{\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Fecha de valuación:
+\Sexpr{REP_fec_val}}}}}}\\
 \end{center}
 
 \vspace{0.5cm}
 \hspace*{7cm}{\color{iess_green}{\rule{11cm}{1pt}}}
 
-\vspace{5cm}
+\vspace{1cm}
 
 \vspace{1.3cm}
+\begin{flushright}
 \hspace*{7cm}{\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Quito - Julio 2023}}}}}
+\end{flushright}
 \normalfont
 \clearpage
 

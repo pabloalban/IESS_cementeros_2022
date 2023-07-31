@@ -500,7 +500,7 @@ R_{x,g,t}^{cal}&=R_{x,g,t}^{cem} + R_{x,g,t}^{ivm};
 Además, la renta total percibida por el jubilado se revalorizará cada año según la tasa de inflación promedio (debido a que una reducción de esta vulneraría los derechos adquiridos de los pensionistas de la industria del cemento, por el Artículo 225 de la Ley de Seguridad), según el Artículo 2 de Resolución No. C.D. 300.
 
 
-De acuerdo con el literal d) del artículo 8 del Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, expedido mediante \legalcite{ResIESS_CD640}, se determina el calculo de la reserva matemática dentro del proceso para acceder a la jubilación especial, con las siguientes palabras: 
+De acuerdo con el literal d) del artículo 8 del Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, expedido mediante \legalcite{ResIESS_CD640}, se determina el cálculo de la reserva matemática dentro del proceso para acceder a la jubilación especial, con las siguientes palabras: 
 
 “\textit{d) En el caso que el informe determine que el solicitante fue trabajador expuesto a factores de alto riesgo en la industria del cemento y cumplan con los requisitos de imposiciones, las Coordinaciones o Unidades Provinciales de Prestaciones de Pensiones, Riesgos del Trabajo, Fondos de Terceros y Seguro de Desempleo, o quienes hagan sus veces, remitirá el informe a la Dirección Actuarial, de Investigación y Estadística para que la misma realice el cálculo de la reserva matemática de la condición especial del cemento, caso contrario se deberá proceder con la correspondiente notificación al interesado y el respectivo archivo de la solicitud}”.
 
