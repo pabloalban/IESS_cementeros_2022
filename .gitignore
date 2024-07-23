@@ -4,6 +4,9 @@
 .Ruserdata
 .xlsx
 .sql
+.doc
+.docx
+.pdf
 Resultados/*
 Data/*
 RData/*
