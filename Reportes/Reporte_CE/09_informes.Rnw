@@ -1,0 +1,107 @@
+\chapter{Informes técnicos de riesgos del trabajo}
+\label{chp_informe}
+
+En este capítulo presentamos los 4 informes técnicos de riesgos del trabajo elaborados por el MDT y las empresas cementeras.
+
+\section{Informe técnico del MDT}
+Mediante Oficio Nro. MDT-MDT-2024-0333-O, de fecha 10 de abril de 2024, Abg. Ivonne Elizabeth Núñez Figueroa, Ministra del Trabajo, pone en conocimiento de esta Dirección el informe “INSPECCIÓN ESPECIALIZADA EN SEGURIDAD Y SALUD EN EL TRABAJO INDUSTRIA CEMENTERA”, el cual presenta las siguientes conclusiones:
+\begin{itemize}[itemsep=1mm, topsep=5pt]
+\item HOLCIM ECUADOR S.A-Planta Guayaquil: En el centro de trabajo se evidenció que se ha identificado el puesto de trabajo “OPERADOR DE PRODUCCIÓN DE CLINKER como de alto riesgo. La empresa dentro de la gestión de riesgos laborales ha aplicado controles de ingeniería como automatización de procesos, controles administrativos, señalización y dotación de equipos de protección personal, asimismo la empresa mantiene infraestructura en buen estado, orden y limpieza en todas las áreas de la planta.
+\item HOLCIM AGREGADOS.A-Planta Quito: En el centro de trabajo se evidenció exposición a factores de riesgo como material particulado y ruido. La empresa evidencia control de ingeniería para la prevención de los riesgos laborales en referencia, en este sentido, mediante un sistema de aspersores de agua por nebulización y doble aislamiento de la cabina del operador se controla la exposición a polvo y ruido respectivamente, también se efectúa la entrega de protección personal. Asimismo, se evidencia control de los factores de riesgo identificados y evaluados con un nivel de riesgo “importante”.
+\item UNACEM ECUADOR S A-Planta Otavalo: En el centro de trabajo se evidenció que se han tomado y ejecutado medidas preventivas para los trabajos de alto riesgo, siendo así que mantienen en sus instalaciones un show room que posee simuladores y modelos a escala de las áreas de alto riesgo (izaje de cargas, trabajo en altura, trabajo con líneas energizadas, trabajo en espacios confinados entre otros) donde los trabajadores que van a ingresar a sus actividades laborales mantienen una inducción de varios días, con el objetivo que a través de estas prácticas puedan desarrollar la correcta aplicación de medidas de prevención y protección en sus actividades laborales asignadas. La empresa mantiene un control constante en todas las áreas de la empresa tanto administrativa, pero sobre todo operativa, donde existen líderes de equipo que de manera periódica verifican que los trabajadores estén desarrollando sus actividades de manera segura. En la inspección a los puestos de trabajo que realizan actividades de alto riesgo (mezclado, transporte de cargas, apilamiento, molienda, trituración, mantenimiento de motores térmicos, montaje y desmontaje de proyectos, ollas mezcladoras, extracción de materia prima en mina), debido a la actividades de concentración, a pesar que las medidas preventivas aplicadas por el empleador son las adecuadas, se mantiene el riesgo latente en estos puestos de trabajo, es por ello que es importante un control exhaustivo en el desarrollo de las actividades considerando el nivel de riesgo al que se encuentran expuestos los trabajadores para precautelar la seguridad y salud de los trabajadores.
+
+\item UNIÓN CEMENTERA NACIONAL UCEM S.A-Planta Riobamba: En el centro de trabajo se evidenció que el operador de equipo o maquinaria pesada, se exponen a factores de riesgo como: ruido, estrés térmico y material particulado. La empresa evidenció la gestión correspondiente para el control de estos factores de riesgo en la fuente, medio y receptor.
+
+\item UNIÓN CEMENTERA NACIONAL UCEM S.A-Planta Loja: En el centro de trabajo se evidenció que los trabajadores están expuestos a factores de riesgo como: ruido y material particulado, el control de los riesgos se realiza a través de la dotación de equipos de protección personal, sin embargo, estos equipos no se encuentran en buen estado, cabe señalar no se evidencia control de los riesgos laborales en la fuente y en el medio de transmisión, únicamente en el trabajador.
+Asimismo, se evidenció exposición a levantamiento manual de cargas, si bien se cuenta con una ayuda mecánica (montacargas) se realiza levantamiento manual de cargas lo que implica la adopción de posturas inadecuadas.
+
+\item UNIÓN CEMENTERA NACIONAL UCEM S.A-Planta Portoviejo: En el centro de trabajo se evidenció que los trabajadores del puesto de trabajo “ayudante de planta” están expuestos a factores de riesgo como ruido, material particulado, temperaturas altas, radiación ultravioleta, posiciones forzadas, caídas al mismo nivel y exposición a riesgos eléctricos. Entre las medidas adoptadas por la empresa se evidencia identificación y evaluación de los factores de riesgo, sin embargo, el monitoreo de exposición a material particulado no se presentó en el momento de la inspección.
+
+\item De los 6 centros de trabajo visitados, se evidencia el control de riesgos laborales mediante la aplicación de controles ingenieriles, administrativos y dotación de equipos de protección personal, únicamente en centro de trabajo UNIÓN CEMENTERA NACIONAL UCEM S.A-Planta Loja, no se evidencia control en la fuente generadora del factor de riesgo. A todos los centros de trabajo inspeccionados se les ha concedido el término de 15 días laborales para que presenten la información que respalde los hallazgos encontrados en la inspección respecto al cumplimiento normativo.
+\end{itemize}
+Y las siguientes recomendaciones:
+\begin{itemize}[itemsep=1mm, topsep=5pt]
+\item En referencia al PROYECTO DE LEY ORGÁNICA DE JUBILACIÓN ESPECIAL PARA LOS TRABAJADORES Y EXTRABAJADORES DE LA INDUSTRIA DEL CEMENTO y los nuevos avances en seguridad en trabajo y prevención de riesgos laborales, se recomienda considerar que actualmente para el control de los factores de riesgo laboral identificados como de “alto riesgo” en la industria cementera, se aplican controles en la fuente generadora del riesgo o peligro, en este sentido, se han automatizado procesos limitando la exposición del trabajador a factores de riesgo identificados.
+
+\item Asimismo, se sugiere considerar el número de accidentes de trabajo y enfermedades profesionales registradas en este sector a fin de contar con mayor información en la determinación de la aplicabilidad de la norma.
+\end{itemize}
+
+
+
+\section{Informe técnico de HOLCIM}
+Mediante memorando Nro. IESS-DSGRT-2024-0872-M, de fecha 28 de junio de 2024, Dr. Fabián Antonio Escalante Álvarez, Director del Seguro General de Riesgos del Trabajo, traslada la información entregada por la empresa cementera HOLCIM para continuar con la elaboración del estudio actuarial, el cual señala lo siguiente:
+
+\textbf{1. Ensacadora de cemento}
+
+\textbf{Ruido}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal para ninguna posición que labora en esta área.
+
+\textbf{Polvo}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal para ninguna posición que labora en esta área.
+
+\textbf{Controles}: Los equipos se encuentran encapsulados, cuentan con sensores de apertura que detienen inmediatamente el equipo, dispositivos de atenuación de ruido, fuentes de ruido y polvo fueron encapsuladas con medidas de ingeniera.
+
+\textbf{2. Descarga y transporte de Clinker}
+
+\textbf{Ruido}: no hay fuentes de generación de ruido en esta zona por lo tanto no hay personal expuesto al riesgo.
+
+\textbf{Polvo}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal para ninguna posición que labora en esta área.
+
+\textbf{Controles}: existe una cabina de operación que está aislada herméticamente y la actividad en el área no es permanente dentro de una rutina diaria de operación normal.
+
+\textbf{3. Molinos de cemento y de crudo}
+
+\textbf{Molino de Crudo}
+
+\textbf{Ruido}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal y actividades rutinarias, para ninguna posición que labora en esta área.
+
+\textbf{Polvo}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal y actividades rutinarias, para ninguna posición que labora en esta área
+
+\textbf{Ruido}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal y actividades rutinarias, para ninguna posición que labora en esta área.
+
+\textbf{Polvo}: de acuerdo a las ultimas dosimetrías realizadas por una empresa proveedora externa, no existe riesgo alto en operación normal y actividades rutinarias, para ninguna posición que labora en esta área.
+
+\textbf{Controles}: Medidas administrativas, tiempo de exposición, vigilancia de la salud, equipos con barreas de protección, filtros de extracción operativos e inspecciones dentro de rutinas establecidas, aislamiento de área, restricción de acceso, no existen hay posiciones permanentes en el lugar, la cabina de operación es hermética para la ejecución de actividades puntuales dentro de la rutina diaria de operación.
+
+\textbf{4. Ventiladores}
+
+No existen posiciones de trabajo con personal expuesto en esta área en condiciones normales de producción Controles: el área es restringida, tiene control de acceso, protección y asilamiento de equipos, confinados y cerrados.
+
+\textbf{5. Silos}
+
+No existe posiciones de trabajo con personal expuesto en esta área en condiciones normales de producción 
+
+\textbf{Controles}: el área es restringida, tiene control de acceso, protección y asilamiento de equipos y ductos, confinados, protegidos y cerrados.
+
+\textbf{6. Filtros de polvo}
+No existe posiciones de trabajo con personal expuesto en esta área en condiciones normales de producción.
+
+
+
+
+\section{Informe técnico de UCEM}
+
+Yo. José Ortega Amoroso, en calidad de apoderado especial con procuración judicial del representante legal de Unión Cementera Nacional UCEM S.A., ante usted con el debido respeto comparezco y en respuesta al oficio Nro. IESS-SGRT-2024-0074-0 de fecha 18 de febrero do 2024 donde solicita que UCEM presente un documento con el detalle de la actualización de los cargos e indicar el número de trabajadores que se encuentren en cuestos de trabado donde estén expuestos a factores de riesgo relacionados d RUIDO Y POLVO DE SÍLICE me permito indicar lo siguiente
+
+La Unión Cementera Naconal UCEM S.A, desde varios años realiza gestión de Segundad y Salud en el Trabajo con la finalidad de reduor o mitigar tos riesgos de los diferentes puestos de trabajo en todas nuestras localidades a nivel nacional. Es por eso que, los factores de riesgo como el ruido y polvo de sílice para el proceso de producción de cemento es BAJO, debido a controles de riesgo que se han implementado.
+
+Como resumen de nuestro nivel de riesgo me permito colocar una tabla con el resanen de los últimos monitoreos realizados en nuestras instalaciones respecto de los factores de riesgo antes indicados.
+
+Adicionalmente, quiero informado que dentro de UCEM no se ha presentado un diagnóstico de enfermedad profesional por ruido o pavo do sílice, o a su vez alguna presunción o investigación por enfermedades relacionadas.
+
+
+\section{Informe técnico de UNACEM}
+
+En atención a su oficio Nro. IESS-DSGRT-2024-0074-O del 18 de junio 2024, en el que se solicita información sobre “detalle de la actualización de los cargos e indicar el número de trabajadores que se encuentren en puestos de trabajo donde estén expuestos a factores de riesgo relacionados al RUIDO Y POLVO DE SÍLICE actualmente”, informamos lo siguiente:
+
+\begin{itemize}[itemsep=1mm, topsep=5pt]
+\item UNACEM ECUADOR S.A. no tiene cargos con personal expuesto a niveles de riesgo alto por exposición a ruido o polvo de SC gracias a las medidas de control aplicadas.
+
+
+\item Nuestra empresa ha adoptado las medidas necesarias para la mitigación de todos los riesgos en el trabajo y, en cumplimiento de sus obligaciones, entrega los elementos de protección necesaria para cada colaborador. Así también, realiza los procesos de capacitación sobre seguridad y salud en el trabajo a todos sus trabajadores en las diferentes áreas de trabajo.
+
+\item Identificamos al cargo de Ayudante de Área, con un número total de 22 trabajadores en la actualidad, como el cargo relacionado a la exposición a seis factores de riesgo identificados como relevantes de nuestra industria.
+\end{itemize}
+
+
+
+
+

@@ -2,7 +2,7 @@
 \chapter[Análisis demográfico]{Análisis demográfico}
 \label{chp_demog}
 
-En este capítulo se muestran las estadísticas descriptivas de la población de trabajadores (activos) y pensionistas de la industria del cemento. Para el análisis estadístico descriptivo, se discrimina a la población cementera por: empresa productora del cemento, género y cargo homologado por la Dirección de Riesgos del Trabajo (“Administrativo” u “Expuesto al Riesgo”).
+En este capítulo se muestran las estadísticas descriptivas de la población de trabajadores (activos) y pensionistas de la industria del cemento. Para el análisis estadístico descriptivo, se discrimina a la población cementera por: empresa productora del cemento, género y cargo homologado por la Dirección de Riesgos del Trabajo (“Administrativo” u “Operativos”).
 
 \section{Estructura demográfica de los trabajadores de la industria del cemento}
 
@@ -15,7 +15,7 @@ En el presente estudio, se considera una población de 2.286 trabajadores de la 
 \toprule
 \multicolumn{1}{c}{Empresa:}
 & \multicolumn{1}{c}{Administrativos}
-& \multicolumn{1}{c}{Expuestos al riesgo}
+& \multicolumn{1}{c}{Operativos}
 & \multicolumn{1}{c}{Total}\\
 \midrule
 \endfirsthead
@@ -23,7 +23,7 @@ En el presente estudio, se considera una población de 2.286 trabajadores de la 
 \toprule
 \multicolumn{1}{c}{Empresa:}
 & \multicolumn{1}{c}{Administrativos}
-& \multicolumn{1}{c}{Expuestos al riesgo}
+& \multicolumn{1}{c}{Operativos}
 & \multicolumn{1}{c}{Total}\\
 \midrule
 \endhead
@@ -47,7 +47,7 @@ En la tabla \ref{tab:iess_riesgo_empresa_sexo}, se presenta el número de indivi
 \toprule
 \multirow{2}[2]{*}{Empresa:} &
 \multicolumn{3}{c}{Administrativos} & 
-\multicolumn{3}{c}{Expuestos al riesgo} &
+\multicolumn{3}{c}{Operativos} &
 \multicolumn{3}{c}{Total}\\
 \cmidrule(r){2-4} \cmidrule(r){5-7}\cmidrule(r){8-10}
 & \multicolumn{1}{c}{Mujeres}   & 
@@ -65,7 +65,7 @@ En la tabla \ref{tab:iess_riesgo_empresa_sexo}, se presenta el número de indivi
 \toprule
 \multirow{2}[2]{*}{Empresa:} &
 \multicolumn{3}{c}{Administrativos} & 
-\multicolumn{3}{c}{Expuestos al riesgo} &
+\multicolumn{3}{c}{Operativos} &
 \multicolumn{3}{c}{Total}\\
 \cmidrule(r){2-4} \cmidrule(r){5-7}\cmidrule(r){8-10}
 & \multicolumn{1}{c}{Mujeres}   & 
@@ -203,7 +203,7 @@ La edad de los pensionistas tiene un rango desde los 48 años y 72 años, el 50\
 \label{tab:iess_pensionistas_rango_edad}\\
 \toprule
 \multirow{2}[2]{*}{Empresa:} &
-\multicolumn{3}{c}{Expuestos al riesgo} &
+\multicolumn{3}{c}{Operativos} &
 \multicolumn{3}{c}{Administrativos} & 
 \multicolumn{3}{c}{Total}\\
 \cmidrule(r){2-4} \cmidrule(r){5-7}\cmidrule(r){8-10}
@@ -221,7 +221,7 @@ La edad de los pensionistas tiene un rango desde los 48 años y 72 años, el 50\
 
 \toprule
 \multirow{2}[2]{*}{Empresa:} &
-\multicolumn{3}{c}{Expuestos al riesgo} &
+\multicolumn{3}{c}{Operativos} &
 \multicolumn{3}{c}{Administrativos} & 
 \multicolumn{3}{c}{Total}\\
 \cmidrule(r){2-4} \cmidrule(r){5-7}\cmidrule(r){8-10}

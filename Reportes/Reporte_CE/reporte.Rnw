@@ -64,9 +64,12 @@
 
 <<cap08, child='08_metodologia.Rnw'>>=
 @
- 
-<<cap09, child='09_hipotesis.Rnw'>>=
-  @
+
+<<cap10, child='09_informes.Rnw'>>=
+@
+
+<<cap09, child='10_hipotesis.Rnw'>>=
+@
  
 <<cap11, child='11_situacion.Rnw'>>=
 @
@@ -74,12 +77,21 @@
 <<cap13, child='13_conclusion.Rnw'>>=
 @
 %
-%<<cap14, child='14_opinion_actuarial.Rnw'>>=
-%@
+
+%---------------------------------------------------------------------------------------------------
+%\backmatter
+
+% Bibliografía
+\printbibliography
+\addcontentsline{toc}{chapter}{Bibliografía}
+
 
 %---------------------------------------------------------------------------------------------------
 % Apéndices
 \appendix
+<<cap14, child='14_anexo.Rnw'>>=
+@
+
 %\appendixpage
 
 % <<cap16, child='16_anx_modelo_macro.Rnw'>>=
@@ -99,11 +111,5 @@
 %<<cap21, child='21_anx_acronimos.Rnw'>>=
 %@
 
-%---------------------------------------------------------------------------------------------------
-%\backmatter
-
-% Bibliografía
-\printbibliography
-\addcontentsline{toc}{chapter}{Bibliografía}
 
 \end{document}

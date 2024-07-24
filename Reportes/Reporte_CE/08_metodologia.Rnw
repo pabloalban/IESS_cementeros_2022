@@ -514,7 +514,7 @@ La Renta temporal está dado por:
 	\[ \actsymb[][]{\ddot{a}}{x:\angln} = \frac{N_x - N_n}{D_x}.
 \]
 
-Por otro lado, la renta diferida utiliza la siguiente expresción matemática:
+Por otro lado, la renta diferida utiliza la siguiente expresión matemática:
 
 	\[ \text{Renta Diferida} = k/\actsymb[][]{\ddot{a}}{x} \cdot \left(  \text{Renta Cemento} \cdot 13 \right),
 \]

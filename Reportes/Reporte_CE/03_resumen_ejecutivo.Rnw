@@ -5,7 +5,7 @@
 \section{Definición clara del objeto del estudio}
 \label{chp_res_ejec:objeto}
 
-Con la finalidad de cumplir con la disposición transitoria segunda de la \legalcite{ResIESS_CD640}, se presenta el estudio actuarial de la Jubilación Especial de los Trabajadores de la Industria del Cemento, después de un (1) año de la emisión del REGLAMENTO DE APLICACIÓN DE LA LEY DE JUBILACIÓN ESPECIAL DE LOS TRABAJADORES DE LA INDUSTRIA DEL CEMENTO.
+En cumplimiento del literal i) del párrafo 97 de la sentencia Sentencia 56-21-IN/23, de fecha 09 de noviembre de 2023, de la Corte Constitucional, me permito expedir el siguiente estudio actuarial relacionado con la Jubilación Especial de los Trabajadores de la Industria del Cemento.
 %---------------------------------------------------------------------------------------------------
 \section{Hipótesis y supuestos claves del estudio}
 \label{chp_res_ejec:hipotesis}
@@ -30,7 +30,7 @@ Las hipótesis macroeconómicas utilizadas por este estudio se presentan en la t
 
 El presente estudio muestra el balance actuarial de conformidad con la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley interpretativa, en base a las siguientes consideraciones:
 \begin{itemize}[itemsep=1mm, topsep=5pt]
-\item Se considera a los trabajadores y ex trabajadores de la industria del cemento expuestos al riesgo (ruido o polvo), con al menos 300 imposiciones en la industria del cemento; con pensión igual al 100\% del último sueldo.
+
 \item Se considera las reservas matemáticas transferidas al fondo del Seguro de IVM por USD 10.375.288,20, en cumplimiento del literal d) del artículo 8 del REGLAMENTO DE APLICACIÓN DE LA LEY DE JUBILACIÓN ESPECIAL DE LOS TRABAJADORES DE LA INDUSTRIADEL CEMENTO, expedida mediante\legalcite{ResIESS_CD640}, para cancelar las pensiones vitalicias de los cincuenta y uno (51) pensionistas de la Jubilación Especial.
 \item El patrimonio inicial disponibles del Fondo a diciembre de 2022 es USD \Sexpr{REP$cap_ini}, no se consideran USD 2.134.388,7, depositados por HOLCIM S.A. en ejecución de la Sentencia del Juicio No. 9310-2007-0096, debido que estos valores todavía se encuentran en litigio entre HOLCIM S.A. y la Asociación de Jubilados y Veteranos de “La Cemento Nacional”.
 
@@ -67,23 +67,14 @@ Entre las principales conclusiones, se tiene:
 
 \begin{enumerate}[itemsep=1mm, topsep=0pt]
 
-\item	El resultado final de la valuación actuarial practicada al fondo de jubilación especial de los ex trabajadores de la industria del cemento, refleja una quiebra tanto financiera como actuarial, debido a que los recursos económicos disponibles (patrimonio) a la fecha de corte del presente estudio son USD \Sexpr{REP$cap_ini}, observando que estos valores son insuficientes para la cancelación de las obligaciones correspondientes al año 2023 de los jubilados en curso de pago, que ascienden a USD 4.102.732,30, por lo que presentan un déficit actuarial por USD  \Sexpr{REP$bal_act_esc_1}. Su año de desfinanciamiento es 2023 y se necesita una prima suficiente igual a \textbf{\Sexpr{REP$pri_med_niv_esc_1}\%} de las ventas del cemento en el Ecuador.
-
-
-\item No existe el debido financiamiento para la entrega de la Jubilación Especial de los Trabajadores de la Industria del Cemento, debido a que la prima de aporte extraordinario que financie este beneficio extraordinario, no se realizaron estudios actuariales, contraviniendo el artículo 55 de la Ley del Seguro Social Obligatorio, publicado en Registro Oficial Suplemento 21, de fecha 08 de septiembre de 1988, vigente en la época, que establece: “\textit{\textbf{Cambios en el régimen prestacional. Cualquier cambio en el régimen prestacional, financiero y de cotizaciones que se introduzca en el sistema de Seguridad Social, se lo hará luego de los estudios actuariales correspondientes}}”. (lo resaltado me pertenece)
-
-
-\item	Al 31 de diciembre de 2022, el patrimonio inicial del fondo asciende a USD \Sexpr{REP$cap_ini}, destinado al pago de prestaciones de la Jubilación Especial. Además, se registran USD 2.134.388,7, depositados por HOLCIM S.A. en ejecución de la Sentencia del Juicio No. 9310-2007-0096, y se encuentran en litigio entre HOLCIM S.A. y la Asociación de Ex Trabajadores de la Cemento Nacional.
-
-
-\item	Se han recaudado USD 14.311.526,37, de los cuales USD 9.721.989,24 por la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa y la \legalcite{ResIESS_CD554}; USD 2.134.388,74 por la Sentencia del Juicio No. 9310-2007-0096; USD 1.714.783,05 por intereses y USD 740.365,34 en multas. De diciembre de 2021 a octubre de 2022, se han recaudado USD 596.477,08, en concepto de aplicación de la Ley Interpretativa.
-
-
-\item Se ha entregado el beneficio de la jubilación especial a cincuenta y un (51) extrabajadores de la industria del cemento, de los cuales siete (7) laboraban en cargos administrativos y obtuvieron el derecho por decisión judicial, lo cual contraviene el literal c) del artículo 3 de la \legalcite{ResIESS_CD640}; entre los cuales se encuentra la jubilada con CC: 0300830080, la cual laboraba como oficinistas y se requirió USD 405.023,36 para cubrir su reserva matemática y liquidar haberes pendientes; es decir, se necesitó el 67,90\% de lo recaudado en el año 2022 para costear la jubilación de una sola pensionista.
-
-\item	Se concluye que la Jubilación Especial de la Industria del Cemento, bajo las condiciones o requisitos establecidos en la Ley de Jubilación Especial y su Ley interpretativa (pensión igual al 100\% del último sueldo, sin límite de edad y cumplidas mínimo 300 imposiciones en la industria del cemento; con el aporte establecido); \textbf{NO} es suficiente para otorgar la prestación ni siquiera en sus obligaciones en el año 2023 y consecuentemente no es sostenible en el tiempo y atenta al sistema pensional ecuatoriano, generando un perjuicio al Fondo de Pensiones del Seguro de Invalidez, Vejez y Muerte (IVM) del IESS igual a USD \Sexpr{REP$bal_act_esc_1} en los próximos veinte (20) años.
-
-
+\item	El resultado final de la valuación actuarial practicada al fondo de jubilación especial de los ex trabajadores de la industria del cemento, refleja una quiebra tanto financiera como actuarial, debido a que los recursos económicos disponibles (patrimonio) a la fecha de corte del presente estudio son USD 1.801.849,43, observándose que, estos valores son insuficientes para la cancelación de las futuras obligaciones; por lo que presentan un déficit actuarial por USD 29.294.516,87. Su último año de reserva positiva es 2023.
+\item	Para financiar los beneficios de esta jubilación especial y no tenga problemas económico-financieros en el tiempo, se necesita una prima suficiente igual a 0,515\%, de la facturación total de las ventas del cemento en el Ecuador; esta prima contiene el 3\% de los aportes, destinados a financiar gastos de administración que se entregarán al IVM.
+\item	Es necesario que el IVM recaude la reserva matemática por los 5 años que se deja de aportar para percibir esta jubilación anticipada.
+\item	Es necesario constituir una reserva matemática destinada al seguro de salud igual por los 5 años anticipados en percibir la jubilación especial.
+\item	Se ha entregado el beneficio de la jubilación especial a cincuenta y un (51) extrabajadores de la industria del cemento, de los cuales siete (7) laboraban en cargos administrativos y obtuvieron el derecho por decisión judicial, lo cual contraviene el literal c) del artículo 3 de la Resolución No. C.D. 640, entre los cuales se encuentra la jubilada con CC: 0300830080, la cual laboraba como oficinistas y se requirió USD 405.023,36 para cubrir su reserva matemática y liquidar haberes pendientes; es decir, se necesitó el 67,90\% de lo recaudado en el año 2022 para costear la jubilación
+de una sola pensionista.
+\item	Se garantiza el debido financiamiento para el grupo de los pensionistas de la jubilación especial en curso de pago del cemento, debido que ya se han transferido las reservas matemáticas del Fondo del Cemento al Fondo del Seguro de IVM por los valores correspondientes a las pensiones y montepíos futuros.
+\item	Se concluye que la Jubilación Especial de la Industria del Cemento, bajo las condiciones o requisitos establecidos en la Ley de Jubilación Especial 1989 y su Ley interpretativa (pensión igual al 100\% del último sueldo, sin límite de edad y cumplidas mínimo 300 imposiciones en la industria del cemento; con el aporte establecido); NO es suficiente para otorgar la prestación ni siquiera en sus obligaciones en el año 2024 y consecuentemente no es sostenible en el tiempo y atenta al sistema pensional ecuatoriano, generando un perjuicio al Fondo de Pensiones del Seguro de Invalidez, Vejez y Muerte (IVM) del IESS igual a USD 29.294.516,87 en los próximos veinte (20) años.
 
 \item	De los cincuenta y un (51) pensionistas de la jubilación especial, cuarenta y nueve (49) obtuvieron el derecho a la jubilación por fallos judiciales, entre los cuales se encontraban siete (7) extrabajadores con cargos administrativos, contraviniendo el artículo 3 del Reglamento de Aplicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, expedido mediante \legalcite{ResIESS_CD640}, de fecha 18 de agosto de 2021, que establece:
 
@@ -126,24 +117,39 @@ Elaborado: DAIE\\}
 \end{longtable}
 }
 
-\item A la fecha de emisión de este estudio no existen aún los estados financieros de la Jubilación Especial de la Industria del Cemento, cuya fecha de corte es 31/12/2022.
+\item A la fecha de emisión de este estudio no existen estados financieros de la Jubilación Especial de la Industria del Cemento, debido a que la Super Intendencia de Bancos no autorizó la creación del Fondo y su respectivo plan de cuentas.
+\item	A la fecha no existe estudios médicos que demuestren la afectación por enfermedades profesionales por la exposición al ruido y el polvo en los trabajadores y extrabajadores de la industria del Cemento (adjuntos estudios técnicos en el Anexo).
+\item No existe un acuerdo sobre la afectación de los riesgos laborales entre los estudios presentados por el MDT y empresas cementeras, debido a que no se realizaron los respectivos estudios médicos correspondientes para medir la afectación en los trabajadores y extrabajadores de la industria (adjuntos estudios técnicos en el Anexo).
 
 \end{enumerate}
 % --------------------------------------------------------------------------------------------------
 Las principales recomendaciones de esta Dirección son:
 \begin{enumerate}[itemsep=0mm, topsep=0pt]
-\item	Que la Subdirección Nacional de Patrocinio continúe con la demanda de inconstitucionalidad de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento y su Ley Interpretativa, debido a que al momento de su emisión no existieron los debidos estudios actuariales que respalden tanto primas de aportes como beneficios de este beneficio especial.
+\item	Establecer una prima suficiente igual a 0,515\% de la facturación de cemento vendido en el Ecuador, siempre que se determine la población sujeta a riesgo de enfermedad profesional.
+\item Entregar la prestación de la Jubilación Especial de los Trabajadores de la Industria del Cemento a los trabajadores que laboren al menos 25 años en la industria del cemento, no se encuentre percibiendo una jubilación de vejez del IESS y ocupen puestos con alto riesgo laboral o demuestren su afectación por el ruido y el polvo mediante exámenes médicos, verificados tanto por el Ministerio del Trabajo y unidades médicas ocupacionales del IESS. No se entregarán beneficios proporcionales.
+\item	Entregar una pensión especial a los trabajadores de la industria de cemento con la misma fórmula vigente de las jubilaciones por vejez, es decir, se entregue una pensión igual promedio de los salarios de los 5 mejores años, multiplicada por el coeficiente correspondiente a años de servicio y nivelado por pensiones máximas y mínimas, ajustándose a los incrementos establecidos en la Ley.
+\item	Que la Corte Constitucional solicite estudios médicos independientes elaborado por terceros que permitan evidenciar el impacto del ruido y polvo en la salud de los trabajadores y extrabajadores de la industria del cemento, debido que existen discrepancias en los resultados presentados por los informes técnicos elaborados por el MDT y empresas cementeras.
+\item	Que se incluya en el articulado del proyecto de Ley que, el Consejo Directivo del IESS tenga la atribución de modificar la prima de aportación de la Jubilación de los Trabajadores de la Industria del Cemento, con el fin de garantizar la sostenibilidad del Fondo.
+\item	Que se considere el 3\% de los aportes para financiar los gastos administrativos de la Jubilación Especial de los Trabajadores de la Industria del Cemento, en atención al literal c. del artículo 50 de la Ley de Seguridad Social y la Resolución No. C.D. 101 
+\item	La Dirección Actuarial, de Investigación y Estadística deberá elaborar dentro de un año de emita la Ley un nuevo estudio actuarial para verificar o ratificar la suficiencia de la prima.
+\item	Establecer que los aportes pagados con extemporaneidad se sujetarán a las disposiciones y resoluciones del IESS.
+\item	Incluir en el articulado del proyecto de Ley que no es doble jubilación y no se permita renunciar a la jubilación del IESS que estuviera percibiendo, ni tampoco se devuelvan aportes dentro del régimen de afiliación voluntaria a los jubilados de esta prestación.
+\item	Normar el acceso al derecho de los trabajadores con cambio de riesgo de enfermedad profesional a funcionario administrativo y viceversa.
+\item	No se considerará esta jubilación especial como jubilación patronal, doble jubilación o añadido a la de vejez entregada por el IESS.
+\item	Se disponga a la SuperIntendencia de Bancos en el articulado del Proyecto del Ley la creación del Fondo y su plan de cuentas.
 
-\item Que la Dirección del Sistema de Pensiones debe realizar las gestiones necesarias para recaudar los valores pendientes a las empresas cementeras, valores que financiarán en el corto y mediano plazo la Jubilación de la Industria del Cemento.
+\item Que la Dirección del Sistema de Pensiones debe realizar las gestiones necesarias para
+recaudar los valores pendientes a las empresas cementeras, valores que financiarán en
+el corto y mediano plazo la Jubilación de la Industria del Cemento.
 
-\item Que la máxima autoridad del IESS disponga a la Dirección del Sistema de Pensiones en coordinación con la Procuraduría, elabore un proyecto de Ley modificatoria a la Ley Especial de Jubilación de los Trabajadores de la Industria del Cemento, la misma que será presentada a la Asamblea Nacional, con el fin de establecer la contribución suficiente de las empresas cementeras en \Sexpr{REP$pri_med_niv_esc_1}\% de las ventas anuales del cemento en el Ecuador para financiar la esta jubilación especial.
+\item Se recomienda que la Dirección Actuarial, de Investigación y Estadística calcule una
+reserva matemática anual de contingencia, necesaria para cubrir los valores anuales de
+las pensiones y décimos de los nuevos jubilados de la industria del cemento, hasta que
+se establezca el debido financiamiento para esta prestación.
 
-\item Se recomienda que la Dirección Actuarial, de Investigación y Estadística calcule una reserva matemática anual de contingencia, necesaria para cubrir los valores anuales de las pensiones y décimos de los nuevos jubilados de la industria del cemento, hasta que se establezca el debido financiamiento para esta prestación.
+\item	Anualmente, la Subdirección Nacional Financiera del Sistema de Pensiones deberá
+elaborar un presupuesto tanto de ingresos como de egresos de esta jubilación especial
+de los trabajadores de la Industria del Cemento. 
 
-\item	Que la Dirección Actuarial, de Investigación y Estadística, luego del correspondiente estudio actuarial, establezca la reserva matemática actuarial suficiente para cubrir los valores anuales y sus beneficios de ley (décima tercera y décima cuarta) pensiones de los nuevos jubilados de la industria del cemento, hasta que se obtenga el debido equilibrio financiero actuarial para la entrega de esta prestación.
-
-\item Que la Subdirección Nacional Financiera del Sistema de Pensiones elabore los balances financieros de Jubilación Especial de la Industria del Cemento, indicando su patrimonio, sus inversiones e ingresos financieros.
-
-\item	Anualmente, la Subdirección Nacional Financiera del Sistema de Pensiones deberá elaborar un presupuesto tanto de ingresos como de egresos de esta jubilación especial de los trabajadores de la Industria del Cemento.
 \end{enumerate}
 
