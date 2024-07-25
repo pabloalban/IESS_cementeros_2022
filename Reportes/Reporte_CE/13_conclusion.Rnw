@@ -74,32 +74,33 @@ Del presente estudio, se desprenden las siguientes recomendaciones:
 
 \begin{enumerate}[itemsep=0mm, topsep=0pt]
 
-\item	Establecer una prima suficiente igual a 0,515\% de la facturación de cemento vendido en el Ecuador, siempre que se determine la población sujeta a riesgo de enfermedad profesional.
-\item Entregar la prestación de la Jubilación Especial de los Trabajadores de la Industria del Cemento a los trabajadores que laboren al menos 25 años en la industria del cemento, no se encuentre percibiendo una jubilación de vejez del IESS y ocupen puestos con alto riesgo laboral o demuestren su afectación por el ruido y el polvo mediante exámenes médicos, verificados tanto por el Ministerio del Trabajo y unidades médicas ocupacionales del IESS. No se entregarán beneficios proporcionales.
+\item	Establecer la prima en 0,515\% del precio ex - fábrica de cada kilo de cemento, para financiar el beneficio de jubilación especial de los trabajadores de la industria del cemento.
+\item Entregar la prestación de la Jubilación Especial de los Trabajadores de la Industria del Cemento a los trabajadores que laboren al menos 25 años en la industria del cemento, no se encuentre percibiendo una jubilación de vejez del IESS y ocupen puestos con alto riesgo laboral o demuestren su afectación por el ruido y el polvo mediante exámenes médicos, verificados por el IESS. No se entregarán beneficios proporcionales.
 \item	Entregar una pensión especial a los trabajadores de la industria de cemento con la misma fórmula vigente de las jubilaciones por vejez, es decir, se entregue una pensión igual promedio de los salarios de los 5 mejores años, multiplicada por el coeficiente correspondiente a años de servicio y nivelado por pensiones máximas y mínimas, ajustándose a los incrementos establecidos en la Ley.
-\item	Que la Corte Constitucional solicite estudios médicos independientes elaborado por terceros que permitan evidenciar el impacto del ruido y polvo en la salud de los trabajadores y extrabajadores de la industria del cemento, debido que existen discrepancias en los resultados presentados por los informes técnicos elaborados por el MDT y empresas cementeras.
+
+\item El Seguro General de Riesgos del Trabajo cubrirá las contingencias generadas por accidentes del trabajo y enfermedades profesionales, de acuerdo a sus normas y reglamentos.
+
 \item	Que se incluya en el articulado del proyecto de Ley que, el Consejo Directivo del IESS tenga la atribución de modificar la prima de aportación de la Jubilación de los Trabajadores de la Industria del Cemento, con el fin de garantizar la sostenibilidad del Fondo.
 \item	Que se considere el 3\% de los aportes para financiar los gastos administrativos de la Jubilación Especial de los Trabajadores de la Industria del Cemento, en atención al literal c. del artículo 50 de la Ley de Seguridad Social y la Resolución No. C.D. 101 
 \item	La Dirección Actuarial, de Investigación y Estadística deberá elaborar dentro de un año de emita la Ley un nuevo estudio actuarial para verificar o ratificar la suficiencia de la prima.
-\item	Establecer que los aportes pagados con extemporaneidad se sujetarán a las disposiciones y resoluciones del IESS.
-\item	Incluir en el articulado del proyecto de Ley que no es doble jubilación y no se permita renunciar a la jubilación del IESS que estuviera percibiendo, ni tampoco se devuelvan aportes dentro del régimen de afiliación voluntaria a los jubilados de esta prestación.
-\item	Normar el acceso al derecho de los trabajadores con cambio de riesgo de enfermedad profesional a funcionario administrativo y viceversa.
-\item	No se considerará esta jubilación especial como jubilación patronal, doble jubilación o añadido a la de vejez entregada por el IESS.
-\item	Se disponga a la SuperIntendencia de Bancos en el articulado del Proyecto del Ley la creación del Fondo y su plan de cuentas.
 
-\item Que la Dirección del Sistema de Pensiones debe realizar las gestiones necesarias para
-recaudar los valores pendientes a las empresas cementeras, valores que financiarán en
-el corto y mediano plazo la Jubilación de la Industria del Cemento.
+\item La extemporaneidad en el pago de aportes a esta jubilación especial se sujetará a las resoluciones de responsabilidad patronal que mantiene el IESS para el efecto y la recaudación de los aportes de esta jubilación especial se sujetará a las normas establecidas por el IESS y la Ley de Seguridad Social.
+
+\item	Incluir en el articulado del proyecto de Ley que no se considere a esta jubilación especial como: jubilación patronal, doble jubilación, ni tampoco se devuelvan aportes dentro del régimen de afiliación voluntaria a los jubilados de esta jubilación. Tampoco se devolverá el aporte del cemento a aquellos afiliados de esta industria que no completen los requisitos establecidos para optar por este beneficio.
+
+\item	No se contabilizarán las imposiciones adquiridas en puestos administrativos dentro de la industria del cemento para la concesión del derecho a la jubilación especial.
+
+\item La Dirección Nacional de Gestión Financiera identifiquen los ingresos y gastos de esta jubilación especial y elabore su presupuesto.
+
+\item Que la Dirección Nacional de Recaudación y Gestión de Cartera realice las gestiones necesarias para recaudar los valores pendientes a las empresas cementeras.
 
 \item Se recomienda que la Dirección Actuarial, de Investigación y Estadística calcule una
 reserva matemática anual de contingencia, necesaria para cubrir los valores anuales de
 las pensiones y décimos de los nuevos jubilados de la industria del cemento, hasta que
 se establezca el debido financiamiento para esta prestación.
 
-\item	Anualmente, la Subdirección Nacional Financiera del Sistema de Pensiones deberá
-elaborar un presupuesto tanto de ingresos como de egresos de esta jubilación especial
-de los trabajadores de la Industria del Cemento. 
-
+\item	Anualmente, la Subdirección Nacional Financiera del Sistema de Pensiones deberá elaborar un presupuesto tanto de ingresos como de egresos de esta jubilación especial de los trabajadores de la Industria del Cemento.
+\item La Jubilación Especial de los Trabajadores de la Industria del Cemento entregará los beneficios por décimas tercera y cuarta pensiones en las fechas correspondientes, y, además, se entregarán beneficios de montepíos según lo establecido para las jubilaciones del IESS.
 
 \end{enumerate}
 
