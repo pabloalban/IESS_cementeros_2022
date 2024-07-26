@@ -99,7 +99,7 @@ reserva matemática anual de contingencia, necesaria para cubrir los valores anu
 las pensiones y décimos de los nuevos jubilados de la industria del cemento, hasta que
 se establezca el debido financiamiento para esta prestación.
 
-\item	Anualmente, la Subdirección Nacional Financiera del Sistema de Pensiones deberá elaborar un presupuesto tanto de ingresos como de egresos de esta jubilación especial de los trabajadores de la Industria del Cemento.
+% \item	Anualmente, la Subdirección Nacional Financiera del Sistema de Pensiones deberá elaborar un presupuesto tanto de ingresos como de egresos de esta jubilación especial de los trabajadores de la Industria del Cemento.
 \item La Jubilación Especial de los Trabajadores de la Industria del Cemento entregará los beneficios por décimas tercera y cuarta pensiones en las fechas correspondientes, y, además, se entregarán beneficios de montepíos según lo establecido para las jubilaciones del IESS.
 
 \end{enumerate}
